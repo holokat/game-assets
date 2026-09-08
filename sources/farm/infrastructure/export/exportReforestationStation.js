@@ -1,0 +1,1 @@
+import{createReforestationStation as create}from'../assets/reforestationStation.js';import{exportInventoryAsset as e}from'./inventory122Export.js';await e({id:'reforestation-station',title:'Reforestation Station',create});

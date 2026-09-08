@@ -1,0 +1,16 @@
+import * as THREE from 'three';
+import {addChannel,addCollider,addPivot,addSocket,createAssetContext,finishAsset,registerMesh} from '../core/assetContext.js';
+import {faceted} from '../core/geometryLibrary.js';
+const material=(name,color,roughness=.62)=>new THREE.MeshStandardMaterial({name,color,roughness,flatShading:true,vertexColors:true});
+const mesh=(c,p,id,g,m,group)=>registerMesh(c,p,id,new THREE.Mesh(faceted(g,`${c.id}:${id}`),m),group);
+export function createWaterTrough(){
+ const c=createAssetContext('water-trough'),{model}=c,basinMat=material('water-trough-sealed-basin','#9ca2a0',.48),water=material('water-trough-still-blue-water','#5e9eab',.42),iron=material('water-trough-dark-service','#354145',.42),rim=material('water-trough-reinforced-rim','#6c7572');
+ addSocket(c,model,'ground',[0,0,0]);const trough=addPivot(c,model,'sealed-water-trough',[0,0,0]);const basin=mesh(c,trough,'sealed-low-water-basin',new THREE.BoxGeometry(2.25,.52,.9),basinMat,'basin');basin.position.y=.43;const waterPlane=mesh(c,trough,'shallow-still-water-surface',new THREE.BoxGeometry(1.92,.035,.61),water,'water');waterPlane.position.y=.72;
+ for(const z of[-.49,.49]){const edge=mesh(c,trough,'reinforced-water-basin-rim',new THREE.BoxGeometry(2.42,.09,.07),rim,'rim');edge.position.set(0,.76,z);}for(const x of[-1.12,1.12]){const end=mesh(c,trough,'reinforced-water-end-rim',new THREE.BoxGeometry(.07,.09,.95),rim,'rim');end.position.set(x,.76,0);}
+ for(const x of[-.84,.84])for(const z of[-.28,.28]){const leg=mesh(c,trough,'low-grounded-trough-foot',new THREE.BoxGeometry(.13,.34,.13),iron,'supports');leg.position.set(x,.17,z);const foot=mesh(c,trough,'wide-trough-foot-pad',new THREE.BoxGeometry(.24,.06,.24),rim,'supports');foot.position.set(x,.03,z);}
+ const inlet=mesh(c,trough,'side-water-inlet-pipe',new THREE.CylinderGeometry(.07,.07,.62,6),iron,'inlet');inlet.position.set(-1.34,.65,0);inlet.rotation.z=Math.PI/2;const housing=mesh(c,trough,'float-valve-housing',new THREE.BoxGeometry(.24,.24,.24),iron,'inlet');housing.position.set(-1.05,.65,0);const valve=addPivot(c,trough,'visible-float-valve-handle',[-1.05,.82,0]);const handle=mesh(c,valve,'float-valve-control-arm',new THREE.BoxGeometry(.36,.055,.07),iron,'service');handle.position.x=.18;addChannel(c,valve,'rotation','y',.42,.75,0);
+ const drain=mesh(c,trough,'drainage-cleanout-handle',new THREE.BoxGeometry(.07,.32,.07),iron,'drainage');drain.position.set(1.25,.32,.18);drain.rotation.z=.38;
+ addSocket(c,trough,'water-input',[-1.68,.65,0]);addSocket(c,trough,'service',[1.35,.34,.18]);addSocket(c,trough,'animal-approach',[0,.32,.8]);addSocket(c,trough,'adjacency-east',[1.45,0,0]);addSocket(c,trough,'terrain-anchor',[0,0,0]);addSocket(c,trough,'ground',[0,0,0]);
+ addCollider(c,trough,'water-basin','box',[0,.43,0],{width:2.25,height:.52,depth:.9,isTrigger:false});addCollider(c,trough,'animal-approach','box',[0,.3,.83],{width:2.4,height:.5,depth:.45,isTrigger:true});addCollider(c,trough,'inlet-service','box',[-1.26,.65,0],{width:.55,height:.3,depth:.3,isTrigger:false});return finishAsset(c);
+}
+export function animateWaterTrough(root,time){for(const ch of root?.userData?.sculptRuntime?.animationChannels||[])ch.node.rotation.y=ch.baseValue+Math.sin((Number.isFinite(time)?time:0)*ch.frequency+ch.phase)*ch.amplitude;return root;}

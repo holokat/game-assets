@@ -1,0 +1,1 @@
+import{createAutomatedPowerStation}from '../assets/automatedPowerStation.js';import{startInventoryReview}from './inventory122Review.js';startInventoryReview({id:'automated-power-station',create:createAutomatedPowerStation,camera:[-8.7,6.1,8.8],target:[0,1.6,0]});

@@ -1,0 +1,1 @@
+import {createPowerLines} from '../assets/powerLines.js';import {captureAutonomyConcept} from './autonomyConcept.js';captureAutonomyConcept({id:'power-lines',create:createPowerLines,target:[0,2,0],distance:6});

@@ -1,0 +1,1 @@
+import {createPotatoHarvester} from '../assets/potatoHarvester.js';import {startSpecializedHarvestersReview} from './specializedHarvestersReview.js';startSpecializedHarvestersReview(createPotatoHarvester,'potato-harvester');

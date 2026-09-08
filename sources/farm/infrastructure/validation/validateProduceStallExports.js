@@ -1,0 +1,1 @@
+import{createProduceStall as create}from'../assets/produceStall.js';import{validateInventoryAsset as v}from'./inventory122Validation.js';await v({id:'produce-stall',title:'Produce Stall',create,budget:5000,criticalNodes:['produce-stall-empty-crate-0-mesh'],expectedChannels:[]});

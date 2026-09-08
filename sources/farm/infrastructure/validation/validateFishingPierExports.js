@@ -1,0 +1,1 @@
+import{createFishingPier as create}from'../assets/fishingPier.js';import{validateInventoryAsset as v}from'./inventory122Validation.js';await v({id:'fishing-pier',title:'Fishing Pier',create,budget:5000,criticalNodes:[],expectedChannels:[]});

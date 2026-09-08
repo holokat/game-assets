@@ -1,0 +1,1 @@
+import{createHydroTurbine}from'../assets/hydroTurbine.js';import{mountInfrastructureReview}from'./infrastructureReview.js';mountInfrastructureReview({create:createHydroTurbine,label:'Hydro Turbine',id:'hydro-turbine',span:'3.8'});

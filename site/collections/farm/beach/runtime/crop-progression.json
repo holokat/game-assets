@@ -1,0 +1,539 @@
+{
+  "schemaVersion": 2,
+  "assetContract": {
+    "standaloneCrop": true,
+    "includesPlanter": false,
+    "pivot": "planting-origin",
+    "soilContactY": 0,
+    "insertionOffset": [
+      0,
+      0,
+      0
+    ]
+  },
+  "growthModel": "discrete-stage-swap",
+  "sharedVegetationWind": {
+    "mode": "shader-or-shared-system",
+    "perInstanceCpuAnimation": false
+  },
+  "families": [
+    {
+      "familyId": "strawberry",
+      "stages": [
+        {
+          "number": 1,
+          "slug": "sprout",
+          "assetId": "crop-strawberry-stage-1-sprout",
+          "harvestable": false,
+          "nextAssetId": "crop-strawberry-stage-2-leafing",
+          "harvestReplacement": null
+        },
+        {
+          "number": 2,
+          "slug": "leafing",
+          "assetId": "crop-strawberry-stage-2-leafing",
+          "harvestable": false,
+          "nextAssetId": "crop-strawberry-stage-3-flowering",
+          "harvestReplacement": null
+        },
+        {
+          "number": 3,
+          "slug": "flowering",
+          "assetId": "crop-strawberry-stage-3-flowering",
+          "harvestable": false,
+          "nextAssetId": "crop-strawberry-stage-4-harvest-ready",
+          "harvestReplacement": null
+        },
+        {
+          "number": 4,
+          "slug": "harvest-ready",
+          "assetId": "crop-strawberry-stage-4-harvest-ready",
+          "harvestable": true,
+          "nextAssetId": null,
+          "harvestReplacement": "crop-strawberry-stage-1-sprout"
+        }
+      ]
+    },
+    {
+      "familyId": "corn",
+      "stages": [
+        {
+          "number": 1,
+          "slug": "sprout",
+          "assetId": "crop-corn-stage-1-sprout",
+          "harvestable": false,
+          "nextAssetId": "crop-corn-stage-2-juvenile",
+          "harvestReplacement": null
+        },
+        {
+          "number": 2,
+          "slug": "juvenile",
+          "assetId": "crop-corn-stage-2-juvenile",
+          "harvestable": false,
+          "nextAssetId": "crop-corn-stage-3-tasseling",
+          "harvestReplacement": null
+        },
+        {
+          "number": 3,
+          "slug": "tasseling",
+          "assetId": "crop-corn-stage-3-tasseling",
+          "harvestable": false,
+          "nextAssetId": "crop-corn-stage-4-harvest-ready",
+          "harvestReplacement": null
+        },
+        {
+          "number": 4,
+          "slug": "harvest-ready",
+          "assetId": "crop-corn-stage-4-harvest-ready",
+          "harvestable": true,
+          "nextAssetId": null,
+          "harvestReplacement": "crop-corn-stage-1-sprout"
+        }
+      ]
+    },
+    {
+      "familyId": "grape-vine",
+      "stages": [
+        {
+          "number": 1,
+          "slug": "cutting",
+          "assetId": "crop-grape-vine-stage-1-cutting",
+          "harvestable": false,
+          "nextAssetId": "crop-grape-vine-stage-2-trained-young-vine",
+          "harvestReplacement": null
+        },
+        {
+          "number": 2,
+          "slug": "trained-young-vine",
+          "assetId": "crop-grape-vine-stage-2-trained-young-vine",
+          "harvestable": false,
+          "nextAssetId": "crop-grape-vine-stage-3-flowering",
+          "harvestReplacement": null
+        },
+        {
+          "number": 3,
+          "slug": "flowering",
+          "assetId": "crop-grape-vine-stage-3-flowering",
+          "harvestable": false,
+          "nextAssetId": "crop-grape-vine-stage-4-fruiting",
+          "harvestReplacement": null
+        },
+        {
+          "number": 4,
+          "slug": "fruiting",
+          "assetId": "crop-grape-vine-stage-4-fruiting",
+          "harvestable": true,
+          "nextAssetId": null,
+          "harvestReplacement": "crop-grape-vine-stage-1-cutting"
+        }
+      ]
+    },
+    {
+      "familyId": "carrot",
+      "stages": [
+        {
+          "number": 1,
+          "slug": "sprout",
+          "assetId": "crop-carrot-stage-1-sprout",
+          "harvestable": false,
+          "nextAssetId": "crop-carrot-stage-2-leafy",
+          "harvestReplacement": null
+        },
+        {
+          "number": 2,
+          "slug": "leafy",
+          "assetId": "crop-carrot-stage-2-leafy",
+          "harvestable": false,
+          "nextAssetId": "crop-carrot-stage-3-root-bulking",
+          "harvestReplacement": null
+        },
+        {
+          "number": 3,
+          "slug": "root-bulking",
+          "assetId": "crop-carrot-stage-3-root-bulking",
+          "harvestable": false,
+          "nextAssetId": "crop-carrot-stage-4-harvest-ready",
+          "harvestReplacement": null
+        },
+        {
+          "number": 4,
+          "slug": "harvest-ready",
+          "assetId": "crop-carrot-stage-4-harvest-ready",
+          "harvestable": true,
+          "nextAssetId": null,
+          "harvestReplacement": "crop-carrot-stage-1-sprout"
+        }
+      ]
+    },
+    {
+      "familyId": "tomato",
+      "stages": [
+        {
+          "number": 1,
+          "slug": "seedling",
+          "assetId": "crop-tomato-stage-1-seedling",
+          "harvestable": false,
+          "nextAssetId": "crop-tomato-stage-2-staked-young",
+          "harvestReplacement": null
+        },
+        {
+          "number": 2,
+          "slug": "staked-young",
+          "assetId": "crop-tomato-stage-2-staked-young",
+          "harvestable": false,
+          "nextAssetId": "crop-tomato-stage-3-flowering",
+          "harvestReplacement": null
+        },
+        {
+          "number": 3,
+          "slug": "flowering",
+          "assetId": "crop-tomato-stage-3-flowering",
+          "harvestable": false,
+          "nextAssetId": "crop-tomato-stage-4-fruiting",
+          "harvestReplacement": null
+        },
+        {
+          "number": 4,
+          "slug": "fruiting",
+          "assetId": "crop-tomato-stage-4-fruiting",
+          "harvestable": true,
+          "nextAssetId": null,
+          "harvestReplacement": "crop-tomato-stage-1-seedling"
+        }
+      ]
+    },
+    {
+      "familyId": "pumpkin",
+      "stages": [
+        {
+          "number": 1,
+          "slug": "sprout",
+          "assetId": "crop-pumpkin-stage-1-sprout",
+          "harvestable": false,
+          "nextAssetId": "crop-pumpkin-stage-2-vining",
+          "harvestReplacement": null
+        },
+        {
+          "number": 2,
+          "slug": "vining",
+          "assetId": "crop-pumpkin-stage-2-vining",
+          "harvestable": false,
+          "nextAssetId": "crop-pumpkin-stage-3-flowering",
+          "harvestReplacement": null
+        },
+        {
+          "number": 3,
+          "slug": "flowering",
+          "assetId": "crop-pumpkin-stage-3-flowering",
+          "harvestable": false,
+          "nextAssetId": "crop-pumpkin-stage-4-fruiting",
+          "harvestReplacement": null
+        },
+        {
+          "number": 4,
+          "slug": "fruiting",
+          "assetId": "crop-pumpkin-stage-4-fruiting",
+          "harvestable": true,
+          "nextAssetId": null,
+          "harvestReplacement": "crop-pumpkin-stage-1-sprout"
+        }
+      ]
+    },
+    {
+      "familyId": "rice",
+      "stages": [
+        {
+          "number": 1,
+          "slug": "seedling",
+          "assetId": "crop-rice-stage-1-seedling",
+          "harvestable": false,
+          "nextAssetId": "crop-rice-stage-2-tillering",
+          "harvestReplacement": null
+        },
+        {
+          "number": 2,
+          "slug": "tillering",
+          "assetId": "crop-rice-stage-2-tillering",
+          "harvestable": false,
+          "nextAssetId": "crop-rice-stage-3-heading",
+          "harvestReplacement": null
+        },
+        {
+          "number": 3,
+          "slug": "heading",
+          "assetId": "crop-rice-stage-3-heading",
+          "harvestable": false,
+          "nextAssetId": "crop-rice-stage-4-ripe",
+          "harvestReplacement": null
+        },
+        {
+          "number": 4,
+          "slug": "ripe",
+          "assetId": "crop-rice-stage-4-ripe",
+          "harvestable": true,
+          "nextAssetId": null,
+          "harvestReplacement": "crop-rice-stage-1-seedling"
+        }
+      ]
+    },
+    {
+      "familyId": "sunflower",
+      "stages": [
+        {
+          "number": 1,
+          "slug": "sprout",
+          "assetId": "crop-sunflower-stage-1-sprout",
+          "harvestable": false,
+          "nextAssetId": "crop-sunflower-stage-2-vegetative",
+          "harvestReplacement": null
+        },
+        {
+          "number": 2,
+          "slug": "vegetative",
+          "assetId": "crop-sunflower-stage-2-vegetative",
+          "harvestable": false,
+          "nextAssetId": "crop-sunflower-stage-3-budding",
+          "harvestReplacement": null
+        },
+        {
+          "number": 3,
+          "slug": "budding",
+          "assetId": "crop-sunflower-stage-3-budding",
+          "harvestable": false,
+          "nextAssetId": "crop-sunflower-stage-4-full-bloom",
+          "harvestReplacement": null
+        },
+        {
+          "number": 4,
+          "slug": "full-bloom",
+          "assetId": "crop-sunflower-stage-4-full-bloom",
+          "harvestable": true,
+          "nextAssetId": null,
+          "harvestReplacement": "crop-sunflower-stage-1-sprout"
+        }
+      ]
+    },
+    {
+      "familyId": "apple-tree",
+      "stages": [
+        {
+          "number": 1,
+          "slug": "sapling",
+          "assetId": "crop-apple-tree-stage-1-sapling",
+          "harvestable": false,
+          "nextAssetId": "crop-apple-tree-stage-2-young-tree",
+          "harvestReplacement": null
+        },
+        {
+          "number": 2,
+          "slug": "young-tree",
+          "assetId": "crop-apple-tree-stage-2-young-tree",
+          "harvestable": false,
+          "nextAssetId": "crop-apple-tree-stage-3-flowering",
+          "harvestReplacement": null
+        },
+        {
+          "number": 3,
+          "slug": "flowering",
+          "assetId": "crop-apple-tree-stage-3-flowering",
+          "harvestable": false,
+          "nextAssetId": "crop-apple-tree-stage-4-fruiting",
+          "harvestReplacement": null
+        },
+        {
+          "number": 4,
+          "slug": "fruiting",
+          "assetId": "crop-apple-tree-stage-4-fruiting",
+          "harvestable": true,
+          "nextAssetId": null,
+          "harvestReplacement": "crop-apple-tree-stage-1-sapling"
+        }
+      ]
+    },
+    {
+      "familyId": "palm-tree",
+      "stages": [
+        {
+          "number": 1,
+          "slug": "sprout",
+          "assetId": "crop-palm-tree-stage-1-sprout",
+          "harvestable": false,
+          "nextAssetId": "crop-palm-tree-stage-2-juvenile",
+          "harvestReplacement": null
+        },
+        {
+          "number": 2,
+          "slug": "juvenile",
+          "assetId": "crop-palm-tree-stage-2-juvenile",
+          "harvestable": false,
+          "nextAssetId": "crop-palm-tree-stage-3-trunk-forming",
+          "harvestReplacement": null
+        },
+        {
+          "number": 3,
+          "slug": "trunk-forming",
+          "assetId": "crop-palm-tree-stage-3-trunk-forming",
+          "harvestable": false,
+          "nextAssetId": "crop-palm-tree-stage-4-mature",
+          "harvestReplacement": null
+        },
+        {
+          "number": 4,
+          "slug": "mature",
+          "assetId": "crop-palm-tree-stage-4-mature",
+          "harvestable": true,
+          "nextAssetId": null,
+          "harvestReplacement": "crop-palm-tree-stage-1-sprout"
+        }
+      ]
+    },
+    {
+      "familyId": "avocado-tree",
+      "stages": [
+        {
+          "number": 1,
+          "slug": "sapling",
+          "assetId": "crop-avocado-tree-stage-1-sapling",
+          "harvestable": false,
+          "nextAssetId": "crop-avocado-tree-stage-2-young-tree",
+          "harvestReplacement": null
+        },
+        {
+          "number": 2,
+          "slug": "young-tree",
+          "assetId": "crop-avocado-tree-stage-2-young-tree",
+          "harvestable": false,
+          "nextAssetId": "crop-avocado-tree-stage-3-flowering",
+          "harvestReplacement": null
+        },
+        {
+          "number": 3,
+          "slug": "flowering",
+          "assetId": "crop-avocado-tree-stage-3-flowering",
+          "harvestable": false,
+          "nextAssetId": "crop-avocado-tree-stage-4-fruiting",
+          "harvestReplacement": null
+        },
+        {
+          "number": 4,
+          "slug": "fruiting",
+          "assetId": "crop-avocado-tree-stage-4-fruiting",
+          "harvestable": true,
+          "nextAssetId": null,
+          "harvestReplacement": "crop-avocado-tree-stage-1-sapling"
+        }
+      ]
+    },
+    {
+      "familyId": "peach-tree",
+      "stages": [
+        {
+          "number": 1,
+          "slug": "sapling",
+          "assetId": "crop-peach-tree-stage-1-sapling",
+          "harvestable": false,
+          "nextAssetId": "crop-peach-tree-stage-2-young-tree",
+          "harvestReplacement": null
+        },
+        {
+          "number": 2,
+          "slug": "young-tree",
+          "assetId": "crop-peach-tree-stage-2-young-tree",
+          "harvestable": false,
+          "nextAssetId": "crop-peach-tree-stage-3-flowering",
+          "harvestReplacement": null
+        },
+        {
+          "number": 3,
+          "slug": "flowering",
+          "assetId": "crop-peach-tree-stage-3-flowering",
+          "harvestable": false,
+          "nextAssetId": "crop-peach-tree-stage-4-fruiting",
+          "harvestReplacement": null
+        },
+        {
+          "number": 4,
+          "slug": "fruiting",
+          "assetId": "crop-peach-tree-stage-4-fruiting",
+          "harvestable": true,
+          "nextAssetId": null,
+          "harvestReplacement": "crop-peach-tree-stage-1-sapling"
+        }
+      ]
+    },
+    {
+      "familyId": "watermelon",
+      "stages": [
+        {
+          "number": 1,
+          "slug": "sprout",
+          "assetId": "crop-watermelon-stage-1-sprout",
+          "harvestable": false,
+          "nextAssetId": "crop-watermelon-stage-2-vining",
+          "harvestReplacement": null
+        },
+        {
+          "number": 2,
+          "slug": "vining",
+          "assetId": "crop-watermelon-stage-2-vining",
+          "harvestable": false,
+          "nextAssetId": "crop-watermelon-stage-3-flowering",
+          "harvestReplacement": null
+        },
+        {
+          "number": 3,
+          "slug": "flowering",
+          "assetId": "crop-watermelon-stage-3-flowering",
+          "harvestable": false,
+          "nextAssetId": "crop-watermelon-stage-4-fruiting",
+          "harvestReplacement": null
+        },
+        {
+          "number": 4,
+          "slug": "fruiting",
+          "assetId": "crop-watermelon-stage-4-fruiting",
+          "harvestable": true,
+          "nextAssetId": null,
+          "harvestReplacement": "crop-watermelon-stage-1-sprout"
+        }
+      ]
+    },
+    {
+      "familyId": "cherry-blossom-tree",
+      "stages": [
+        {
+          "number": 1,
+          "slug": "sapling",
+          "assetId": "crop-cherry-blossom-tree-stage-1-sapling",
+          "harvestable": false,
+          "nextAssetId": "crop-cherry-blossom-tree-stage-2-young-tree",
+          "harvestReplacement": null
+        },
+        {
+          "number": 2,
+          "slug": "young-tree",
+          "assetId": "crop-cherry-blossom-tree-stage-2-young-tree",
+          "harvestable": false,
+          "nextAssetId": "crop-cherry-blossom-tree-stage-3-budding",
+          "harvestReplacement": null
+        },
+        {
+          "number": 3,
+          "slug": "budding",
+          "assetId": "crop-cherry-blossom-tree-stage-3-budding",
+          "harvestable": false,
+          "nextAssetId": "crop-cherry-blossom-tree-stage-4-full-bloom",
+          "harvestReplacement": null
+        },
+        {
+          "number": 4,
+          "slug": "full-bloom",
+          "assetId": "crop-cherry-blossom-tree-stage-4-full-bloom",
+          "harvestable": true,
+          "nextAssetId": null,
+          "harvestReplacement": "crop-cherry-blossom-tree-stage-1-sapling"
+        }
+      ]
+    }
+  ]
+}

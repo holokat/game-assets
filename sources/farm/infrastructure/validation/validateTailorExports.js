@@ -1,0 +1,1 @@
+import{validateInfrastructureAsset as V}from'./infrastructureValidation.js';const o=document.querySelector('#output');try{o.textContent=JSON.stringify(await V('tailor','Tailor'))}catch(e){o.textContent=String(e)}

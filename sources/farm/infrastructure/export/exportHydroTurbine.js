@@ -1,0 +1,1 @@
+import{createHydroTurbine}from'../assets/hydroTurbine.js';import{exportInfrastructureAsset}from'./infrastructureExport.js';const o=document.querySelector('#output');try{o.textContent='Export complete';window.__HYDRO_TURBINE_EXPORT_MANIFEST__=await exportInfrastructureAsset({assetId:'hydro-turbine',label:'Hydro Turbine',create:createHydroTurbine})}catch(e){o.textContent=String(e)}

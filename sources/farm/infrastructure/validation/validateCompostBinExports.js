@@ -1,0 +1,1 @@
+import{validateInfrastructureAsset}from'./infrastructureValidation.js';const o=document.querySelector('#output');try{o.textContent=JSON.stringify(await validateInfrastructureAsset('compost-bin','Compost Bin'),null,2)}catch(e){o.textContent=String(e)}

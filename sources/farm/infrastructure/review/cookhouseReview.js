@@ -1,0 +1,1 @@
+import {createCookhouse} from '../assets/cookhouse.js';import {startInventoryReview} from './inventory122Review.js';startInventoryReview({id:'cookhouse',create:createCookhouse,camera:[-7,4,-8],target:[0,1.1,0]});

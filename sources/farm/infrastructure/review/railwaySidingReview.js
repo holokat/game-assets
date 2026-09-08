@@ -1,0 +1,1 @@
+import {createRailwaySiding} from '../assets/railwaySiding.js';import {startInventoryReview} from './inventory122Review.js';startInventoryReview({id:'railway-siding',create:createRailwaySiding,camera:[-5.3,4.1,7],target:[0,.25,0]});

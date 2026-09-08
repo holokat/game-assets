@@ -1,0 +1,1 @@
+import{createManureStorage}from'../assets/manureStorage.js';import{mountInfrastructureReview}from'./infrastructureReview.js';mountInfrastructureReview({create:createManureStorage,label:'Manure Storage',id:'manure-storage',span:'3.8'});

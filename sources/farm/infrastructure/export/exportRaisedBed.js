@@ -1,0 +1,16 @@
+import { createRaisedBed } from '../assets/raisedBed.js';
+import { collectRuntimeSemantics, collectSceneStats, createStaticOptimizedRoot, disposeExportRoot, exportBinaryGlb, prepareSourceHierarchy } from './handPumpExportUtils.js';
+const SOURCE = 'source-glb/raised-bed.source.glb', OPTIMIZED = 'optimized-glb/Raised-Bed.glb', MANIFEST = 'manifests/raised-bed.export.json';
+const bytes = (value) => new Blob([value]).size;
+async function save(path, body, type) { const response = await fetch(`/__artifact__?path=${encodeURIComponent(path)}`, { method: 'POST', headers: { 'Content-Type': type }, body }); if (!response.ok) throw new Error(await response.text()); }
+export async function exportRaisedBed() {
+  const asset = createRaisedBed(), semantics = collectRuntimeSemantics(asset), sourceRoot = prepareSourceHierarchy(asset), optimizedRoot = createStaticOptimizedRoot(asset); optimizedRoot.name = 'Raised-Bed';
+  try {
+    const [sourceGlb, optimizedGlb] = await Promise.all([exportBinaryGlb(sourceRoot), exportBinaryGlb(optimizedRoot)]);
+    const source = { path: SOURCE, bytes: bytes(sourceGlb), ...collectSceneStats(sourceRoot), semantics: { pivots: semantics.pivotNames.length, sockets: semantics.socketNames.length, colliders: semantics.colliderNames.length, destructionGroups: Object.keys(semantics.destructionGroups).length, animationChannels: semantics.animationChannels.length }, runtimeDecoderDependencies: [], requiredPivotNames: semantics.pivotNames, requiredSocketNames: semantics.socketNames, requiredColliderNames: semantics.colliderNames, requiredDestructionGroups: semantics.destructionGroups, actionChannels: semantics.animationChannels };
+    const optimized = { path: OPTIMIZED, bytes: bytes(optimizedGlb), ...collectSceneStats(optimizedRoot), semantics: { pivots: 0, sockets: 0, colliders: 0, destructionGroups: 0, animationChannels: 0 }, runtimeDecoderDependencies: [], optimizationNotes: ['Textureless static geometry baked and merged by material; no decoder required.'] };
+    const manifest = { schemaVersion: 1, assetId: 'raised-bed', generatedBy: 'src/export/exportRaisedBed.js', coordinateSystem: { up: 'Y', forward: '+Z', unit: 'metre', groundY: 0 }, source, optimized };
+    await Promise.all([save(SOURCE, sourceGlb, 'model/gltf-binary'), save(OPTIMIZED, optimizedGlb, 'model/gltf-binary'), save(MANIFEST, JSON.stringify(manifest, null, 2), 'application/json')]); return manifest;
+  } finally { disposeExportRoot(optimizedRoot); asset.userData.sculptRuntime?.dispose(); }
+}
+const output = document.querySelector('#output'); window.__RAISED_BED_EXPORT_READY__ = false; try { window.__RAISED_BED_EXPORT_MANIFEST__ = await exportRaisedBed(); output.textContent = 'Export complete'; window.__RAISED_BED_EXPORT_READY__ = true; } catch (error) { output.textContent = String(error.stack || error.message); window.__RAISED_BED_EXPORT_ERROR__ = String(error.stack || error.message); }

@@ -1,0 +1,1 @@
+import{createLoggingCamp as create}from'../assets/loggingCamp.js';import{validateInventoryAsset as v}from'./inventory122Validation.js';await v({id:'logging-camp',title:'Logging Camp',create,budget:5000,criticalNodes:['logging-camp-roof-main-mesh','logging-camp-sorting-deck-mesh','logging-camp-locker-body-mesh'],expectedChannels:[]});

@@ -1,0 +1,1 @@
+import{createForesterHut as create}from'../assets/foresterHut.js';import{validateInventoryAsset as v}from'./inventory122Validation.js';await v({id:'forester-hut',title:'Forester Hut',create,budget:5000,criticalNodes:['forester-hut-cabin-body-mesh','forester-hut-awning-roof-mesh','forester-hut-lantern-mesh'],expectedChannels:[]});

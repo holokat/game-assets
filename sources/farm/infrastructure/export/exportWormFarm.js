@@ -1,0 +1,1 @@
+import {createWormFarm} from '../assets/wormFarm.js';import {exportInventoryAsset} from './inventory122Export.js';window.__WORM_FARM_EXPORT_MANIFEST__=await exportInventoryAsset({id:'worm-farm',title:'Worm Farm',create:createWormFarm});window.__WORM_FARM_EXPORT_READY__=true;

@@ -1,0 +1,1 @@
+import {createWoodFurnace} from '../assets/woodFurnace.js';import {startInventoryReview} from './inventory122Review.js';startInventoryReview({id:'wood-furnace',create:createWoodFurnace,camera:[-4,2.8,5],target:[0,1.4,0]});

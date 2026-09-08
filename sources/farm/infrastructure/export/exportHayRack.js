@@ -1,0 +1,16 @@
+import { createHayRack } from '../assets/hayRack.js';
+import { collectRuntimeSemantics, collectSceneStats, createStaticOptimizedRoot, disposeExportRoot, exportBinaryGlb, prepareSourceHierarchy } from './staticExportUtils.js';
+const SOURCE_PATH = 'source-glb/hay-rack.source.glb'; const OPTIMIZED_PATH = 'optimized-glb/Hay-Rack.glb'; const MANIFEST_PATH = 'manifests/hay-rack.export.json'; const bytes = (v) => new Blob([v]).size;
+async function write(path, body, contentType) { const response = await fetch(`/__artifact__?path=${encodeURIComponent(path)}`, { method: 'POST', headers: { 'Content-Type': contentType }, body }); if (!response.ok) throw new Error(`Cannot write ${path}`); }
+export async function exportHayRack() {
+  const authored = createHayRack(); const semantics = collectRuntimeSemantics(authored); const source = prepareSourceHierarchy(authored); const optimized = createStaticOptimizedRoot(authored, 'Hay-Rack');
+  try { const [sourceGlb, optimizedGlb] = await Promise.all([exportBinaryGlb(source), exportBinaryGlb(optimized)]);
+    const manifest = { schemaVersion: 1, assetId: 'hay-rack', coordinateSystem: { up: 'Y', forward: '+Z', unit: 'metre', groundY: 0 },
+      source: { path: SOURCE_PATH, bytes: bytes(sourceGlb), ...collectSceneStats(source), semantics: { pivots: semantics.pivotNames.length, sockets: semantics.socketNames.length, colliders: semantics.colliderNames.length, destructionGroups: Object.keys(semantics.destructionGroups).length, animationChannels: semantics.animationChannels.length }, requiredPivotNames: semantics.pivotNames, requiredSocketNames: semantics.socketNames, requiredColliderNames: semantics.colliderNames, requiredDestructionGroups: semantics.destructionGroups, actionChannels: semantics.animationChannels, runtimeDecoderDependencies: [] },
+      optimized: { path: OPTIMIZED_PATH, bytes: bytes(optimizedGlb), ...collectSceneStats(optimized), semantics: { pivots: 0, sockets: 0, colliders: 0, destructionGroups: 0, animationChannels: 0 }, runtimeDecoderDependencies: [], optimizationNotes: ['Textureless visible geometry is baked and merged by material.', 'No mesh or texture decoder is required.', 'The source hierarchy is static and retains all gameplay semantics.'] } };
+    await Promise.all([write(SOURCE_PATH, sourceGlb, 'model/gltf-binary'), write(OPTIMIZED_PATH, optimizedGlb, 'model/gltf-binary'), write(MANIFEST_PATH, JSON.stringify(manifest, null, 2), 'application/json')]); return manifest;
+  } finally { disposeExportRoot(source); disposeExportRoot(optimized); authored.userData.sculptRuntime?.dispose(); }
+}
+const output = document.querySelector('#output'); window.__HAY_RACK_EXPORT_READY__ = false;
+try { const manifest = await exportHayRack(); output.textContent += `Source: ${manifest.source.bytes} bytes, ${manifest.source.triangles} triangles, ${manifest.source.drawCalls} draw calls.\nOptimized: ${manifest.optimized.bytes} bytes, ${manifest.optimized.triangles} triangles, ${manifest.optimized.drawCalls} draw calls.\n`; window.__HAY_RACK_EXPORT_MANIFEST__ = manifest; window.__HAY_RACK_EXPORT_READY__ = true; }
+catch (error) { output.textContent += `${error.stack || error.message}\n`; window.__HAY_RACK_EXPORT_ERROR__ = String(error.stack || error.message); }

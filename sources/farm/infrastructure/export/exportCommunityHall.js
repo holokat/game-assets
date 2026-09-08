@@ -1,0 +1,1 @@
+import{createCommunityHall as C}from'../assets/communityHall.js';import{exportInfrastructureAsset as E}from'./infrastructureExport.js';await E({assetId:'community-hall',label:'Community Hall',create:C});

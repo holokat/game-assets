@@ -1,0 +1,1 @@
+import{createBlacksmith as a,createRepairShed as b,createMechanicGarage as c}from'../assets/craftShops.js';import{startInventoryReview as r}from'./inventory122Review.js';const id=new URL(import.meta.url).searchParams.get('id'),x={blacksmith:[a,[-7,5,7]],'repair-shed':[b,[-7.5,5,7.5]],'mechanic-garage':[c,[-8,5.6,8]]},[create,camera]=x[id];r({id,create,camera,target:[0,1.2,0]});

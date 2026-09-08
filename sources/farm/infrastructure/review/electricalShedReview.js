@@ -1,0 +1,1 @@
+import {createElectricalShed} from '../assets/electricalShed.js';import {startInventoryReview} from './inventory122Review.js';startInventoryReview({id:'electrical-shed',create:createElectricalShed,camera:[-4,2.7,5],target:[0,1,0]});

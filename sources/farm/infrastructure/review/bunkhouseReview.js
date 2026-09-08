@@ -1,0 +1,1 @@
+import {createBunkhouse} from '../assets/bunkhouse.js';import {startInventoryReview} from './inventory122Review.js';startInventoryReview({id:'bunkhouse',create:createBunkhouse,camera:[-8,4,-8],target:[0,1.1,0]});

@@ -1,0 +1,1 @@
+import{createSeaweedFarm as create}from'../assets/seaweedFarmGrounded.js';import{startInventoryReview as r}from'./inventory122Review.js';r({id:'seaweed-farm',create,camera:[-7,5,-7],target:[0,.46,0]});

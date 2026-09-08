@@ -1,0 +1,1 @@
+import{createCargoStation}from'../assets/cargoStation.js';import{mountInfrastructureReview}from'./infrastructureReview.js';mountInfrastructureReview({create:createCargoStation,label:'Cargo Station',id:'cargo-station',span:'5.6'});

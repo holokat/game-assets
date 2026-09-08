@@ -1,0 +1,1 @@
+import { createWagonDepot } from '../assets/wagonDepot.js'; import { startInventoryReview } from './inventory122Review.js'; startInventoryReview({ id: 'wagon-depot', create: createWagonDepot, camera: [-8.2, 5.4, 8.6], target: [0, 1.5, 0] });

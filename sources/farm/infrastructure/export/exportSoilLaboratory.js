@@ -1,0 +1,1 @@
+import{createSoilLaboratory as C}from'../assets/soilLaboratory.js';import{exportInfrastructureAsset as E}from'./infrastructureExport.js';const o=document.querySelector('#output');try{o.textContent='Export complete';await E({assetId:'soil-laboratory',label:'Soil Laboratory',create:C})}catch(e){o.textContent=String(e)}

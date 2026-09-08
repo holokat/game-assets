@@ -1,0 +1,1 @@
+import{createCompostBin}from'../assets/compostBin.js';import{exportInfrastructureAsset}from'./infrastructureExport.js';const o=document.querySelector('#output');try{o.textContent='Export complete';await exportInfrastructureAsset({assetId:'compost-bin',label:'Compost Bin',create:createCompostBin})}catch(e){o.textContent=String(e)}

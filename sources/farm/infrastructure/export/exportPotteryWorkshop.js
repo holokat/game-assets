@@ -1,0 +1,1 @@
+import {createPotteryWorkshop}from'../assets/potteryWorkshop.js';import{exportInventoryAsset}from'./inventory122Export.js';window.__POTTERY_WORKSHOP_EXPORT_MANIFEST__=await exportInventoryAsset({id:'pottery-workshop',title:'Pottery Workshop',create:createPotteryWorkshop});window.__POTTERY_WORKSHOP_EXPORT_READY__=true;

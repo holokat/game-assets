@@ -1,0 +1,1 @@
+import {createGenerator} from '../assets/generator.js';import {captureAutonomyConcept} from './autonomyConcept.js';captureAutonomyConcept({id:'generator',create:createGenerator,target:[0,.7,0],distance:4});

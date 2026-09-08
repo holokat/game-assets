@@ -1,0 +1,1 @@
+import{createLivestockMarket as C}from'../assets/livestockMarket.js';import{exportInfrastructureAsset as E}from'./infrastructureExport.js';await E({assetId:'livestock-market',label:'Livestock Market',create:C});

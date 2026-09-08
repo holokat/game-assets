@@ -1,0 +1,1 @@
+import {createPowerLines} from '../assets/powerLines.js';import {startInventoryReview} from './inventory122Review.js';startInventoryReview({id:'power-lines',create:createPowerLines,camera:[-5,4,7],target:[0,2,0]});

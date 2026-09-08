@@ -1,0 +1,1 @@
+import{createCottage}from'../assets/cottage.js';import{exportInventoryAsset}from'./inventory122Export.js';window.__COTTAGE_EXPORT_MANIFEST__=await exportInventoryAsset({id:'cottage',title:'Cottage',create:createCottage});window.__COTTAGE_EXPORT_READY__=true;

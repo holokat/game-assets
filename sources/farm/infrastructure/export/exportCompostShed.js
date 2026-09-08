@@ -1,0 +1,1 @@
+import{createCompostShed}from'../assets/compostShed.js';import{exportInfrastructureAsset}from'./infrastructureExport.js';const o=document.querySelector('#output');try{o.textContent='Export complete';await exportInfrastructureAsset({assetId:'compost-shed',label:'Compost Shed',create:createCompostShed})}catch(e){o.textContent=String(e)}

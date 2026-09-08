@@ -1,0 +1,1 @@
+import{createDrainageDitch as create}from'../assets/drainageDitch.js';import{validateInventoryAsset as v}from'./inventory122Validation.js';await v({id:'drainage-ditch',title:'Drainage Ditch',create,budget:5000,criticalNodes:['drainage-ditch-water-run-mesh'],expectedChannels:[]});

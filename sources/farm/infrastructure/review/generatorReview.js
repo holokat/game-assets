@@ -1,0 +1,1 @@
+import {animateGenerator,createGenerator} from '../assets/generator.js';import {startInventoryReview} from './inventory122Review.js';startInventoryReview({id:'generator',create:createGenerator,animate:animateGenerator,camera:[-4,2.5,4],target:[0,.7,0]});

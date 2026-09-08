@@ -1,0 +1,1 @@
+import {createElectricalShed} from '../assets/electricalShed.js';import {captureAutonomyConcept} from './autonomyConcept.js';captureAutonomyConcept({id:'electrical-shed',create:createElectricalShed,target:[0,1,0],distance:4.5});

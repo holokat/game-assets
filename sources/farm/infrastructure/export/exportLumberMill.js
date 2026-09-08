@@ -1,0 +1,1 @@
+import {createLumberMill}from'../assets/lumberMill.js';import{exportInventoryAsset}from'./inventory122Export.js';window.__LUMBER_MILL_EXPORT_MANIFEST__=await exportInventoryAsset({id:'lumber-mill',title:'Lumber Mill',create:createLumberMill});window.__LUMBER_MILL_EXPORT_READY__=true;

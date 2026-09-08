@@ -1,0 +1,1 @@
+import {createLumberMill} from '../assets/lumberMill.js';import {startInventoryReview} from './inventory122Review.js';startInventoryReview({id:'lumber-mill',create:createLumberMill,camera:[-6,3.7,7.2],target:[0,1.2,0]});

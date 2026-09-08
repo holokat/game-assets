@@ -1,0 +1,1 @@
+import {createMulchStation} from '../assets/mulchStation.js';import {startInventoryReview} from './inventory122Review.js';startInventoryReview({id:'mulch-station',create:createMulchStation,camera:[-4.5,2.7,5.5],target:[0,.8,0]});

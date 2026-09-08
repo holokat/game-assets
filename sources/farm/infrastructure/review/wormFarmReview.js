@@ -1,0 +1,1 @@
+import {createWormFarm} from '../assets/wormFarm.js';import {startInventoryReview} from './inventory122Review.js';startInventoryReview({id:'worm-farm',create:createWormFarm,camera:[-4,2.7,5],target:[0,1,0]});

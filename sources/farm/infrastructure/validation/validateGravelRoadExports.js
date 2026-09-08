@@ -1,0 +1,5 @@
+import { createGravelRoad } from '../assets/gravelRoad.js';
+import { validateInventoryAsset } from './inventory122Validation.js';
+import { verifyRoadTileContract } from './roadTileContract.js';
+const output = document.querySelector('#output'); window.__GRAVEL_ROAD_VALIDATION_READY__ = false;
+try { window.__GRAVEL_ROAD_VALIDATION_RESULT__ = await validateInventoryAsset({ id: 'gravel-road', title: 'Gravel-Road', create: createGravelRoad, budget: 5000, criticalNodes: ['gravel-road-aggregate-road-bed-mesh', 'gravel-road-gentle-crowned-center-mesh', 'gravel-road-shallow-shoulder-left-mesh', 'gravel-road-shallow-shoulder-right-mesh', 'gravel-road-aggregate-stone-1-mesh'], expectedChannels: [] }); await verifyRoadTileContract(window.__GRAVEL_ROAD_VALIDATION_RESULT__, 'gravel-road'); output.textContent = window.__GRAVEL_ROAD_VALIDATION_RESULT__.checks.map((check) => `${check.passed ? 'PASS' : 'FAIL'}: ${check.name}`).join('\n'); window.__GRAVEL_ROAD_VALIDATION_READY__ = true; } catch (error) { output.textContent = String(error.stack || error); window.__GRAVEL_ROAD_VALIDATION_ERROR__ = String(error.stack || error); }

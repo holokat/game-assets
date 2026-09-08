@@ -1,0 +1,1 @@
+import{createLivestockMarket as C}from'../assets/livestockMarket.js';import{startInventoryReview as R}from'./inventory122Review.js';R({id:'livestock-market',create:C,camera:[-9,5.5,10],target:[0,1,0]});

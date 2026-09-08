@@ -1,0 +1,1 @@
+import {animateCableLift,createCableLift} from '../assets/cableLift.js';import {startInventoryReview} from './inventory122Review.js';startInventoryReview({id:'cable-lift',create:createCableLift,animate:animateCableLift,camera:[-6,4.5,7],target:[0,2,0]});

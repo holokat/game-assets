@@ -1,0 +1,1 @@
+import {createCottage} from '../assets/cottage.js';import {startInventoryReview} from './inventory122Review.js';startInventoryReview({id:'cottage',create:createCottage,camera:[-7,4.2,-8],target:[0,1.2,0]});

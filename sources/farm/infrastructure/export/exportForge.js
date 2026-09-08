@@ -1,0 +1,1 @@
+import{createForge as C}from'../assets/forge.js';import{exportInfrastructureAsset as E}from'./infrastructureExport.js';const o=document.querySelector('#output');try{o.textContent='Export complete';await E({assetId:'forge',label:'Forge',create:C})}catch(e){o.textContent=String(e)}

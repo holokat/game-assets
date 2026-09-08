@@ -1,0 +1,1 @@
+import {createBasketWorkshop} from '../assets/basketWorkshop.js';import {startInventoryReview} from './inventory122Review.js';startInventoryReview({id:'basket-workshop',create:createBasketWorkshop,camera:[-5.5,3.3,6.6],target:[0,1.1,0]});

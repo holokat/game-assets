@@ -1,0 +1,5 @@
+import { createFarmRoad } from '../assets/farmRoad.js';
+import { validateInventoryAsset } from './inventory122Validation.js';
+import { verifyRoadTileContract } from './roadTileContract.js';
+const output = document.querySelector('#output'); window.__FARM_ROAD_VALIDATION_READY__ = false;
+try { window.__FARM_ROAD_VALIDATION_RESULT__ = await validateInventoryAsset({ id: 'farm-road', title: 'Farm-Road', create: createFarmRoad, budget: 5000, criticalNodes: ['farm-road-compacted-mixed-road-bed-mesh', 'farm-road-mixed-gravel-running-surface-mesh', 'farm-road-shallow-ditch-left-mesh', 'farm-road-timber-edge-marker-1-mesh', 'farm-road-timber-edge-marker-4-mesh'], expectedChannels: [] }); await verifyRoadTileContract(window.__FARM_ROAD_VALIDATION_RESULT__, 'farm-road'); output.textContent = window.__FARM_ROAD_VALIDATION_RESULT__.checks.map((check) => `${check.passed ? 'PASS' : 'FAIL'}: ${check.name}`).join('\n'); window.__FARM_ROAD_VALIDATION_READY__ = true; } catch (error) { output.textContent = String(error.stack || error); window.__FARM_ROAD_VALIDATION_ERROR__ = String(error.stack || error); }

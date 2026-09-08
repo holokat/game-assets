@@ -1,0 +1,1 @@
+import {animateTractorShed,createTractorShed} from '../assets/tractorShed.js';import {startInventoryReview} from './inventory122Review.js';startInventoryReview({id:'tractor-shed',create:createTractorShed,animate:animateTractorShed,camera:[-6,3.7,7.3],target:[0,1.45,0]});

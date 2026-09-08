@@ -1,0 +1,1 @@
+import {createMountainFunicular} from '../assets/mountainFunicular.js';import {startInventoryReview} from './inventory122Review.js';startInventoryReview({id:'mountain-funicular',create:createMountainFunicular,camera:[-8.5,6.5,9],target:[0,1.6,.3]});

@@ -1,0 +1,1 @@
+import {createMulchStation} from '../assets/mulchStation.js';import {captureAutonomyConcept} from './autonomyConcept.js';captureAutonomyConcept({id:'mulch-station',create:createMulchStation,target:[0,.8,0],distance:5.2});

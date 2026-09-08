@@ -1,0 +1,1 @@
+import{createCompostShed}from'../assets/compostShed.js';import{mountInfrastructureReview}from'./infrastructureReview.js';mountInfrastructureReview({create:createCompostShed,label:'Compost Shed',id:'compost-shed',span:'3.6'});

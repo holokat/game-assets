@@ -1,0 +1,1 @@
+import {createAutonomousTractor} from '../assets/autonomousTractor.js';import {captureAutonomyConcept} from './autonomyConcept.js';captureAutonomyConcept({id:'autonomous-tractor',create:createAutonomousTractor,target:[0,.8,0],distance:4.7});

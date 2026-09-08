@@ -1,0 +1,1 @@
+import{createCompostBin}from'../assets/compostBin.js';import{mountInfrastructureReview}from'./infrastructureReview.js';mountInfrastructureReview({create:createCompostBin,label:'Compost Bin',id:'compost-bin',span:'2.4'});

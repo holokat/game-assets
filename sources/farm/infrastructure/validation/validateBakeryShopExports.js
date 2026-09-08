@@ -1,0 +1,1 @@
+import{createBakeryShop as create}from'../assets/bakeryShop.js';import{validateInventoryAsset as v}from'./inventory122Validation.js';await v({id:'bakery-shop',title:'Bakery Shop',create,budget:5000,criticalNodes:[],expectedChannels:[]});

@@ -1,0 +1,1 @@
+import{createReforestationStation as create}from'../assets/reforestationStation.js';import{startInventoryReview as r}from'./inventory122Review.js';r({id:'reforestation-station',create,camera:[-7,5,-7],target:[0,1.25,0]});

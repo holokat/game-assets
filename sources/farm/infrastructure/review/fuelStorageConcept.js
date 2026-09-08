@@ -1,0 +1,1 @@
+import {createFuelStorage} from '../assets/fuelStorage.js';import {captureAutonomyConcept} from './autonomyConcept.js';captureAutonomyConcept({id:'fuel-storage',create:createFuelStorage,target:[0,.7,0],distance:4.5});

@@ -1,0 +1,1 @@
+import {createRailwaySiding} from '../assets/railwaySiding.js';import {captureAutonomyConcept} from './autonomyConcept.js';captureAutonomyConcept({id:'railway-siding',create:createRailwaySiding,target:[0,.25,0],distance:7.2});

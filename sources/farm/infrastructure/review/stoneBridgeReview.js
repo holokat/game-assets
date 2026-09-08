@@ -1,0 +1,1 @@
+import { createStoneBridge } from '../assets/stoneBridge.js';import { mountInfrastructureReview } from './infrastructureReview.js';mountInfrastructureReview({create:createStoneBridge,label:'Stone Bridge',id:'stone-bridge',span:'4.8'});

@@ -1,0 +1,1 @@
+import {animateAutonomousTractor,createAutonomousTractor} from '../assets/autonomousTractor.js';import {startInventoryReview} from './inventory122Review.js';startInventoryReview({id:'autonomous-tractor',create:createAutonomousTractor,animate:animateAutonomousTractor,camera:[-3.7,2.4,5.1],target:[0,.85,0]});

@@ -1,0 +1,1 @@
+import{createFarmGate as create}from'../assets/farmGate.js';import{validateInventoryAsset as v}from'./inventory122Validation.js';await v({id:'farm-gate',title:'Farm Gate',create,budget:5000,criticalNodes:['farm-gate-left-leaf'],expectedChannels:[]});

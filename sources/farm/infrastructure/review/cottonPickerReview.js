@@ -1,0 +1,1 @@
+import {createCottonPicker} from '../assets/cottonPicker.js';import {startSpecializedHarvestersReview} from './specializedHarvestersReview.js';startSpecializedHarvestersReview(createCottonPicker,'cotton-picker');

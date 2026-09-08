@@ -1,0 +1,1 @@
+import{createWindTurbine}from'../assets/windTurbine.js';import{mountInfrastructureReview}from'./infrastructureReview.js';mountInfrastructureReview({create:createWindTurbine,label:'Wind Turbine',id:'wind-turbine',span:'3.6'});

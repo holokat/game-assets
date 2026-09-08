@@ -1,0 +1,1 @@
+import {createProduceCollectionPoint} from '../assets/produceCollectionPoint.js';import {captureAutonomyConcept} from './autonomyConcept.js';captureAutonomyConcept({id:'produce-collection-point',create:createProduceCollectionPoint,target:[0,1.15,0],distance:6.4});

@@ -1,0 +1,1 @@
+import{createOuthouse as create}from'../assets/outhouse.js';import{validateInventoryAsset as v}from'./inventory122Validation.js';window.__x=await v({id:'outhouse',title:'Outhouse',create,budget:5000,criticalNodes:['outhouse-teal-door-mesh','outhouse-timber-shell-mesh'],expectedChannels:[]});

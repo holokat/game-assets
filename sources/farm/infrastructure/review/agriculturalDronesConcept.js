@@ -1,0 +1,1 @@
+import {createAgriculturalDrones} from '../assets/agriculturalDrones.js';import {captureAutonomyConcept} from './autonomyConcept.js';captureAutonomyConcept({id:'agricultural-drones',create:createAgriculturalDrones,target:[0,.3,0],distance:3.5});

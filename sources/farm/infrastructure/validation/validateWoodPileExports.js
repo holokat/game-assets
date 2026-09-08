@@ -1,0 +1,1 @@
+import{createWoodPile as create}from'../assets/woodPile.js';import{validateInventoryAsset as v}from'./inventory122Validation.js';await v({id:'wood-pile',title:'Wood Pile',create,budget:5000,criticalNodes:['wood-pile-roof-main-mesh'],expectedChannels:[]});

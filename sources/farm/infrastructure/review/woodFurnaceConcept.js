@@ -1,0 +1,1 @@
+import {createWoodFurnace} from '../assets/woodFurnace.js';import {captureAutonomyConcept} from './autonomyConcept.js';captureAutonomyConcept({id:'wood-furnace',create:createWoodFurnace,target:[0,1.5,0],distance:5});

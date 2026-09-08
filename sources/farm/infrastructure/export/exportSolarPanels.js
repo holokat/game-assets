@@ -1,0 +1,1 @@
+import{createSolarPanels}from'../assets/solarPanels.js';import{exportInfrastructureAsset}from'./infrastructureExport.js';const o=document.querySelector('#output');try{o.textContent='Export complete';window.__SOLAR_PANELS_EXPORT_MANIFEST__=await exportInfrastructureAsset({assetId:'solar-panels',label:'Solar Panels',create:createSolarPanels})}catch(e){o.textContent=String(e)}

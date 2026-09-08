@@ -1,0 +1,5 @@
+import { createDirtPath } from '../assets/dirtPath.js';
+import { validateInventoryAsset } from './inventory122Validation.js';
+import { verifyRoadTileContract } from './roadTileContract.js';
+const output = document.querySelector('#output'); window.__DIRT_PATH_VALIDATION_READY__ = false;
+try { window.__DIRT_PATH_VALIDATION_RESULT__ = await validateInventoryAsset({ id: 'dirt-path', title: 'Dirt-Path', create: createDirtPath, budget: 5000, criticalNodes: ['dirt-path-compacted-earth-center-mesh', 'dirt-path-shallow-wheel-rut-left-mesh', 'dirt-path-shallow-wheel-rut-right-mesh', 'dirt-path-grass-wedge-left-mesh', 'dirt-path-grass-wedge-right-mesh'], expectedChannels: [] }); await verifyRoadTileContract(window.__DIRT_PATH_VALIDATION_RESULT__, 'dirt-path'); output.textContent = window.__DIRT_PATH_VALIDATION_RESULT__.checks.map((check) => `${check.passed ? 'PASS' : 'FAIL'}: ${check.name}`).join('\n'); window.__DIRT_PATH_VALIDATION_READY__ = true; } catch (error) { output.textContent = String(error.stack || error); window.__DIRT_PATH_VALIDATION_ERROR__ = String(error.stack || error); }

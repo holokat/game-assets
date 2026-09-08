@@ -1,0 +1,1 @@
+import{createManureStorage}from'../assets/manureStorage.js';import{exportInfrastructureAsset}from'./infrastructureExport.js';const o=document.querySelector('#output');try{o.textContent='Export complete';await exportInfrastructureAsset({assetId:'manure-storage',label:'Manure Storage',create:createManureStorage})}catch(e){o.textContent=String(e)}

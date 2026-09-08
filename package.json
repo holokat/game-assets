@@ -1,0 +1,12 @@
+{
+  "name": "game-assets",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "check": "node scripts/validate.mjs",
+    "check:models": "node scripts/validate-models.mjs"
+  }
+}

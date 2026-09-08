@@ -1,0 +1,1 @@
+import{createSolarPanels}from'../assets/solarPanels.js';import{mountInfrastructureReview}from'./infrastructureReview.js';mountInfrastructureReview({create:createSolarPanels,label:'Solar Panels',id:'solar-panels',span:'3.0'});

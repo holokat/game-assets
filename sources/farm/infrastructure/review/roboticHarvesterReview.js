@@ -1,0 +1,1 @@
+import {animateRoboticHarvester,createRoboticHarvester} from '../assets/roboticHarvester.js';import {startInventoryReview} from './inventory122Review.js';startInventoryReview({id:'robotic-harvester',create:createRoboticHarvester,animate:animateRoboticHarvester,camera:[-4.3,2.7,5.7],target:[0,.85,.05]});

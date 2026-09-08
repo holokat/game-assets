@@ -1,0 +1,1278 @@
+export const structureCatalog = [
+  {
+    "id": "chapel",
+    "description": "the chapel with a bell tower and spire",
+    "size": [
+      12.0,
+      7.0,
+      18.0
+    ],
+    "kind": "large building",
+    "zone": "Hearthhome, the green",
+    "placement": "1 (stands) in hearthhome",
+    "wikiStatus": "to make",
+    "prompt": "Stylised small stone chapel, pointed arch door and windows, slate roof, a square bell tower with an open belfry and a slender spire, a cross on the gable; hand-painted, game asset",
+    "name": "Chapel"
+  },
+  {
+    "id": "manor",
+    "description": "the stone manor with a square tower and slate roof, a stair to the door",
+    "size": [
+      18.0,
+      10.0,
+      16.0
+    ],
+    "kind": "large building",
+    "zone": "Hearthhome, the green",
+    "placement": "1 (stands) in hearthhome",
+    "wikiStatus": "to make",
+    "prompt": "Stylised stone manor house, two storeys of dressed grey stone, steep blue-grey slate roof, a square tower with a pointed cap on one end 16 m tall, a stone stair to an arched door, chimneys, leaded windows; hand-painted, game asset",
+    "name": "Manor"
+  },
+  {
+    "id": "gate_tower",
+    "description": "the timber gate tower with a hip roof and a gate",
+    "size": [
+      7.0,
+      6.0,
+      9.0
+    ],
+    "kind": "large building",
+    "zone": "Hearthhome, the green",
+    "placement": "1 (stands) in hearthhome",
+    "wikiStatus": "to make",
+    "prompt": "Stylised timber gate tower on a stone base, hipped shingle roof, an open arch with a double wooden gate, a pennant",
+    "name": "Gate tower"
+  },
+  {
+    "id": "inn",
+    "description": "the Bracken Arms, two storeys, thatch, timber frame on a flint base, a round sign on a bracket, a bench, two barrels",
+    "size": [
+      14.0,
+      9.0,
+      9.0
+    ],
+    "kind": "large building",
+    "zone": "Hearthhome, the green",
+    "placement": "1 (stands) in hearthhome",
+    "wikiStatus": "to make",
+    "prompt": "Stylised medieval inn, two storeys, thick golden thatch roof with a dormer, timber-framed upper floor over a flint stone ground floor, round wooden sign on an iron bracket, wooden door, small leaded windows, a bench and two barrels by the door; hand-painted textures, clean quads, game asset, single material plus alpha-cut thatch fringe",
+    "name": "Inn"
+  },
+  {
+    "id": "bank",
+    "description": "square stone strongroom, blue slate, one door, steps",
+    "size": [
+      8.0,
+      8.0,
+      6.5
+    ],
+    "kind": "building",
+    "zone": "Hearthhome, the green",
+    "placement": "1 (stands) in hearthhome",
+    "wikiStatus": "to make",
+    "prompt": "Stylised small square stone building, one heavy iron-bound door up three steps, blue slate pyramid roof, barred windows, corner quoins; hand-painted, game asset",
+    "name": "Bank"
+  },
+  {
+    "id": "stable",
+    "description": "open stable with pens and a hay loft",
+    "size": [
+      12.0,
+      8.0,
+      6.5
+    ],
+    "kind": "building",
+    "zone": "Hearthhome, the green",
+    "placement": "1 (stands) in hearthhome",
+    "wikiStatus": "to make",
+    "prompt": "Stylised timber stable, thatch roof, open front with stalls, a hay loft, post-and-rail pens attached, straw on the floor; hand-painted, game asset",
+    "name": "Stable"
+  },
+  {
+    "id": "smithy",
+    "description": "open-fronted stone smithy, tall chimney, forge glow, anvil, tools",
+    "size": [
+      9.0,
+      7.0,
+      6.0
+    ],
+    "kind": "building",
+    "zone": "Hearthhome, the green",
+    "placement": "1 (stands) in hearthhome",
+    "wikiStatus": "to make",
+    "prompt": "Stylised medieval smithy, stone walls, one side open with timber posts, a tall square stone chimney, a forge hearth with coals, an anvil on a stump, a water trough, tools on the wall; hand-painted, game asset",
+    "name": "Smithy"
+  },
+  {
+    "id": "cottage_a",
+    "description": "three thatched cottages, different footprints",
+    "size": [
+      8.0,
+      6.0,
+      5.5
+    ],
+    "kind": "building",
+    "zone": "Hearthhome, the green",
+    "placement": "1 (stands) in hearthhome",
+    "wikiStatus": "to make",
+    "prompt": "Stylised thatched cottage, timber frame over flint, a stone chimney smoking, a wooden door, two windows, flower boxes; three variants: long, square with a porch, L-shaped",
+    "name": "Cottage a"
+  },
+  {
+    "id": "cottage_b",
+    "description": "three thatched cottages, different footprints",
+    "size": [
+      7.0,
+      7.0,
+      5.5
+    ],
+    "kind": "building",
+    "zone": "Hearthhome, the green",
+    "placement": "1 (stands) in hearthhome",
+    "wikiStatus": "made",
+    "prompt": "three thatched cottages, different footprints",
+    "name": "Cottage b"
+  },
+  {
+    "id": "cottage_c",
+    "description": "three thatched cottages, different footprints",
+    "size": [
+      9.0,
+      6.0,
+      5.5
+    ],
+    "kind": "building",
+    "zone": "Hearthhome, the green",
+    "placement": "1 (stands) in hearthhome",
+    "wikiStatus": "to make",
+    "prompt": "Stylised thatched cottage, timber frame over flint, a stone chimney smoking, a wooden door, two windows, flower boxes; three variants: long, square with a porch, L-shaped",
+    "name": "Cottage c"
+  },
+  {
+    "id": "healer",
+    "description": "thatched cottage with herbs and flowers drying on the walls",
+    "size": [
+      8.0,
+      7.0,
+      5.5
+    ],
+    "kind": "building",
+    "zone": "Hearthhome, the green",
+    "placement": "1 (stands) in hearthhome",
+    "wikiStatus": "to make",
+    "prompt": "Stylised thatched cottage, whitewashed timber frame, bunches of herbs and flowers hanging under the eaves, a herb bed, a stone step; hand-painted, game asset",
+    "name": "Healer"
+  },
+  {
+    "id": "waystone_village",
+    "description": "the 4 m carved standing stone (also the nine on the ring, so one model)",
+    "size": [
+      1.2,
+      0.9,
+      4.0
+    ],
+    "kind": "structure",
+    "zone": "Hearthhome, the green",
+    "placement": "1 (stands) in hearthhome",
+    "wikiStatus": "to make",
+    "prompt": "Weathered grey sarsen standing stone 4 m tall with a bearded face carved in it, lichen, carved lines that can glow (emissive mask), pebble ring at the base; stylised, game asset",
+    "name": "Waystone village"
+  },
+  {
+    "id": "well_pavilion",
+    "description": "the roofed well: an octagonal slate roof on timber posts over a stone well with a bucket",
+    "size": [
+      4.2,
+      4.2,
+      3.6
+    ],
+    "kind": "structure",
+    "zone": "Hearthhome, the green",
+    "placement": "1 (stands) in hearthhome",
+    "wikiStatus": "to make",
+    "prompt": "Stylised village well under an octagonal slate roof on six timber posts, a round stone well head, a windlass and bucket, a stone step ring",
+    "name": "Well pavilion"
+  },
+  {
+    "id": "fingerpost",
+    "description": "signpost with three blank boards (the game paints the names)",
+    "size": [
+      1.6,
+      0.3,
+      3.0
+    ],
+    "kind": "structure",
+    "zone": "Hearthhome, the green",
+    "placement": "1 (stands) in hearthhome",
+    "wikiStatus": "to make",
+    "prompt": "Wooden fingerpost 3 m with three pointing boards, blank faces for text",
+    "name": "Fingerpost"
+  },
+  {
+    "id": "flint_wall_4m",
+    "description": "the village wall kit, 3 m high",
+    "size": [
+      4.0,
+      0.7,
+      3.0
+    ],
+    "kind": "structure",
+    "zone": "Hearthhome, the green",
+    "placement": "35 (runs) in hearthhome",
+    "wikiStatus": "made",
+    "prompt": "the village wall kit, 3 m high",
+    "name": "Flint wall 4m"
+  },
+  {
+    "id": "flint_wall_corner",
+    "description": "the village wall kit, 3 m high",
+    "size": [
+      5.4,
+      3.2,
+      3.0
+    ],
+    "kind": "structure",
+    "zone": "Hearthhome, the green",
+    "placement": "not placed yet",
+    "wikiStatus": "made",
+    "prompt": "the village wall kit, 3 m high",
+    "name": "Flint wall corner"
+  },
+  {
+    "id": "hay_rick",
+    "description": "dressing",
+    "size": [
+      3.0,
+      3.0,
+      3.0
+    ],
+    "kind": "structure",
+    "zone": "Hearthhome, the green",
+    "placement": "1 (stands) in hearthhome",
+    "wikiStatus": "to make",
+    "prompt": "Stylised medieval barrel with iron hoops; wooden crate; grain sack; window flower box; conical hay rick 3 m",
+    "name": "Hay rick"
+  },
+  {
+    "id": "stall_a",
+    "description": "market stalls, striped awnings, goods",
+    "size": [
+      3.0,
+      2.4,
+      2.8
+    ],
+    "kind": "structure",
+    "zone": "Hearthhome, the green",
+    "placement": "2 (stands) in hearthhome",
+    "wikiStatus": "to make",
+    "prompt": "Stylised market stall, timber frame, striped cloth awning (red and white, blue and white, green), a counter with baskets of bread, vegetables, cloth",
+    "name": "Stall a"
+  },
+  {
+    "id": "stall_b",
+    "description": "market stalls, striped awnings, goods",
+    "size": [
+      3.0,
+      2.4,
+      2.8
+    ],
+    "kind": "structure",
+    "zone": "Hearthhome, the green",
+    "placement": "2 (stands) in hearthhome",
+    "wikiStatus": "to make",
+    "prompt": "Stylised market stall, timber frame, striped cloth awning (red and white, blue and white, green), a counter with baskets of bread, vegetables, cloth",
+    "name": "Stall b"
+  },
+  {
+    "id": "stall_c",
+    "description": "market stalls, striped awnings, goods",
+    "size": [
+      3.0,
+      2.4,
+      2.8
+    ],
+    "kind": "structure",
+    "zone": "Hearthhome, the green",
+    "placement": "2 (stands) in hearthhome",
+    "wikiStatus": "to make",
+    "prompt": "Stylised market stall, timber frame, striped cloth awning (red and white, blue and white, green), a counter with baskets of bread, vegetables, cloth",
+    "name": "Stall c"
+  },
+  {
+    "id": "hedge_4m",
+    "description": "hedgerow kit",
+    "size": [
+      4.0,
+      1.4,
+      2.2
+    ],
+    "kind": "structure",
+    "zone": "Hearthhome, the green",
+    "placement": "2 (runs) in hearthhome",
+    "wikiStatus": "to make",
+    "prompt": "Hedgerow segment 4 m, dense green with flowers, alpha-cut leaves",
+    "name": "Hedge 4m"
+  },
+  {
+    "id": "stone_bridge_10m",
+    "description": "the arched stone bridge",
+    "size": [
+      10.0,
+      4.0,
+      2.2
+    ],
+    "kind": "structure",
+    "zone": "Hearthhome, the green",
+    "placement": "1 (stands) in hearthhome",
+    "wikiStatus": "to make",
+    "prompt": "Stylised single-arch stone bridge 10 m long with parapets and end posts",
+    "name": "Stone bridge 10m"
+  },
+  {
+    "id": "stable_pen",
+    "description": "",
+    "size": [
+      10.0,
+      8.0,
+      1.4
+    ],
+    "kind": "structure",
+    "zone": "Hearthhome, the green",
+    "placement": "1 (stands) in hearthhome",
+    "wikiStatus": "to make",
+    "prompt": "",
+    "name": "Stable pen"
+  },
+  {
+    "id": "barrel",
+    "description": "dressing",
+    "size": [
+      0.8,
+      0.8,
+      1.0
+    ],
+    "kind": "prop",
+    "zone": "Hearthhome, the green",
+    "placement": "2 (stands) in hearthhome",
+    "wikiStatus": "made",
+    "prompt": "dressing",
+    "name": "Barrel"
+  },
+  {
+    "id": "bench",
+    "description": "dressing",
+    "size": [
+      1.8,
+      0.5,
+      0.9
+    ],
+    "kind": "prop",
+    "zone": "Hearthhome, the green",
+    "placement": "1 (stands) in hearthhome",
+    "wikiStatus": "made",
+    "prompt": "dressing",
+    "name": "Bench"
+  },
+  {
+    "id": "crate",
+    "description": "dressing",
+    "size": [
+      0.9,
+      0.9,
+      0.8
+    ],
+    "kind": "prop",
+    "zone": "Hearthhome, the green",
+    "placement": "not placed yet",
+    "wikiStatus": "made",
+    "prompt": "dressing",
+    "name": "Crate"
+  },
+  {
+    "id": "mound_fence",
+    "description": "the low post-and-rail fence ring around the stone's mound",
+    "size": [
+      2.0,
+      0.24,
+      0.75
+    ],
+    "kind": "prop",
+    "zone": "Hearthhome, the green",
+    "placement": "8 (runs) in hearthhome",
+    "wikiStatus": "made",
+    "prompt": "the low post-and-rail fence ring around the stone's mound",
+    "name": "Mound fence"
+  },
+  {
+    "id": "offerings",
+    "description": "bowls, a jug, a candle, wildflowers, a pebble ring",
+    "size": [
+      1.6,
+      1.6,
+      0.5
+    ],
+    "kind": "prop",
+    "zone": "Hearthhome, the green",
+    "placement": "1 (stands) in hearthhome",
+    "wikiStatus": "to make",
+    "prompt": "Clay bowls, a jug, a stub candle, a ring of pebbles, wildflower bunches",
+    "name": "Offerings"
+  },
+  {
+    "id": "flower_box",
+    "description": "dressing",
+    "size": [
+      1.2,
+      0.4,
+      0.4
+    ],
+    "kind": "prop",
+    "zone": "Hearthhome, the green",
+    "placement": "1 (stands) in hearthhome",
+    "wikiStatus": "to make",
+    "prompt": "Stylised medieval barrel with iron hoops; wooden crate; grain sack; window flower box; conical hay rick 3 m",
+    "name": "Flower box"
+  },
+  {
+    "id": "lane_slab",
+    "description": "packed-earth lane pieces (can be a decal)",
+    "size": [
+      4.0,
+      4.0,
+      0.06
+    ],
+    "kind": "structure",
+    "zone": "Hearthhome, the green",
+    "placement": "not placed yet",
+    "wikiStatus": "to make",
+    "prompt": "Packed earth lane tile 4 m with worn edges into grass",
+    "name": "Lane slab"
+  },
+  {
+    "id": "boundary_stone",
+    "description": "the knee-high stones between the nine",
+    "size": [
+      0.6,
+      0.6,
+      0.7
+    ],
+    "kind": "prop",
+    "zone": "The Standing Hedge, the ring",
+    "placement": "72 (stands) in hedge_1, hedge_2, hedge_3, hedge_4, hedge_5, hedge_6, hedge_7, hedge_8, hedge_9",
+    "wikiStatus": "to make",
+    "prompt": "Knee-high rough grey boundary stone",
+    "name": "Boundary stone"
+  },
+  {
+    "id": "mill",
+    "description": "the water mill, stone and timber, thatch, chimney, wheel separate",
+    "size": [
+      12.0,
+      8.0,
+      9.0
+    ],
+    "kind": "large building",
+    "zone": "The Mill Run, the river and the wheat",
+    "placement": "1 (stands) in millrun",
+    "wikiStatus": "to make",
+    "prompt": "Stylised stone water mill, timber-framed upper floor, thick thatch roof, a square stone chimney, a sluice, the wheel as a separate model (`mill_wheel`, 6 m, wooden paddles) so it turns",
+    "name": "Mill"
+  },
+  {
+    "id": "mill_wheel",
+    "description": "",
+    "size": [
+      1.2,
+      6.0,
+      6.0
+    ],
+    "kind": "structure",
+    "zone": "The Mill Run, the river and the wheat",
+    "placement": "1 (stands) in millrun",
+    "wikiStatus": "to make",
+    "prompt": "",
+    "name": "Mill wheel"
+  },
+  {
+    "id": "millers_house",
+    "description": "thatched cottage variant with a garden fence",
+    "size": [
+      10.0,
+      7.0,
+      6.0
+    ],
+    "kind": "building",
+    "zone": "The Mill Run, the river and the wheat",
+    "placement": "1 (stands) in millrun",
+    "wikiStatus": "to make",
+    "prompt": "as `cottage_a` with a picket garden fence and flowers",
+    "name": "Millers house"
+  },
+  {
+    "id": "granary",
+    "description": "timber granary on stilts with a ladder",
+    "size": [
+      5.0,
+      5.0,
+      5.0
+    ],
+    "kind": "building",
+    "zone": "The Mill Run, the river and the wheat",
+    "placement": "1 (stands) in millrun",
+    "wikiStatus": "to make",
+    "prompt": "Stylised timber granary on four stilts with a thatched roof and a ladder",
+    "name": "Granary"
+  },
+  {
+    "id": "lamp_post_iron",
+    "description": "the road lamp, lit at night (emissive glass)",
+    "size": [
+      0.5,
+      0.5,
+      4.0
+    ],
+    "kind": "structure",
+    "zone": "The Mill Run, the river and the wheat",
+    "placement": "1 (stands) in millrun",
+    "wikiStatus": "to make",
+    "prompt": "Wrought iron lamp post 4 m with a hexagonal glass lantern, emissive glass",
+    "name": "Lamp post iron"
+  },
+  {
+    "id": "cart_laden",
+    "description": "the farm cart",
+    "size": [
+      3.2,
+      1.8,
+      2.0
+    ],
+    "kind": "structure",
+    "zone": "The Mill Run, the river and the wheat",
+    "placement": "1 (stands) in millrun",
+    "wikiStatus": "to make",
+    "prompt": "Two-wheeled wooden farm cart, laden with sacks, and empty",
+    "name": "Cart laden"
+  },
+  {
+    "id": "eel_weir",
+    "description": "woven willow fence across water",
+    "size": [
+      6.0,
+      0.5,
+      1.6
+    ],
+    "kind": "structure",
+    "zone": "The Mill Run, the river and the wheat",
+    "placement": "3 (stands) in millrun",
+    "wikiStatus": "to make",
+    "prompt": "Woven willow eel weir, a fence of wattle panels on posts 6 m long, alpha-cut weave",
+    "name": "Eel weir"
+  },
+  {
+    "id": "cart_empty",
+    "description": "the farm cart",
+    "size": [
+      3.2,
+      1.8,
+      1.4
+    ],
+    "kind": "prop",
+    "zone": "The Mill Run, the river and the wheat",
+    "placement": "not placed yet",
+    "wikiStatus": "to make",
+    "prompt": "Two-wheeled wooden farm cart, laden with sacks, and empty",
+    "name": "Cart empty"
+  },
+  {
+    "id": "footbridge",
+    "description": "plank footbridge with rope rails",
+    "size": [
+      8.0,
+      1.6,
+      1.2
+    ],
+    "kind": "structure",
+    "zone": "The Mill Run, the river and the wheat",
+    "placement": "1 (stands) in millrun",
+    "wikiStatus": "to make",
+    "prompt": "Wooden plank footbridge 8 m with rope rails on posts",
+    "name": "Footbridge"
+  },
+  {
+    "id": "stepping_stones",
+    "description": "five flat stones",
+    "size": [
+      4.0,
+      1.2,
+      0.3
+    ],
+    "kind": "structure",
+    "zone": "The Mill Run, the river and the wheat",
+    "placement": "1 (stands) in millrun",
+    "wikiStatus": "to make",
+    "prompt": "Five worn flat stepping stones",
+    "name": "Stepping stones"
+  },
+  {
+    "id": "fallen_beech",
+    "description": "the fallen trunk with bracket fungus",
+    "size": [
+      14.0,
+      1.6,
+      1.6
+    ],
+    "kind": "structure",
+    "zone": "The Beech Hangar, the wood",
+    "placement": "1 (stands) in beechhangar",
+    "wikiStatus": "to make",
+    "prompt": "Fallen beech trunk 14 m with bracket fungus and moss",
+    "name": "Fallen beech"
+  },
+  {
+    "id": "badger_sett",
+    "description": "roots with a dark hole and spoil",
+    "size": [
+      2.4,
+      2.0,
+      1.2
+    ],
+    "kind": "prop",
+    "zone": "The Beech Hangar, the wood",
+    "placement": "3 (stands) in beechhangar",
+    "wikiStatus": "to make",
+    "prompt": "Tree roots with a badger hole and a spoil fan",
+    "name": "Badger sett"
+  },
+  {
+    "id": "rooting_patch",
+    "description": "turned earth decal",
+    "size": [
+      2.5,
+      2.5,
+      0.15
+    ],
+    "kind": "prop",
+    "zone": "The Beech Hangar, the wood",
+    "placement": "3 (stands) in beechhangar",
+    "wikiStatus": "to make",
+    "prompt": "Patch of turned earth and leaf litter",
+    "name": "Rooting patch"
+  },
+  {
+    "id": "chalk_face_4m",
+    "description": "the cut wall kit with ore seams (green copper, grey tin)",
+    "size": [
+      4.0,
+      3.0,
+      12.0
+    ],
+    "kind": "large building",
+    "zone": "The Chalk Pits, the scar",
+    "placement": "1 (runs) in chalkpits",
+    "wikiStatus": "to make",
+    "prompt": "Chalk cliff face segment 4 m wide 12 m high with horizontal seams of green copper ore and grey tin, tiling",
+    "name": "Chalk face 4m"
+  },
+  {
+    "id": "headframe",
+    "description": "the timber headframe with a winding wheel",
+    "size": [
+      5.0,
+      5.0,
+      8.0
+    ],
+    "kind": "large building",
+    "zone": "The Chalk Pits, the scar",
+    "placement": "1 (stands) in chalkpits",
+    "wikiStatus": "to make",
+    "prompt": "Timber mine headframe 8 m with a spoked winding wheel and rope",
+    "name": "Headframe"
+  },
+  {
+    "id": "foremans_hut",
+    "description": "the mine yard kit",
+    "size": [
+      5.0,
+      4.0,
+      3.2
+    ],
+    "kind": "structure",
+    "zone": "The Chalk Pits, the scar",
+    "placement": "1 (stands) in chalkpits",
+    "wikiStatus": "to make",
+    "prompt": "Wooden ore cart with iron wheels on rails; 2 m rail section; spoil heap of chalk and green ore; a pick; a barrow; a small plank hut with a lantern",
+    "name": "Foremans hut"
+  },
+  {
+    "id": "mine_mouth",
+    "description": "timber-braced mine mouth",
+    "size": [
+      4.0,
+      2.0,
+      3.2
+    ],
+    "kind": "structure",
+    "zone": "The Chalk Pits, the scar",
+    "placement": "2 (stands) in chalkpits",
+    "wikiStatus": "to make",
+    "prompt": "Mine entrance braced with heavy timber posts and a lintel, a lantern hook",
+    "name": "Mine mouth"
+  },
+  {
+    "id": "spoil_heap",
+    "description": "the mine yard kit",
+    "size": [
+      5.0,
+      5.0,
+      2.2
+    ],
+    "kind": "structure",
+    "zone": "The Chalk Pits, the scar",
+    "placement": "1 (stands) in chalkpits",
+    "wikiStatus": "to make",
+    "prompt": "Wooden ore cart with iron wheels on rails; 2 m rail section; spoil heap of chalk and green ore; a pick; a barrow; a small plank hut with a lantern",
+    "name": "Spoil heap"
+  },
+  {
+    "id": "ore_cart",
+    "description": "the mine yard kit",
+    "size": [
+      2.0,
+      1.4,
+      1.5
+    ],
+    "kind": "prop",
+    "zone": "The Chalk Pits, the scar",
+    "placement": "1 (stands) in chalkpits",
+    "wikiStatus": "to make",
+    "prompt": "Wooden ore cart with iron wheels on rails; 2 m rail section; spoil heap of chalk and green ore; a pick; a barrow; a small plank hut with a lantern",
+    "name": "Ore cart"
+  },
+  {
+    "id": "barrow",
+    "description": "the mine yard kit",
+    "size": [
+      1.6,
+      0.8,
+      0.8
+    ],
+    "kind": "prop",
+    "zone": "The Chalk Pits, the scar",
+    "placement": "1 (stands) in chalkpits",
+    "wikiStatus": "to make",
+    "prompt": "Wooden ore cart with iron wheels on rails; 2 m rail section; spoil heap of chalk and green ore; a pick; a barrow; a small plank hut with a lantern",
+    "name": "Barrow"
+  },
+  {
+    "id": "pick",
+    "description": "the mine yard kit",
+    "size": [
+      1.0,
+      0.3,
+      0.3
+    ],
+    "kind": "prop",
+    "zone": "The Chalk Pits, the scar",
+    "placement": "1 (stands) in chalkpits",
+    "wikiStatus": "to make",
+    "prompt": "Wooden ore cart with iron wheels on rails; 2 m rail section; spoil heap of chalk and green ore; a pick; a barrow; a small plank hut with a lantern",
+    "name": "Pick"
+  },
+  {
+    "id": "rail_2m",
+    "description": "the mine yard kit",
+    "size": [
+      2.0,
+      1.6,
+      0.2
+    ],
+    "kind": "prop",
+    "zone": "The Chalk Pits, the scar",
+    "placement": "1 (runs) in chalkpits",
+    "wikiStatus": "to make",
+    "prompt": "Wooden ore cart with iron wheels on rails; 2 m rail section; spoil heap of chalk and green ore; a pick; a barrow; a small plank hut with a lantern",
+    "name": "Rail 2m"
+  },
+  {
+    "id": "cellar_arch",
+    "description": "the stone arch mouth with a brick vault and a stair down",
+    "size": [
+      4.0,
+      3.0,
+      3.5
+    ],
+    "kind": "structure",
+    "zone": "The Old Cellars, the hollow",
+    "placement": "1 (stands) in oldcellars",
+    "wikiStatus": "to make",
+    "prompt": "Stone arch doorway 4 m wide half sunk in a grass bank, red brick barrel vault behind, stone stair descending, moss",
+    "name": "Cellar arch"
+  },
+  {
+    "id": "legion_banner",
+    "description": "the black banner with a brass finial, planted crooked",
+    "size": [
+      0.8,
+      0.8,
+      3.2
+    ],
+    "kind": "structure",
+    "zone": "The Old Cellars, the hollow",
+    "placement": "1 (stands) in oldcellars",
+    "wikiStatus": "to make",
+    "prompt": "Black cloth banner with a brass clawed emblem on a spear pole with a brass finial",
+    "name": "Legion banner"
+  },
+  {
+    "id": "cart_broken",
+    "description": "the wreck",
+    "size": [
+      3.0,
+      2.0,
+      1.6
+    ],
+    "kind": "prop",
+    "zone": "The Old Cellars, the hollow",
+    "placement": "1 (stands) in oldcellars",
+    "wikiStatus": "to make",
+    "prompt": "Broken wooden cart, one wheel off, boards split",
+    "name": "Cart broken"
+  },
+  {
+    "id": "chain_lantern",
+    "description": "lantern on a chain",
+    "size": [
+      0.4,
+      0.4,
+      0.6
+    ],
+    "kind": "prop",
+    "zone": "The Old Cellars, the hollow",
+    "placement": "1 (stands) in oldcellars",
+    "wikiStatus": "to make",
+    "prompt": "Iron lantern on a chain, emissive flame",
+    "name": "Chain lantern"
+  },
+  {
+    "id": "legion_standard",
+    "description": "the Legion camp kit, black canvas and brass",
+    "size": [
+      0.6,
+      0.6,
+      6.0
+    ],
+    "kind": "structure",
+    "zone": "The Kingsroad, the paved way in",
+    "placement": "1 (stands) in kingsroad_camp",
+    "wikiStatus": "to make",
+    "prompt": "Black canvas campaign tent with brass finials and pegs; brass sun standard on a black pole 6 m; spear rack with six spears; iron brazier on legs with coals; black iron-bound crate; low black timber fence 3 m",
+    "name": "Legion standard"
+  },
+  {
+    "id": "legion_tent",
+    "description": "the Legion camp kit, black canvas and brass",
+    "size": [
+      4.0,
+      5.0,
+      2.6
+    ],
+    "kind": "structure",
+    "zone": "The Kingsroad, the paved way in",
+    "placement": "2 (stands) in kingsroad_camp",
+    "wikiStatus": "to make",
+    "prompt": "Black canvas campaign tent with brass finials and pegs; brass sun standard on a black pole 6 m; spear rack with six spears; iron brazier on legs with coals; black iron-bound crate; low black timber fence 3 m",
+    "name": "Legion tent"
+  },
+  {
+    "id": "spear_rack",
+    "description": "the Legion camp kit, black canvas and brass",
+    "size": [
+      2.2,
+      0.7,
+      1.8
+    ],
+    "kind": "prop",
+    "zone": "The Kingsroad, the paved way in",
+    "placement": "1 (stands) in kingsroad_camp",
+    "wikiStatus": "to make",
+    "prompt": "Black canvas campaign tent with brass finials and pegs; brass sun standard on a black pole 6 m; spear rack with six spears; iron brazier on legs with coals; black iron-bound crate; low black timber fence 3 m",
+    "name": "Spear rack"
+  },
+  {
+    "id": "brazier",
+    "description": "the Legion camp kit, black canvas and brass",
+    "size": [
+      0.9,
+      0.9,
+      1.2
+    ],
+    "kind": "prop",
+    "zone": "The Kingsroad, the paved way in",
+    "placement": "2 (stands) in kingsroad_camp",
+    "wikiStatus": "to make",
+    "prompt": "Black canvas campaign tent with brass finials and pegs; brass sun standard on a black pole 6 m; spear rack with six spears; iron brazier on legs with coals; black iron-bound crate; low black timber fence 3 m",
+    "name": "Brazier"
+  },
+  {
+    "id": "camp_fence",
+    "description": "the Legion camp kit, black canvas and brass",
+    "size": [
+      3.0,
+      0.25,
+      1.1
+    ],
+    "kind": "prop",
+    "zone": "The Kingsroad, the paved way in",
+    "placement": "1 (runs) in kingsroad_camp",
+    "wikiStatus": "to make",
+    "prompt": "Black canvas campaign tent with brass finials and pegs; brass sun standard on a black pole 6 m; spear rack with six spears; iron brazier on legs with coals; black iron-bound crate; low black timber fence 3 m",
+    "name": "Camp fence"
+  },
+  {
+    "id": "milestone",
+    "description": "waist high stone, blank face",
+    "size": [
+      0.5,
+      0.4,
+      1.0
+    ],
+    "kind": "prop",
+    "zone": "The Kingsroad, the paved way in",
+    "placement": "2 (stands) in kingsroad_camp",
+    "wikiStatus": "to make",
+    "prompt": "Weathered waist-high milestone, rounded top, blank face",
+    "name": "Milestone"
+  },
+  {
+    "id": "legion_crate",
+    "description": "the Legion camp kit, black canvas and brass",
+    "size": [
+      1.2,
+      1.0,
+      0.9
+    ],
+    "kind": "prop",
+    "zone": "The Kingsroad, the paved way in",
+    "placement": "2 (stands) in kingsroad_camp",
+    "wikiStatus": "to make",
+    "prompt": "Black canvas campaign tent with brass finials and pegs; brass sun standard on a black pole 6 m; spear rack with six spears; iron brazier on legs with coals; black iron-bound crate; low black timber fence 3 m",
+    "name": "Legion crate"
+  },
+  {
+    "id": "road_kerb",
+    "description": "paved road kit",
+    "size": [
+      2.0,
+      0.3,
+      0.2
+    ],
+    "kind": "prop",
+    "zone": "The Kingsroad, the paved way in",
+    "placement": "not placed yet",
+    "wikiStatus": "to make",
+    "prompt": "Cobbled stone road slab 2 by 6 m tiling, and a kerb piece",
+    "name": "Road kerb"
+  },
+  {
+    "id": "road_slab_2m",
+    "description": "paved road kit",
+    "size": [
+      2.0,
+      6.0,
+      0.08
+    ],
+    "kind": "prop",
+    "zone": "The Kingsroad, the paved way in",
+    "placement": "2 (runs) in kingsroad_camp",
+    "wikiStatus": "to make",
+    "prompt": "Cobbled stone road slab 2 by 6 m tiling, and a kerb piece",
+    "name": "Road slab 2m"
+  },
+  {
+    "id": "lookout_platform",
+    "description": "the platform and ladder for an oak",
+    "size": [
+      3.0,
+      3.0,
+      6.0
+    ],
+    "kind": "structure",
+    "zone": "Highwayman's Hollow, the camp",
+    "placement": "1 (stands) in highwaymanshollow",
+    "wikiStatus": "to make",
+    "prompt": "Rough timber lookout platform with a rail and a ladder, to sit in a tree",
+    "name": "Lookout platform"
+  },
+  {
+    "id": "palisade_stake_3m",
+    "description": "sharpened log palisade panel",
+    "size": [
+      3.0,
+      0.5,
+      3.0
+    ],
+    "kind": "structure",
+    "zone": "Highwayman's Hollow, the camp",
+    "placement": "2 (runs) in highwaymanshollow",
+    "wikiStatus": "to make",
+    "prompt": "Palisade of sharpened logs lashed with rope, 3 m panel",
+    "name": "Palisade stake 3m"
+  },
+  {
+    "id": "tarp_cart",
+    "description": "camp kit",
+    "size": [
+      3.4,
+      2.2,
+      2.4
+    ],
+    "kind": "structure",
+    "zone": "Highwayman's Hollow, the camp",
+    "placement": "1 (stands) in highwaymanshollow",
+    "wikiStatus": "to make",
+    "prompt": "Timber weapons rack with spears and swords; straw target dummy with a hood and a painted target; loot sacks; a sheep skeleton; a cart under a tarp",
+    "name": "Tarp cart"
+  },
+  {
+    "id": "tent_ragged",
+    "description": "the bandits' tents, two variants",
+    "size": [
+      3.0,
+      3.6,
+      2.2
+    ],
+    "kind": "structure",
+    "zone": "Highwayman's Hollow, the camp",
+    "placement": "4 (stands) in highwaymanshollow",
+    "wikiStatus": "to make",
+    "prompt": "Ragged canvas A-frame tent on poles, patched",
+    "name": "Tent ragged"
+  },
+  {
+    "id": "target_dummy",
+    "description": "camp kit",
+    "size": [
+      1.2,
+      0.8,
+      2.0
+    ],
+    "kind": "structure",
+    "zone": "Highwayman's Hollow, the camp",
+    "placement": "1 (stands) in highwaymanshollow",
+    "wikiStatus": "to make",
+    "prompt": "Timber weapons rack with spears and swords; straw target dummy with a hood and a painted target; loot sacks; a sheep skeleton; a cart under a tarp",
+    "name": "Target dummy"
+  },
+  {
+    "id": "weapons_rack",
+    "description": "camp kit",
+    "size": [
+      2.2,
+      0.7,
+      1.9
+    ],
+    "kind": "prop",
+    "zone": "Highwayman's Hollow, the camp",
+    "placement": "1 (stands) in highwaymanshollow",
+    "wikiStatus": "to make",
+    "prompt": "Timber weapons rack with spears and swords; straw target dummy with a hood and a painted target; loot sacks; a sheep skeleton; a cart under a tarp",
+    "name": "Weapons rack"
+  },
+  {
+    "id": "loot_sack",
+    "description": "camp kit",
+    "size": [
+      0.8,
+      0.8,
+      0.8
+    ],
+    "kind": "prop",
+    "zone": "Highwayman's Hollow, the camp",
+    "placement": "1 (stands) in highwaymanshollow",
+    "wikiStatus": "to make",
+    "prompt": "Timber weapons rack with spears and swords; straw target dummy with a hood and a painted target; loot sacks; a sheep skeleton; a cart under a tarp",
+    "name": "Loot sack"
+  },
+  {
+    "id": "campfire",
+    "description": "fire ring with logs (flame is the game's)",
+    "size": [
+      2.4,
+      2.4,
+      0.6
+    ],
+    "kind": "prop",
+    "zone": "Highwayman's Hollow, the camp",
+    "placement": "1 (stands) in highwaymanshollow",
+    "wikiStatus": "to make",
+    "prompt": "Stone fire ring with charred logs and log seats",
+    "name": "Campfire"
+  },
+  {
+    "id": "sheep_skeleton",
+    "description": "camp kit",
+    "size": [
+      1.4,
+      0.8,
+      0.5
+    ],
+    "kind": "prop",
+    "zone": "Highwayman's Hollow, the camp",
+    "placement": "1 (stands) in highwaymanshollow",
+    "wikiStatus": "to make",
+    "prompt": "Timber weapons rack with spears and swords; straw target dummy with a hood and a painted target; loot sacks; a sheep skeleton; a cart under a tarp",
+    "name": "Sheep skeleton"
+  },
+  {
+    "id": "chapel_sunken",
+    "description": "the chapel with an open belfry and a bell (a variant of `chapel`)",
+    "size": [
+      7.0,
+      12.0,
+      10.0
+    ],
+    "kind": "large building",
+    "zone": "The Sunken Chapel, the water",
+    "placement": "1 (stands) in sunkenchapel",
+    "wikiStatus": "to make",
+    "prompt": "Small stone chapel with a stone cross on the west gable and an open belfry holding a bronze bell, moss, weed",
+    "name": "Chapel sunken"
+  },
+  {
+    "id": "headstone_d",
+    "description": "five shapes",
+    "size": [
+      0.6,
+      0.22,
+      1.2
+    ],
+    "kind": "prop",
+    "zone": "The Sunken Chapel, the water",
+    "placement": "1 (stands) in sunkenchapel",
+    "wikiStatus": "to make",
+    "prompt": "Weathered stone headstones, five shapes, moss",
+    "name": "Headstone d"
+  },
+  {
+    "id": "headstone_b",
+    "description": "five shapes",
+    "size": [
+      0.6,
+      0.25,
+      1.1
+    ],
+    "kind": "prop",
+    "zone": "The Sunken Chapel, the water",
+    "placement": "2 (stands) in sunkenchapel",
+    "wikiStatus": "to make",
+    "prompt": "Weathered stone headstones, five shapes, moss",
+    "name": "Headstone b"
+  },
+  {
+    "id": "headstone_a",
+    "description": "five shapes",
+    "size": [
+      0.7,
+      0.25,
+      1.0
+    ],
+    "kind": "prop",
+    "zone": "The Sunken Chapel, the water",
+    "placement": "2 (stands) in sunkenchapel",
+    "wikiStatus": "to make",
+    "prompt": "Weathered stone headstones, five shapes, moss",
+    "name": "Headstone a"
+  },
+  {
+    "id": "headstone_e",
+    "description": "five shapes",
+    "size": [
+      0.75,
+      0.28,
+      0.95
+    ],
+    "kind": "prop",
+    "zone": "The Sunken Chapel, the water",
+    "placement": "1 (stands) in sunkenchapel",
+    "wikiStatus": "to make",
+    "prompt": "Weathered stone headstones, five shapes, moss",
+    "name": "Headstone e"
+  },
+  {
+    "id": "headstone_c",
+    "description": "five shapes",
+    "size": [
+      0.8,
+      0.3,
+      0.9
+    ],
+    "kind": "prop",
+    "zone": "The Sunken Chapel, the water",
+    "placement": "1 (stands) in sunkenchapel",
+    "wikiStatus": "to make",
+    "prompt": "Weathered stone headstones, five shapes, moss",
+    "name": "Headstone c"
+  },
+  {
+    "id": "rowing_boat_rotten",
+    "description": "aground",
+    "size": [
+      4.0,
+      1.5,
+      0.9
+    ],
+    "kind": "structure",
+    "zone": "The Sunken Chapel, the water",
+    "placement": "1 (stands) in sunkenchapel",
+    "wikiStatus": "to make",
+    "prompt": "Rotting wooden rowing boat, planks sprung",
+    "name": "Rowing boat rotten"
+  },
+  {
+    "id": "lily_pad_patch",
+    "description": "cards",
+    "size": [
+      3.0,
+      3.0,
+      0.06
+    ],
+    "kind": "prop",
+    "zone": "The Sunken Chapel, the water",
+    "placement": "4 (stands) in sunkenchapel",
+    "wikiStatus": "to make",
+    "prompt": "Water lily pads and flowers as alpha cards",
+    "name": "Lily pad patch"
+  },
+  {
+    "id": "stone_wall_4m",
+    "description": "dry stone wall kit",
+    "size": [
+      4.0,
+      0.6,
+      1.2
+    ],
+    "kind": "structure",
+    "zone": "Coldwake, the hamlet",
+    "placement": "not placed yet",
+    "wikiStatus": "to make",
+    "prompt": "Dry stone wall 4 m, 1.2 m high, lichen",
+    "name": "Stone wall 4m"
+  },
+  {
+    "id": "fence_rail_3m",
+    "description": "post and rail",
+    "size": [
+      3.0,
+      0.2,
+      1.1
+    ],
+    "kind": "prop",
+    "zone": "Coldwake, the hamlet",
+    "placement": "not placed yet",
+    "wikiStatus": "to make",
+    "prompt": "Post and rail fence 3 m",
+    "name": "Fence rail 3m"
+  }
+];
+export const structureById = new Map(structureCatalog.map(entry => [entry.id, entry]));

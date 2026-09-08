@@ -1,0 +1,1 @@
+import {createPowerLines} from '../assets/powerLines.js';import {exportInventoryAsset} from './inventory122Export.js';window.__POWER_LINES_EXPORT_MANIFEST__=await exportInventoryAsset({id:'power-lines',title:'Power Lines',create:createPowerLines});window.__POWER_LINES_EXPORT_READY__=true;

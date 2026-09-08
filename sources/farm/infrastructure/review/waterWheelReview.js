@@ -1,0 +1,1 @@
+import {animateWaterWheel,createWaterWheel} from '../assets/waterWheel.js';import {startInventoryReview} from './inventory122Review.js';startInventoryReview({id:'water-wheel',create:createWaterWheel,animate:animateWaterWheel,camera:[-4,2.8,5],target:[0,1.3,0]});

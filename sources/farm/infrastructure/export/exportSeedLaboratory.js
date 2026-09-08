@@ -1,0 +1,1 @@
+import{createSeedLaboratory as C}from'../assets/seedLaboratory.js';import{exportInfrastructureAsset as E}from'./infrastructureExport.js';const o=document.querySelector('#output');try{o.textContent='Export complete';await E({assetId:'seed-laboratory',label:'Seed Laboratory',create:C})}catch(e){o.textContent=String(e)}

@@ -1,0 +1,1 @@
+import{createFarmToTableRestaurant as create}from'../assets/farmToTableRestaurant.js';import{validateInventoryAsset as v}from'./inventory122Validation.js';await v({id:'farm-to-table-restaurant',title:'Farm-to-table Restaurant',create,budget:5000,criticalNodes:[],expectedChannels:[]});

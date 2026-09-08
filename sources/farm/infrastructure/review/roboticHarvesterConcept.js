@@ -1,0 +1,1 @@
+import {createRoboticHarvester} from '../assets/roboticHarvester.js';import {captureAutonomyConcept} from './autonomyConcept.js';captureAutonomyConcept({id:'robotic-harvester',create:createRoboticHarvester,target:[0,.82,0],distance:5.1});

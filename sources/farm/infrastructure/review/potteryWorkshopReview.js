@@ -1,0 +1,1 @@
+import {createPotteryWorkshop} from '../assets/potteryWorkshop.js';import {startInventoryReview} from './inventory122Review.js';startInventoryReview({id:'pottery-workshop',create:createPotteryWorkshop,camera:[-5.1,3.3,-6.2],target:[0,1.1,0]});

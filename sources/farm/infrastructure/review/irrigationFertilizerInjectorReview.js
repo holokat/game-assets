@@ -1,0 +1,1 @@
+import{createIrrigationFertilizerInjector as C}from'../assets/irrigationFertilizerInjector.js';import{mountInfrastructureReview as R}from'./infrastructureReview.js';R({create:C,label:'Irrigation Fertilizer Injector',id:'irrigation-fertilizer-injector',span:'2.9'});

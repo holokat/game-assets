@@ -1,0 +1,1 @@
+import {createFuelStorage} from '../assets/fuelStorage.js';import {startInventoryReview} from './inventory122Review.js';startInventoryReview({id:'fuel-storage',create:createFuelStorage,camera:[-4,2.5,5],target:[0,.7,0]});

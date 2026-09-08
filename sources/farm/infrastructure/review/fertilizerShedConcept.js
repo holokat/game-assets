@@ -1,0 +1,1 @@
+import {createFertilizerShed} from '../assets/fertilizerShed.js';import {captureAutonomyConcept} from './autonomyConcept.js';captureAutonomyConcept({id:'fertilizer-shed',create:createFertilizerShed,target:[0,1,0],distance:4.8});

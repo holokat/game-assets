@@ -1,0 +1,1 @@
+import {createMulchStation} from '../assets/mulchStation.js';import {exportInventoryAsset} from './inventory122Export.js';window.__MULCH_STATION_EXPORT_MANIFEST__=await exportInventoryAsset({id:'mulch-station',title:'Mulch Station',create:createMulchStation});window.__MULCH_STATION_EXPORT_READY__=true;

@@ -1,0 +1,1 @@
+import {animateTractor,createTractor} from '../assets/tractor.js';import {startInventoryReview} from './inventory122Review.js';startInventoryReview({id:'tractor',create:createTractor,animate:animateTractor,camera:[-4.2,2.8,5.8],target:[0,1.05,0]});

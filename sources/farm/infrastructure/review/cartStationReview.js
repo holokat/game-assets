@@ -1,0 +1,1 @@
+import { createCartStation } from '../assets/cartStation.js';import { mountInfrastructureReview } from './infrastructureReview.js';mountInfrastructureReview({create:createCartStation,label:'Cart Station',id:'cart-station',span:'4.4'});

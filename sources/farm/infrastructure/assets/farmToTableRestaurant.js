@@ -1,0 +1,1 @@
+import{createCookhouse}from'./cookhouse.js';export function createFarmToTableRestaurant(){const r=createCookhouse(),q=r.getObjectByName('cookhouse-root');if(q)q.name='farm-to-table-restaurant-root';return r;}

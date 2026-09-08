@@ -1,0 +1,1 @@
+import {createFerryLanding} from '../assets/ferryLanding.js';import {captureAutonomyConcept} from './autonomyConcept.js';captureAutonomyConcept({id:'ferry-landing',create:createFerryLanding,target:[0,.7,0],distance:6});

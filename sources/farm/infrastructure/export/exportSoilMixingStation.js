@@ -1,0 +1,1 @@
+import {createSoilMixingStation}from'../assets/soilMixingStation.js';import{exportInventoryAsset}from'./inventory122Export.js';window.__SOIL_MIXING_STATION_EXPORT_MANIFEST__=await exportInventoryAsset({id:'soil-mixing-station',title:'Soil Mixing Station',create:createSoilMixingStation});window.__SOIL_MIXING_STATION_EXPORT_READY__=true;

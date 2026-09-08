@@ -1,0 +1,15 @@
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { createRaisedBed } from '../assets/raisedBed.js';
+const host = document.querySelector('#canvas-host'), stats = document.querySelector('#stats');
+const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2)); renderer.shadowMap.enabled = true; renderer.outputColorSpace = THREE.SRGBColorSpace; renderer.toneMapping = THREE.ACESFilmicToneMapping; host.appendChild(renderer.domElement);
+const scene = new THREE.Scene(); scene.background = new THREE.Color(0xf5ede1);
+const camera = new THREE.PerspectiveCamera(31, 1, 0.01, 100); camera.position.set(5.6, 3.5, 6.5);
+const controls = new OrbitControls(camera, renderer.domElement); controls.target.set(0, 0.4, 0); controls.enableDamping = true; controls.enablePan = false;
+scene.add(new THREE.HemisphereLight(0xfff7eb, 0x786a59, 2)); const key = new THREE.DirectionalLight(0xffd7a7, 3); key.position.set(-3, 5, 4); key.castShadow = true; key.shadow.mapSize.set(2048, 2048); scene.add(key); const fill = new THREE.DirectionalLight(0xd7e2dd, 0.8); fill.position.set(3, 2, -2); scene.add(fill);
+const floor = new THREE.Mesh(new THREE.CircleGeometry(4, 64), new THREE.ShadowMaterial({ color: 0x483a30, opacity: 0.13, transparent: true })); floor.rotation.x = -Math.PI / 2; floor.receiveShadow = true; scene.add(floor);
+const bed = createRaisedBed(); scene.add(bed); let meshes = 0, triangles = 0; bed.traverse((node) => { if (node.isMesh) { meshes += 1; triangles += (node.geometry.index?.count ?? node.geometry.getAttribute('position')?.count ?? 0) / 3; } });
+function resize() { renderer.setSize(host.clientWidth, host.clientHeight, false); camera.aspect = host.clientWidth / host.clientHeight; camera.updateProjectionMatrix(); } resize(); new ResizeObserver(resize).observe(host);
+function render() { controls.update(); renderer.render(scene, camera); requestAnimationFrame(render); } render();
+stats.textContent = `${meshes} visible meshes · ${Math.round(triangles)} triangles · 3.2 m bed length`; window.__RAISED_BED_REVIEW_READY__ = true; window.__RAISED_BED_REVIEW_STATE__ = { meshes, triangles };

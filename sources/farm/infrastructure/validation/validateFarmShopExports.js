@@ -1,0 +1,1 @@
+import{createFarmShop as create}from'../assets/farmShop.js';import{validateInventoryAsset as v}from'./inventory122Validation.js';await v({id:'farm-shop',title:'Farm Shop',create,budget:5000,criticalNodes:['farm-shop-teal-double-door-mesh'],expectedChannels:[]});

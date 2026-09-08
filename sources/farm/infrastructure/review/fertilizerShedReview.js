@@ -1,0 +1,1 @@
+import {createFertilizerShed} from '../assets/fertilizerShed.js';import {startInventoryReview} from './inventory122Review.js';startInventoryReview({id:'fertilizer-shed',create:createFertilizerShed,camera:[-4,2.7,5],target:[0,1,0]});

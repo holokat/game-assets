@@ -1,0 +1,1 @@
+import {createFerryLanding} from '../assets/ferryLanding.js';import {startInventoryReview} from './inventory122Review.js';startInventoryReview({id:'ferry-landing',create:createFerryLanding,camera:[-5,3,6],target:[0,.7,0]});

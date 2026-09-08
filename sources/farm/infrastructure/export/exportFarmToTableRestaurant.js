@@ -1,0 +1,1 @@
+import{createFarmToTableRestaurant as create}from'../assets/farmToTableRestaurant.js';import{exportInventoryAsset as e}from'./inventory122Export.js';await e({id:'farm-to-table-restaurant',title:'Farm-to-table Restaurant',create});

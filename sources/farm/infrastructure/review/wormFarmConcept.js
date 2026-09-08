@@ -1,0 +1,1 @@
+import {createWormFarm} from '../assets/wormFarm.js';import {captureAutonomyConcept} from './autonomyConcept.js';captureAutonomyConcept({id:'worm-farm',create:createWormFarm,target:[0,1,0],distance:4.8});

@@ -1,0 +1,1 @@
+import {createOrchardPicker} from '../assets/orchardPicker.js';import {captureConcept} from './specializedHarvestersConcept.js';await captureConcept({id:'orchard-picker',title:'ORCHARD PICKER',create:createOrchardPicker});

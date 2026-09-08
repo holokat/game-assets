@@ -1,0 +1,52 @@
+.enchantment-panel{min-width:0;flex-shrink:0;margin:0 0 32px;padding:0 0 28px;box-shadow:0 1px #39302012;color:#494337;font-size:12px;-webkit-font-smoothing:antialiased}
+.enchantment-panel .enchantment-heading{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:44px;cursor:pointer;list-style:none;border-radius:4px}
+.enchantment-heading::-webkit-details-marker{display:none}
+.enchantment-panel .enchantment-heading-copy{min-width:0;flex:1;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 8px;margin:0;font-family:inherit;font-size:12px;font-weight:400;line-height:1.4;letter-spacing:normal}
+.enchantment-panel .enchantment-title{font-family:inherit;font-size:12px;font-weight:550;line-height:1.4;letter-spacing:normal;color:#615647;margin:0;text-wrap:balance}
+.enchantment-weapon{grid-column:1;font-size:11px;color:#8c806e;line-height:1.5;overflow-wrap:anywhere}
+.enchantment-disclosure{grid-column:2;grid-row:1/3;align-self:center;font-size:17px;color:#9b8d76;padding:0 3px;transition:transform .16s;transform:rotate(-90deg)}
+.enchantment-panel[open]>.enchantment-heading .enchantment-disclosure{transform:rotate(0deg)}
+.enchantment-empty{font-size:11px;line-height:1.6;color:#8b7f6c;margin:15px 0 0;text-wrap:pretty}
+.enchantment-body{margin-top:17px}
+.enchantment-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}
+.enchantment-grid button{position:relative;display:flex;align-items:center;gap:7px;min-width:0;min-height:42px;padding:7px 8px;border:0;border-radius:6px;background:#ede8df;text-align:left;box-shadow:inset 0 0 0 1px #00000005;transition:background-color .16s,box-shadow .16s,transform .12s}
+.enchantment-grid button:hover:not(:disabled){background:#e6ded1}
+.enchantment-grid button[aria-pressed=true]{background:#faf6ed;box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--enchantment-color) 50%,#9c8a6b),0 1px 3px #37220b0d}
+.enchantment-glyph{display:grid;place-items:center;flex:0 0 23px;width:23px;height:25px;color:color-mix(in srgb,var(--enchantment-color) 65%,#57452b)}
+.enchantment-glyph svg{display:block;width:22px;height:22px}
+.enchantment-name{min-width:0;font-size:11px;line-height:1.35;white-space:normal}
+.enchantment-selected-mark{position:absolute;right:4px;top:3px;font-size:8px;color:#72634d;opacity:0}
+.enchantment-grid button[aria-pressed=true] .enchantment-selected-mark{opacity:1}
+.enchantment-selection-row{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:40px;margin-top:7px}
+.enchantment-status{font-size:10px;line-height:1.5;color:#897d6a;margin:0;font-variant-numeric:tabular-nums}
+.enchantment-panel .enchantment-remove{flex-shrink:0;min-width:48px;min-height:40px;padding:8px 0 8px 6px;border:0;font-size:10px;color:#8b7354;background:transparent}
+.enchantment-panel .enchantment-remove:hover{color:#4e4130;text-decoration:underline;text-underline-offset:3px}
+.enchantment-visual{font-size:11px;line-height:1.6;color:#7b705e;margin:3px 0 0;text-wrap:pretty}
+.enchantment-strength{margin-top:22px}
+.enchantment-panel h3{font-family:inherit;font-size:11px;font-weight:500;line-height:1.4;color:#827560;margin:0 0 10px;text-wrap:balance}
+.enchantment-levels{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:3px;padding:3px;border-radius:8px;background:#eae3d8}
+.enchantment-levels button{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;min-width:0;min-height:45px;padding:5px 2px;border:0;border-radius:5px;background:transparent;font-size:9px;color:#8b7c66;transition:background-color .16s,box-shadow .16s,transform .12s}
+.enchantment-levels button[aria-pressed=true]{background:#fffaf1;box-shadow:0 1px 3px #39280f12;color:#534731}
+.enchantment-level-number{font-family:Georgia,serif;font-size:15px;line-height:1.1;font-variant-numeric:tabular-nums}
+.enchantment-preview{margin-top:24px}
+.enchantment-preview-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}
+.enchantment-preview-actions button{min-width:0;min-height:40px;padding:7px 3px;font-size:10px;border-color:#d7cbb8;background:#f9f5ec;transition:background-color .16s,transform .12s}
+.enchantment-preview-actions button[aria-pressed=true]{background:#e8dece}
+.enchantment-lighting{display:flex;align-items:center;gap:8px;min-height:40px;margin-top:4px;color:#897a64;font-size:11px;cursor:pointer}
+.enchantment-lighting input{flex:0 0 15px;width:15px;height:15px;margin:0;accent-color:#8b7351;cursor:inherit}
+.enchantment-reference{margin-top:14px}
+.enchantment-reference>summary{min-height:40px;display:list-item;align-content:center;cursor:pointer;font-size:10px;line-height:1.6;color:#97866d;border-radius:3px}
+.enchantment-reference p{font-size:11px;line-height:1.65;color:#7f715a;margin:7px 0 0;text-wrap:pretty}
+.enchantment-reference .enchantment-affinity{margin-top:12px}
+.enchantment-reference .enchantment-reference-note{font-size:10px;color:#9b8d79;margin-top:12px}
+.enchantment-panel .enchantment-export{width:100%;min-height:40px;margin-top:12px;font-size:11px;color:#7f6c4f;background:transparent;border-color:#d8cebe;transition:background-color .16s,transform .12s}
+.enchantment-panel button:disabled{cursor:default}
+.enchantment-panel button:active:not(:disabled){transform:scale(.96)}
+.enchantment-panel :is(button,input,summary):focus-visible{outline:2px solid #8b7552;outline-offset:3px}
+.enchantment-night .character-heading h2{color:#eee5d6;text-shadow:0 1px 12px #00000035}
+.enchantment-night .character-heading>span{color:#b6afa5}
+.enchantment-night .view-bottom{color:#b6afa5}
+@media(max-width:900px){.item-inspector>.enchantment-panel{grid-column:1/-1}}
+@media(max-width:800px){.ability-inspector>.enchantment-panel{grid-column:1/-1}.ability-inspector .enchantment-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:420px){.ability-inspector .enchantment-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(prefers-reduced-motion:reduce){.enchantment-panel button,.enchantment-disclosure{transition:none}.enchantment-panel button:active:not(:disabled){transform:none}}

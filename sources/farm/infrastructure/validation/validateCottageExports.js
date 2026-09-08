@@ -1,0 +1,1 @@
+import{createCottage}from'../assets/cottage.js';import{validateInventoryAsset}from'./inventory122Validation.js';window.__COTTAGE_VALIDATION_RESULT__=await validateInventoryAsset({id:'cottage',title:'Cottage',create:createCottage,budget:5000,criticalNodes:['cottage-front-door-mesh','cottage-stone-chimney-mesh'],expectedChannels:[]});window.__COTTAGE_VALIDATION_READY__=true;

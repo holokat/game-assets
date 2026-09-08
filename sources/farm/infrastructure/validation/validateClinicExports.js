@@ -1,0 +1,1 @@
+import{createClinic as create}from'../assets/clinic.js';import{validateInventoryAsset as v}from'./inventory122Validation.js';window.__x=await v({id:'clinic',title:'Clinic',create,budget:5000,criticalNodes:['clinic-medical-cross-mesh','clinic-teal-clinic-door-mesh'],expectedChannels:[]});

@@ -1,0 +1,1 @@
+import{createCompostPile}from '../assets/compostPile.js';import{startInventoryReview}from './inventory122Review.js';startInventoryReview({id:'compost-pile',create:createCompostPile,camera:[-6,4,6.4],target:[0,.7,0]});

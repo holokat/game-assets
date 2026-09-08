@@ -1,0 +1,2 @@
+import { createConstructionYard, createFarmhouse, createWorkerCabin } from '../assets/ruralSites.js';import { startInventoryReview } from './inventory122Review.js';
+const id=new URL(import.meta.url).searchParams.get('id'),assets={'construction-yard':[createConstructionYard,[-10,7.4,10],[0,.8,0]],farmhouse:[createFarmhouse,[-8.5,6.3,8.5],[0,1.65,0]],'worker-cabin':[createWorkerCabin,[-7,4.8,7],[0,1.25,0]]},[create,camera,target]=assets[id];startInventoryReview({id,create,camera,target});

@@ -1,0 +1,1 @@
+import {createFuelStorage} from '../assets/fuelStorage.js';import {exportInventoryAsset} from './inventory122Export.js';window.__FUEL_STORAGE_EXPORT_MANIFEST__=await exportInventoryAsset({id:'fuel-storage',title:'Fuel Storage',create:createFuelStorage});window.__FUEL_STORAGE_EXPORT_READY__=true;

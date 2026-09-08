@@ -1,0 +1,1 @@
+import {createLimeStorage}from'../assets/limeStorage.js';import{exportInventoryAsset}from'./inventory122Export.js';window.__LIME_STORAGE_EXPORT_MANIFEST__=await exportInventoryAsset({id:'lime-storage',title:'Lime Storage',create:createLimeStorage});window.__LIME_STORAGE_EXPORT_READY__=true;

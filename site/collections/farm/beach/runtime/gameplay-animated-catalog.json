@@ -1,0 +1,3311 @@
+{
+  "schemaVersion": 1,
+  "variant": "gameplay-animated",
+  "pack": "beach",
+  "generatedBy": "work/gameplay-animated/export-gameplay-animated.mjs",
+  "assetCount": 123,
+  "totals": {
+    "bytes": 7941216,
+    "triangles": 94130,
+    "drawCalls": 723,
+    "maxDrawCalls": 16
+  },
+  "assets": [
+    {
+      "schemaVersion": 1,
+      "assetId": "agricultural-drones",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/agricultural-drones.animated.glb",
+      "bytes": 62140,
+      "triangles": 480,
+      "drawCalls": 16,
+      "animationTracks": 12,
+      "actionNodes": 12,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "agricultural-drones-drone-one-rotor-north",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 6.283185307179586,
+          "frequency": 2.2,
+          "phase": 0
+        },
+        {
+          "node": "agricultural-drones-drone-one-rotor-south",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 6.283185307179586,
+          "frequency": 2.2,
+          "phase": 0
+        },
+        {
+          "node": "agricultural-drones-drone-one-rotor-east",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 6.283185307179586,
+          "frequency": 2.2,
+          "phase": 0
+        },
+        {
+          "node": "agricultural-drones-drone-one-rotor-west",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 6.283185307179586,
+          "frequency": 2.2,
+          "phase": 0
+        },
+        {
+          "node": "agricultural-drones-drone-two-rotor-north",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 6.283185307179586,
+          "frequency": 2.2,
+          "phase": 0
+        },
+        {
+          "node": "agricultural-drones-drone-two-rotor-south",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 6.283185307179586,
+          "frequency": 2.2,
+          "phase": 0
+        },
+        {
+          "node": "agricultural-drones-drone-two-rotor-east",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 6.283185307179586,
+          "frequency": 2.2,
+          "phase": 0
+        },
+        {
+          "node": "agricultural-drones-drone-two-rotor-west",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 6.283185307179586,
+          "frequency": 2.2,
+          "phase": 0
+        },
+        {
+          "node": "agricultural-drones-drone-three-rotor-north",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 6.283185307179586,
+          "frequency": 2.2,
+          "phase": 0
+        },
+        {
+          "node": "agricultural-drones-drone-three-rotor-south",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 6.283185307179586,
+          "frequency": 2.2,
+          "phase": 0
+        },
+        {
+          "node": "agricultural-drones-drone-three-rotor-east",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 6.283185307179586,
+          "frequency": 2.2,
+          "phase": 0
+        },
+        {
+          "node": "agricultural-drones-drone-three-rotor-west",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 6.283185307179586,
+          "frequency": 2.2,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "animal-pasture",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/animal-pasture.animated.glb",
+      "bytes": 76340,
+      "triangles": 912,
+      "drawCalls": 6,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "animal-pasture-broad-entry-gate",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.04,
+          "frequency": 0.62,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "animal-wash-station",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/animal-wash-station.animated.glb",
+      "bytes": 24324,
+      "triangles": 228,
+      "drawCalls": 4,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "animal-wash-station-broad-wash-entry-gate",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.72,
+          "frequency": 0.65,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "automated-milking-parlor",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/automated-milking-parlor.animated.glb",
+      "bytes": 108180,
+      "triangles": 1344,
+      "drawCalls": 6,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "automated-milking-parlor-entry-gate",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.05,
+          "frequency": 0.66,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "autonomous-tractor",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/autonomous-tractor.animated.glb",
+      "bytes": 95372,
+      "triangles": 1088,
+      "drawCalls": 11,
+      "animationTracks": 4,
+      "actionNodes": 4,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "autonomous-tractor-rear-left-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.38,
+          "phase": 0
+        },
+        {
+          "node": "autonomous-tractor-rear-right-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.38,
+          "phase": 0
+        },
+        {
+          "node": "autonomous-tractor-front-left-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.38,
+          "phase": 0
+        },
+        {
+          "node": "autonomous-tractor-front-right-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.38,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "bakery",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/bakery.animated.glb",
+      "bytes": 39524,
+      "triangles": 396,
+      "drawCalls": 7,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "bakery-front-service-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.02,
+          "frequency": 0.62,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "baler",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/baler.animated.glb",
+      "bytes": 50600,
+      "triangles": 596,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "baler-pickup-reel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.6,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "barn",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/barn.animated.glb",
+      "bytes": 17372,
+      "triangles": 120,
+      "drawCalls": 6,
+      "animationTracks": 2,
+      "actionNodes": 2,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "barn-left-door",
+          "property": "position",
+          "axis": "x",
+          "amplitude": 0.75,
+          "frequency": 0.35,
+          "phase": 0
+        },
+        {
+          "node": "barn-right-door",
+          "property": "position",
+          "axis": "x",
+          "amplitude": -0.75,
+          "frequency": 0.35,
+          "phase": 3.141592653589793
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "breeding-barn",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/breeding-barn.animated.glb",
+      "bytes": 98044,
+      "triangles": 1196,
+      "drawCalls": 6,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "breeding-barn-internal-transfer-gate",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.02,
+          "frequency": 0.67,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "brewery",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/brewery.animated.glb",
+      "bytes": 43144,
+      "triangles": 472,
+      "drawCalls": 6,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "brewery-hinged-mash-tun-lid-pivot",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 0.95,
+          "frequency": 0.65,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "butcher",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/butcher.animated.glb",
+      "bytes": 77728,
+      "triangles": 912,
+      "drawCalls": 7,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "butcher-hinged-cold-room-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1,
+          "frequency": 0.54,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "cable-lift",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/cable-lift.animated.glb",
+      "bytes": 39856,
+      "triangles": 408,
+      "drawCalls": 7,
+      "animationTracks": 3,
+      "actionNodes": 3,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "cable-lift-wheel-rear",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.42,
+          "phase": 0
+        },
+        {
+          "node": "cable-lift-wheel-front",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.42,
+          "phase": 0
+        },
+        {
+          "node": "cable-lift-suspended-freight-carrier",
+          "property": "position",
+          "axis": "z",
+          "amplitude": 0.8,
+          "frequency": 0.18,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "cannery",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/cannery.animated.glb",
+      "bytes": 46608,
+      "triangles": 528,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "cannery-visible-retort-wheel-control",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 3.141592653589793,
+          "frequency": 0.55,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "cheese-house",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/cheese-house.animated.glb",
+      "bytes": 72352,
+      "triangles": 844,
+      "drawCalls": 6,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "cheese-house-press-handwheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.45,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "chicken-coop",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/chicken-coop.animated.glb",
+      "bytes": 30932,
+      "triangles": 324,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "chicken-coop-front-access-hatch",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 0.64,
+          "frequency": 0.7,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "chocolate-workshop",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/chocolate-workshop.animated.glb",
+      "bytes": 36700,
+      "triangles": 384,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "chocolate-workshop-visible-melanger-roller-pivot",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 3.141592653589793,
+          "frequency": 0.6,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "cistern",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/cistern.animated.glb",
+      "bytes": 197360,
+      "triangles": 2644,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "cistern-hatch-control",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.0367255756846319,
+          "frequency": 0.7,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "cold-storage",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/cold-storage.animated.glb",
+      "bytes": 30740,
+      "triangles": 320,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "cold-storage-sliding-loading-door",
+          "property": "position",
+          "axis": "x",
+          "amplitude": 0.7,
+          "frequency": 0.8,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "combine",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/combine.animated.glb",
+      "bytes": 50684,
+      "triangles": 596,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "combine-header-reel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.6,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "cotton-picker",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/cotton-picker.animated.glb",
+      "bytes": 46788,
+      "triangles": 520,
+      "drawCalls": 6,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "cotton-picker-front-picking-heads",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.55,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "cow-barn",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/cow-barn.animated.glb",
+      "bytes": 29692,
+      "triangles": 300,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "cow-barn-broad-sliding-service-door",
+          "property": "position",
+          "axis": "z",
+          "amplitude": 0.68,
+          "frequency": 0.38,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "creamery",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/creamery.animated.glb",
+      "bytes": 30152,
+      "triangles": 324,
+      "drawCalls": 3,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "creamery-separator-handwheel-control",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 3.141592653589793,
+          "frequency": 0.55,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "cultivator",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/cultivator.animated.glb",
+      "bytes": 86068,
+      "triangles": 1032,
+      "drawCalls": 7,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "cultivator-manual-depth-control-lever",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": -0.58,
+          "frequency": 0.75,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "dairy-room",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/dairy-room.animated.glb",
+      "bytes": 57940,
+      "triangles": 644,
+      "drawCalls": 7,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "dairy-room-hinged-service-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1,
+          "frequency": 0.56,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "deep-well",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/deep-well.animated.glb",
+      "bytes": 169480,
+      "triangles": 2168,
+      "drawCalls": 5,
+      "animationTracks": 2,
+      "actionNodes": 2,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "deep-well-handwheel-drive",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 3.6128315516282616,
+          "frequency": 0.56,
+          "phase": 0
+        },
+        {
+          "node": "deep-well-crank-grip",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.5973445725385655,
+          "frequency": 0.93,
+          "phase": 0.42
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "dehydrator",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/dehydrator.animated.glb",
+      "bytes": 80080,
+      "triangles": 956,
+      "drawCalls": 7,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "dehydrator-hinged-front-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.15,
+          "frequency": 0.56,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "distillery",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/distillery.animated.glb",
+      "bytes": 141072,
+      "triangles": 1800,
+      "drawCalls": 7,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "distillery-hand-valve-wheel",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 1.25,
+          "frequency": 0.7,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "drip-irrigation",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/drip-irrigation.animated.glb",
+      "bytes": 287572,
+      "triangles": 3884,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "drip-irrigation-central-valve-handle",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.5707963267948966,
+          "frequency": 0.75,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "duck-house",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/duck-house.animated.glb",
+      "bytes": 22120,
+      "triangles": 204,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "duck-house-sealed-access-hatch",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 0.55,
+          "frequency": 0.7,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "egg-sorting-station",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/egg-sorting-station.animated.glb",
+      "bytes": 65608,
+      "triangles": 760,
+      "drawCalls": 6,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "egg-sorting-station-powered-inspection-roller",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.46,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "farm-truck",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/farm-truck.animated.glb",
+      "bytes": 47884,
+      "triangles": 444,
+      "drawCalls": 11,
+      "animationTracks": 4,
+      "actionNodes": 4,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "farm-truck-front-left",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.38,
+          "phase": 0
+        },
+        {
+          "node": "farm-truck-front-right",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.38,
+          "phase": 0
+        },
+        {
+          "node": "farm-truck-rear-left",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.38,
+          "phase": 0
+        },
+        {
+          "node": "farm-truck-rear-right",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.38,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "feed-bin",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/feed-bin.animated.glb",
+      "bytes": 46944,
+      "triangles": 560,
+      "drawCalls": 4,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "feed-bin-dispensing-gate",
+          "property": "position",
+          "axis": "y",
+          "amplitude": 0.38,
+          "frequency": 0.55,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "fenced-grazing-field",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/fenced-grazing-field.animated.glb",
+      "bytes": 88204,
+      "triangles": 1068,
+      "drawCalls": 7,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "fenced-grazing-field-broad-front-gate",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.06,
+          "frequency": 0.64,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "fermentation-house",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/fermentation-house.animated.glb",
+      "bytes": 61732,
+      "triangles": 720,
+      "drawCalls": 6,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "fermentation-house-hinged-access-door-pivot",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.9,
+          "frequency": 0.65,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "flour-mill",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/flour-mill.animated.glb",
+      "bytes": 24424,
+      "triangles": 216,
+      "drawCalls": 6,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "flour-mill-visible-intake-auger-shaft",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 3.141592653589793,
+          "frequency": 0.55,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "food-factory",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/food-factory.animated.glb",
+      "bytes": 77256,
+      "triangles": 908,
+      "drawCalls": 7,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "food-factory-visible-drive-roller",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 1.3,
+          "frequency": 0.78,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "forklift",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/forklift.animated.glb",
+      "bytes": 42804,
+      "triangles": 480,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "forklift-fork-carriage",
+          "property": "position",
+          "axis": "y",
+          "amplitude": 0.68,
+          "frequency": 0.16,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "fountain",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/fountain.animated.glb",
+      "bytes": 49512,
+      "triangles": 572,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "fountain-rear-service-valve",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 1.25,
+          "frequency": 0.55,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "fuel-tank",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/fuel-tank.animated.glb",
+      "bytes": 80260,
+      "triangles": 1000,
+      "drawCalls": 4,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "fuel-tank-valve-handwheel",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 1.1,
+          "frequency": 0.72,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "gates",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/gates.animated.glb",
+      "bytes": 34996,
+      "triangles": 352,
+      "drawCalls": 6,
+      "animationTracks": 2,
+      "actionNodes": 2,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "gates-left-hinged-leaf",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.88,
+          "frequency": 0.42,
+          "phase": 0
+        },
+        {
+          "node": "gates-right-hinged-leaf",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": -0.88,
+          "frequency": 0.42,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "generator",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/generator.animated.glb",
+      "bytes": 32728,
+      "triangles": 360,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "generator-generator-flywheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.55,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "giant-windmill",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/giant-windmill.animated.glb",
+      "bytes": 14896,
+      "triangles": 136,
+      "drawCalls": 4,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "giant-windmill-rotor",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 1,
+          "frequency": 1,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "glasshouse",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/glasshouse.animated.glb",
+      "bytes": 50000,
+      "triangles": 540,
+      "drawCalls": 9,
+      "animationTracks": 2,
+      "actionNodes": 2,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "glasshouse-left-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.52,
+          "frequency": 0.45,
+          "phase": 0
+        },
+        {
+          "node": "glasshouse-right-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": -0.52,
+          "frequency": 0.45,
+          "phase": 3.141592653589793
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "goat-shed",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/goat-shed.animated.glb",
+      "bytes": 69632,
+      "triangles": 824,
+      "drawCalls": 6,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "goat-shed-service-access-gate",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.08,
+          "frequency": 0.68,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "goose-pen",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/goose-pen.animated.glb",
+      "bytes": 77088,
+      "triangles": 920,
+      "drawCalls": 7,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "goose-pen-broad-front-gate",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.08,
+          "frequency": 0.65,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "granary",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/granary.animated.glb",
+      "bytes": 53448,
+      "triangles": 628,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "granary-chute-lever",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 0.58,
+          "frequency": 0.8,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "grand-barn",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/grand-barn.animated.glb",
+      "bytes": 22288,
+      "triangles": 216,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "grand-barn-sliding-doors",
+          "property": "position",
+          "axis": "x",
+          "amplitude": 1.8,
+          "frequency": 0.22,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "greenhouse",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/greenhouse.animated.glb",
+      "bytes": 20632,
+      "triangles": 204,
+      "drawCalls": 4,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "greenhouse-front-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.55,
+          "frequency": 0.8,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "hand-cart",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/hand-cart.animated.glb",
+      "bytes": 24672,
+      "triangles": 272,
+      "drawCalls": 3,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "hand-cart-visible-cart-wheels-pivot",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 3.141592653589793,
+          "frequency": 0.7,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "hand-pump",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/hand-pump.animated.glb",
+      "bytes": 61492,
+      "triangles": 700,
+      "drawCalls": 5,
+      "animationTracks": 2,
+      "actionNodes": 2,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "hand-pump-handle-hinge",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 0.22,
+          "frequency": 1.3,
+          "phase": 0
+        },
+        {
+          "node": "hand-pump-piston-rod",
+          "property": "position",
+          "axis": "y",
+          "amplitude": 0.025,
+          "frequency": 1.3,
+          "phase": 3.141592653589793
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "harvester",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/harvester.animated.glb",
+      "bytes": 50772,
+      "triangles": 596,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "harvester-cutter-reel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.6,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "hatchery",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/hatchery.animated.glb",
+      "bytes": 22484,
+      "triangles": 204,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "hatchery-wide-washable-service-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.56,
+          "frequency": 0.55,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "hayloft",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/hayloft.animated.glb",
+      "bytes": 51144,
+      "triangles": 620,
+      "drawCalls": 4,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "hayloft-hand-winch-control",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.15,
+          "frequency": 0.8,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "horse-paddock",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/horse-paddock.animated.glb",
+      "bytes": 29728,
+      "triangles": 288,
+      "drawCalls": 6,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "horse-paddock-broad-paddock-swing-gate",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.74,
+          "frequency": 0.65,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "hydro-turbine",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/hydro-turbine.animated.glb",
+      "bytes": 21936,
+      "triangles": 232,
+      "drawCalls": 3,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "hydro-turbine-rotor",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.45,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "hydroponic-house",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/hydroponic-house.animated.glb",
+      "bytes": 41884,
+      "triangles": 480,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "hydroponic-house-service-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.5,
+          "frequency": 0.5,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "ice-house",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/ice-house.animated.glb",
+      "bytes": 43248,
+      "triangles": 460,
+      "drawCalls": 7,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "ice-house-heavy-front-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.05,
+          "frequency": 0.7,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "incubator-house",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/incubator-house.animated.glb",
+      "bytes": 61972,
+      "triangles": 720,
+      "drawCalls": 6,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "incubator-house-side-service-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1,
+          "frequency": 0.56,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "industrial-dairy",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/industrial-dairy.animated.glb",
+      "bytes": 39112,
+      "triangles": 420,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "industrial-dairy-visible-dairy-pump-rotor",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 3.141592653589793,
+          "frequency": 0.55,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "irrigation-canal",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/irrigation-canal.animated.glb",
+      "bytes": 83244,
+      "triangles": 1028,
+      "drawCalls": 5,
+      "animationTracks": 2,
+      "actionNodes": 2,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "irrigation-canal-sluice-wheel",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 4.084070449666731,
+          "frequency": 0.55,
+          "phase": 0
+        },
+        {
+          "node": "irrigation-canal-sluice-gate",
+          "property": "position",
+          "axis": "y",
+          "amplitude": 0.19,
+          "frequency": 0.55,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "juicery",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/juicery.animated.glb",
+      "bytes": 77608,
+      "triangles": 916,
+      "drawCalls": 7,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "juicery-hinged-service-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1,
+          "frequency": 0.56,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "lumber-yard",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/lumber-yard.animated.glb",
+      "bytes": 44396,
+      "triangles": 512,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "lumber-yard-hand-crank-winch",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 1.3,
+          "frequency": 0.75,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "manor-farmhouse",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/manor-farmhouse.animated.glb",
+      "bytes": 30908,
+      "triangles": 336,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "manor-farmhouse-front-entry",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.62,
+          "frequency": 0.18,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "manure-lagoon",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/manure-lagoon.animated.glb",
+      "bytes": 27948,
+      "triangles": 288,
+      "drawCalls": 4,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "manure-lagoon-pump-isolation-valve-lever",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.42,
+          "frequency": 0.75,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "manure-pit",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/manure-pit.animated.glb",
+      "bytes": 23580,
+      "triangles": 216,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "manure-pit-service-isolation-valve-lever",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.42,
+          "frequency": 0.75,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "massive-greenhouse",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/massive-greenhouse.animated.glb",
+      "bytes": 47108,
+      "triangles": 552,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "massive-greenhouse-sliding-entry",
+          "property": "position",
+          "axis": "x",
+          "amplitude": 1.65,
+          "frequency": 0.2,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "milking-shed",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/milking-shed.animated.glb",
+      "bytes": 60612,
+      "triangles": 680,
+      "drawCalls": 7,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "milking-shed-left-stall-gate",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.02,
+          "frequency": 0.62,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "millstone",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/millstone.animated.glb",
+      "bytes": 67204,
+      "triangles": 788,
+      "drawCalls": 6,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "millstone-rotating-upper-millstone",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.34,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "mushroom-house",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/mushroom-house.animated.glb",
+      "bytes": 39700,
+      "triangles": 448,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "mushroom-house-front-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.52,
+          "frequency": 0.8,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "noodle-workshop",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/noodle-workshop.animated.glb",
+      "bytes": 88268,
+      "triangles": 1060,
+      "drawCalls": 7,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "noodle-workshop-hand-crank-drive",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.48,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "oasis-pump",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/oasis-pump.animated.glb",
+      "bytes": 40784,
+      "triangles": 460,
+      "drawCalls": 6,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "oasis-pump-crank-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 1,
+          "frequency": 1.45,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "oil-press",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/oil-press.animated.glb",
+      "bytes": 54444,
+      "triangles": 632,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "oil-press-handwheel-screw-ram",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.38,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "orchard-picker",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/orchard-picker.animated.glb",
+      "bytes": 42204,
+      "triangles": 468,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "orchard-picker-articulated-orchard-boom",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 0.22,
+          "frequency": 0.16,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "packaging-house",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/packaging-house.animated.glb",
+      "bytes": 39088,
+      "triangles": 420,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "packaging-house-visible-conveyor-rollers-pivot",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 3.141592653589793,
+          "frequency": 0.7,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "pigsty",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/pigsty.animated.glb",
+      "bytes": 25128,
+      "triangles": 216,
+      "drawCalls": 7,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "pigsty-broad-swing-yard-gate",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.74,
+          "frequency": 0.65,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "potato-harvester",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/potato-harvester.animated.glb",
+      "bytes": 45244,
+      "triangles": 500,
+      "drawCalls": 6,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "potato-harvester-web-conveyor",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.42,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "preserve-kitchen",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/preserve-kitchen.animated.glb",
+      "bytes": 64260,
+      "triangles": 712,
+      "drawCalls": 7,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "preserve-kitchen-kettle-stir-shaft",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.42,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "press",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/press.animated.glb",
+      "bytes": 31848,
+      "triangles": 344,
+      "drawCalls": 4,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "press-visible-press-screw-ram",
+          "property": "position",
+          "axis": "y",
+          "amplitude": 0.16,
+          "frequency": 0.65,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "produce-storehouse",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/produce-storehouse.animated.glb",
+      "bytes": 55648,
+      "triangles": 640,
+      "drawCalls": 7,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "produce-storehouse-sliding-loading-door",
+          "property": "position",
+          "axis": "x",
+          "amplitude": 1.12,
+          "frequency": 0.32,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "pump-station",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/pump-station.animated.glb",
+      "bytes": 101772,
+      "triangles": 1300,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "pump-station-flywheel-drive",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 3.6128315516282616,
+          "frequency": 0.48,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "quarantine-pen",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/quarantine-pen.animated.glb",
+      "bytes": 59852,
+      "triangles": 684,
+      "drawCalls": 6,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "quarantine-pen-entry-gate",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.04,
+          "frequency": 0.72,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "rabbit-hutch",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/rabbit-hutch.animated.glb",
+      "bytes": 76464,
+      "triangles": 912,
+      "drawCalls": 8,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "rabbit-hutch-fold-down-service-hatch",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 1.02,
+          "frequency": 0.65,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "rain-barrel",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/rain-barrel.animated.glb",
+      "bytes": 89264,
+      "triangles": 1136,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "rain-barrel-tap-handle",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 0.48,
+          "frequency": 1.3,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "refrigerated-warehouse",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/refrigerated-warehouse.animated.glb",
+      "bytes": 76020,
+      "triangles": 924,
+      "drawCalls": 6,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "refrigerated-warehouse-condenser-fan",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.85,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "reservoir",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/reservoir.animated.glb",
+      "bytes": 229380,
+      "triangles": 3104,
+      "drawCalls": 4,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "reservoir-outlet-handle",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.5707963267948966,
+          "frequency": 0.7,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "roastery",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/roastery.animated.glb",
+      "bytes": 62032,
+      "triangles": 704,
+      "drawCalls": 7,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "roastery-rotating-roasting-drum",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.28,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "robotic-harvester",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/robotic-harvester.animated.glb",
+      "bytes": 87564,
+      "triangles": 948,
+      "drawCalls": 13,
+      "animationTracks": 5,
+      "actionNodes": 5,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "robotic-harvester-harvesting-reel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.23,
+          "phase": 0
+        },
+        {
+          "node": "robotic-harvester-rear-left-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.3,
+          "phase": 0
+        },
+        {
+          "node": "robotic-harvester-rear-right-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.3,
+          "phase": 0
+        },
+        {
+          "node": "robotic-harvester-front-left-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.3,
+          "phase": 0
+        },
+        {
+          "node": "robotic-harvester-front-right-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.3,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "root-cellar",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/root-cellar.animated.glb",
+      "bytes": 27184,
+      "triangles": 272,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "root-cellar-front-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.58,
+          "frequency": 0.8,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "rotary-sprinkler",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/rotary-sprinkler.animated.glb",
+      "bytes": 59108,
+      "triangles": 680,
+      "drawCalls": 6,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "rotary-sprinkler-rotary-head",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1,
+          "frequency": 1.45,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "seed-drill",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/seed-drill.animated.glb",
+      "bytes": 71076,
+      "triangles": 776,
+      "drawCalls": 11,
+      "animationTracks": 3,
+      "actionNodes": 3,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "seed-drill-left-drive-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.52,
+          "phase": 0
+        },
+        {
+          "node": "seed-drill-right-drive-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.52,
+          "phase": 0
+        },
+        {
+          "node": "seed-drill-seed-meter-shaft",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.52,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "seed-house",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/seed-house.animated.glb",
+      "bytes": 59908,
+      "triangles": 704,
+      "drawCalls": 6,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "seed-house-cleaner-drum",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.4,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "seed-vault",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/seed-vault.animated.glb",
+      "bytes": 39344,
+      "triangles": 440,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "seed-vault-sealed-hatch-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.52,
+          "frequency": 0.72,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "shearing-shed",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/shearing-shed.animated.glb",
+      "bytes": 32296,
+      "triangles": 336,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "shearing-shed-broad-holding-entry-gate",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.72,
+          "frequency": 0.65,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "sheepfold",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/sheepfold.animated.glb",
+      "bytes": 94920,
+      "triangles": 1180,
+      "drawCalls": 6,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "sheepfold-broad-entry-gate",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.04,
+          "frequency": 0.62,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "silo",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/silo.animated.glb",
+      "bytes": 61692,
+      "triangles": 770,
+      "drawCalls": 4,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "silo-grain-gate-handle",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.75,
+          "frequency": 0.8,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "smokehouse",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/smokehouse.animated.glb",
+      "bytes": 53156,
+      "triangles": 576,
+      "drawCalls": 7,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "smokehouse-chimney-damper-lever",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 0.72,
+          "frequency": 0.55,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "soil-mixing-station",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/soil-mixing-station.animated.glb",
+      "bytes": 18416,
+      "triangles": 152,
+      "drawCalls": 6,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "soil-mixing-station-mixer-drum",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.24,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "solar-pump",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/solar-pump.animated.glb",
+      "bytes": 48548,
+      "triangles": 536,
+      "drawCalls": 6,
+      "animationTracks": 2,
+      "actionNodes": 2,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "solar-pump-visible-pump-flywheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.52,
+          "phase": 0
+        },
+        {
+          "node": "solar-pump-pump-drive-linkage",
+          "property": "position",
+          "axis": "y",
+          "amplitude": 0.16,
+          "frequency": 0.52,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "spice-mill",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/spice-mill.animated.glb",
+      "bytes": 48424,
+      "triangles": 568,
+      "drawCalls": 4,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "spice-mill-visible-grinding-handwheel-pivot",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 3.141592653589793,
+          "frequency": 0.65,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "sprinkler",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/sprinkler.animated.glb",
+      "bytes": 66396,
+      "triangles": 784,
+      "drawCalls": 7,
+      "animationTracks": 2,
+      "actionNodes": 2,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "sprinkler-head-yaw",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.9477874452256718,
+          "frequency": 0.42,
+          "phase": 0
+        },
+        {
+          "node": "sprinkler-head-pitch",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 0.14,
+          "frequency": 0.42,
+          "phase": 1.5707963267948966
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "stable",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/stable.animated.glb",
+      "bytes": 29436,
+      "triangles": 300,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "stable-broad-main-stable-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.7,
+          "frequency": 0.55,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "storage-shed",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/storage-shed.animated.glb",
+      "bytes": 28492,
+      "triangles": 252,
+      "drawCalls": 8,
+      "animationTracks": 2,
+      "actionNodes": 2,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "storage-shed-left-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": -0.62,
+          "frequency": 0.8,
+          "phase": 0
+        },
+        {
+          "node": "storage-shed-right-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.62,
+          "frequency": 0.8,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "sugar-mill",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/sugar-mill.animated.glb",
+      "bytes": 183720,
+      "triangles": 2420,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "sugar-mill-handwheel-drive",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.42,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "tannery",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/tannery.animated.glb",
+      "bytes": 64332,
+      "triangles": 764,
+      "drawCalls": 6,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "tannery-visible-vat-drain-handwheel-control",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 3.141592653589793,
+          "frequency": 0.55,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "tractor-shed",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/tractor-shed.animated.glb",
+      "bytes": 38840,
+      "triangles": 412,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "tractor-shed-left-hinged-gate",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": -1.35,
+          "frequency": 0.72,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "tractor",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/tractor.animated.glb",
+      "bytes": 129572,
+      "triangles": 1492,
+      "drawCalls": 16,
+      "animationTracks": 4,
+      "actionNodes": 4,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "tractor-rear-left-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.44,
+          "phase": 0
+        },
+        {
+          "node": "tractor-rear-right-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.44,
+          "phase": 0
+        },
+        {
+          "node": "tractor-front-left-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.44,
+          "phase": 0
+        },
+        {
+          "node": "tractor-front-right-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.44,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "trailer",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/trailer.animated.glb",
+      "bytes": 37228,
+      "triangles": 376,
+      "drawCalls": 7,
+      "animationTracks": 2,
+      "actionNodes": 2,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "trailer-left-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.42,
+          "phase": 0
+        },
+        {
+          "node": "trailer-right-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.42,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "veterinary-shed",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/veterinary-shed.animated.glb",
+      "bytes": 24240,
+      "triangles": 216,
+      "drawCalls": 5,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "veterinary-shed-washable-service-entry-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.56,
+          "frequency": 0.55,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "wagon",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/wagon.animated.glb",
+      "bytes": 57376,
+      "triangles": 632,
+      "drawCalls": 9,
+      "animationTracks": 2,
+      "actionNodes": 2,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "wagon-left-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.45,
+          "phase": 0
+        },
+        {
+          "node": "wagon-right-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.45,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "warehouse",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/warehouse.animated.glb",
+      "bytes": 41476,
+      "triangles": 460,
+      "drawCalls": 5,
+      "animationTracks": 2,
+      "actionNodes": 2,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "warehouse-left-sliding-loading-door",
+          "property": "position",
+          "axis": "x",
+          "amplitude": 0.78,
+          "frequency": 0.8,
+          "phase": 0
+        },
+        {
+          "node": "warehouse-right-sliding-loading-door",
+          "property": "position",
+          "axis": "x",
+          "amplitude": -0.78,
+          "frequency": 0.8,
+          "phase": 3.141592653589793
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "washing-station",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/washing-station.animated.glb",
+      "bytes": 52968,
+      "triangles": 592,
+      "drawCalls": 6,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "washing-station-drive-roller",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.5,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "water-barrel",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/water-barrel.animated.glb",
+      "bytes": 70844,
+      "triangles": 896,
+      "drawCalls": 4,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "water-barrel-bung-control",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.32,
+          "frequency": 0.72,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "water-tank",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/water-tank.animated.glb",
+      "bytes": 120912,
+      "triangles": 1592,
+      "drawCalls": 4,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "water-tank-valve-handle",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.319468914507713,
+          "frequency": 0.72,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "water-tower",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/water-tower.animated.glb",
+      "bytes": 347012,
+      "triangles": 4728,
+      "drawCalls": 4,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "water-tower-outlet-handle",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.5707963267948966,
+          "frequency": 0.7,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "water-trough",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/water-trough.animated.glb",
+      "bytes": 21184,
+      "triangles": 228,
+      "drawCalls": 2,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "water-trough-visible-float-valve-handle",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.42,
+          "frequency": 0.75,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "water-wheel",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/water-wheel.animated.glb",
+      "bytes": 37136,
+      "triangles": 432,
+      "drawCalls": 4,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "water-wheel-water-wheel-rotor",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.22,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "well",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/well.animated.glb",
+      "bytes": 390716,
+      "triangles": 5168,
+      "drawCalls": 11,
+      "animationTracks": 4,
+      "actionNodes": 3,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "well-windlass-axle",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 3.455751918948773,
+          "frequency": 0.62,
+          "phase": 0
+        },
+        {
+          "node": "well-bucket-bail",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 0.1,
+          "frequency": 0.62,
+          "phase": 1.5707963267948966
+        },
+        {
+          "node": "well-bucket-bail",
+          "property": "position",
+          "axis": "y",
+          "amplitude": -0.62,
+          "frequency": 0.62,
+          "phase": 0
+        },
+        {
+          "node": "well-hanging-rope",
+          "property": "scale",
+          "axis": "y",
+          "amplitude": 0.55,
+          "frequency": 0.62,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "wheelbarrow",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/wheelbarrow.animated.glb",
+      "bytes": 18384,
+      "triangles": 184,
+      "drawCalls": 3,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "wheelbarrow-visible-wheel-pivot",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 3.141592653589793,
+          "frequency": 0.7,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "wind-pump",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/wind-pump.animated.glb",
+      "bytes": 66440,
+      "triangles": 832,
+      "drawCalls": 4,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "wind-pump-rotor",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 1,
+          "frequency": 1.65,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "wind-turbine",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/wind-turbine.animated.glb",
+      "bytes": 14484,
+      "triangles": 136,
+      "drawCalls": 3,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "wind-turbine-rotor",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.22,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "windmill",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/windmill.animated.glb",
+      "bytes": 88124,
+      "triangles": 1080,
+      "drawCalls": 6,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "windmill-rotating-sail-hub",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.18,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "wood-fired-sauna",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/wood-fired-sauna.animated.glb",
+      "bytes": 27436,
+      "triangles": 272,
+      "drawCalls": 4,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "wood-fired-sauna-visible-hinged-entry-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.82,
+          "frequency": 0.46,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    },
+    {
+      "schemaVersion": 1,
+      "assetId": "wool-workshop",
+      "variant": "gameplay-animated",
+      "path": "optimized-animated-glb/wool-workshop.animated.glb",
+      "bytes": 41080,
+      "triangles": 440,
+      "drawCalls": 6,
+      "animationTracks": 1,
+      "actionNodes": 1,
+      "extensions": [],
+      "actionChannels": [
+        {
+          "node": "wool-workshop-visible-carding-drum-control",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 3.141592653589793,
+          "frequency": 0.55,
+          "phase": 0
+        }
+      ],
+      "textureless": true,
+      "runtimeDecoderDependencies": []
+    }
+  ]
+}

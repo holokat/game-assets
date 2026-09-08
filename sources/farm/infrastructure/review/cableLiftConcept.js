@@ -1,0 +1,1 @@
+import {createCableLift} from '../assets/cableLift.js';import {captureAutonomyConcept} from './autonomyConcept.js';captureAutonomyConcept({id:'cable-lift',create:createCableLift,target:[0,2,0],distance:7});

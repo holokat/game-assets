@@ -1,0 +1,1 @@
+import {createElectricalShed} from '../assets/electricalShed.js';import {exportInventoryAsset} from './inventory122Export.js';window.__ELECTRICAL_SHED_EXPORT_MANIFEST__=await exportInventoryAsset({id:'electrical-shed',title:'Electrical Shed',create:createElectricalShed});window.__ELECTRICAL_SHED_EXPORT_READY__=true;

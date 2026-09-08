@@ -1,0 +1,1 @@
+import{createAquaculturePond as C}from'../assets/aquaculturePond.js';import{exportInfrastructureAsset as E}from'./infrastructureExport.js';await E({assetId:'aquaculture-pond',label:'Aquaculture Pond',create:C});

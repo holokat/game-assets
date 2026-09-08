@@ -1,0 +1,1 @@
+import{createIrrigationFertilizerInjector as C}from'../assets/irrigationFertilizerInjector.js';import{exportInfrastructureAsset as E}from'./infrastructureExport.js';const o=document.querySelector('#output');try{o.textContent='Export complete';await E({assetId:'irrigation-fertilizer-injector',label:'Irrigation Fertilizer Injector',create:C})}catch(e){o.textContent=String(e)}

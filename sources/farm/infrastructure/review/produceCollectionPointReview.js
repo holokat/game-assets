@@ -1,0 +1,1 @@
+import {createProduceCollectionPoint} from '../assets/produceCollectionPoint.js';import {startInventoryReview} from './inventory122Review.js';startInventoryReview({id:'produce-collection-point',create:createProduceCollectionPoint,camera:[-5.4,3.5,6],target:[0,1.15,0]});

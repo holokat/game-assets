@@ -1,0 +1,1 @@
+import {createDistributionWarehouse} from '../assets/distributionWarehouse.js';import {captureAutonomyConcept} from './autonomyConcept.js';captureAutonomyConcept({id:'distribution-warehouse',create:createDistributionWarehouse,target:[0,1.7,0],distance:8.6});

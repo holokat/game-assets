@@ -1,0 +1,1 @@
+import { createTruckDepot } from '../assets/truckDepot.js'; import { startInventoryReview } from './inventory122Review.js'; startInventoryReview({ id: 'truck-depot', create: createTruckDepot, camera: [-10.5, 7, 10.8], target: [0, 2.2, 0] });

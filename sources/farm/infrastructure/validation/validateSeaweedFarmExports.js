@@ -1,0 +1,1 @@
+import{createSeaweedFarm as create}from'../assets/seaweedFarmGrounded.js';import{validateInventoryAsset as v}from'./inventory122Validation.js';await v({id:'seaweed-farm',title:'Seaweed Farm',create,budget:5000,criticalNodes:['seaweed-farm-water-plane-mesh'],expectedChannels:[]});

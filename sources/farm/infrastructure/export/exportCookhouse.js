@@ -1,0 +1,1 @@
+import{createCookhouse}from'../assets/cookhouse.js';import{exportInventoryAsset}from'./inventory122Export.js';window.__COOKHOUSE_EXPORT_MANIFEST__=await exportInventoryAsset({id:'cookhouse',title:'Cookhouse',create:createCookhouse});window.__COOKHOUSE_EXPORT_READY__=true;

@@ -1,0 +1,631 @@
+{
+  "url": "https://kaldera-codex.cogentgene.workers.dev/monsters.html",
+  "retrieved": "2026-09-07",
+  "sha256": "535974278e50466bf2ee5d53d81be31647cdfdcf9d1499f2faa8c39b354f5816",
+  "tables": [
+    {
+      "section": [
+        "The Greenwold: every monster and animal, by the skeleton it rides",
+        "The human rig 11 bodies, 1.7 to 1.9 m"
+      ],
+      "rows": [
+        [
+          "id",
+          "name",
+          "tier",
+          "kind",
+          "group",
+          "run m/s",
+          "moves beyond the base clips",
+          "where",
+          "stand-in",
+          "file"
+        ],
+        [
+          "bandit",
+          "Bandit",
+          "2",
+          "humanoid",
+          "2 to 3",
+          "6",
+          "the base set",
+          "the open country by day; the open country by night; The Mill Run by day; The Old Cellars; The Kingsroad by day; Highwayman's Hollow; Highwayman's Hollow (placed)",
+          "1.50 m",
+          "code body"
+        ],
+        [
+          "banditArcher",
+          "Bandit Archer",
+          "2",
+          "humanoid",
+          "2 to 3",
+          "6.2",
+          "draw and loose",
+          "the open country by day; the open country by night; The Old Cellars; The Kingsroad by day; Highwayman's Hollow; Highwayman's Hollow (placed); The Old Cellars (placed)",
+          "1.79 m",
+          "code body"
+        ],
+        [
+          "highwayman",
+          "Highwayman",
+          "2",
+          "humanoid",
+          "2 to 3",
+          "6.5",
+          "a crouched wait",
+          "The Kingsroad; Highwayman's Hollow; Highwayman's Hollow (placed); The Kingsroad Camp by night (placed)",
+          "1.85 m",
+          "code body"
+        ],
+        [
+          "raider",
+          "Raider",
+          "2",
+          "humanoid",
+          "2 to 4",
+          "6.4",
+          "a charge",
+          "the open country by day; the open country by night; Highwayman's Hollow",
+          "1.85 m",
+          "code body"
+        ],
+        [
+          "legionSoldier",
+          "Legion Soldier",
+          "2",
+          "humanoid",
+          "2 to 4",
+          "5.8",
+          "a block, a shout",
+          "the open country by day; the open country by night; The Kingsroad; The Kingsroad Camp (placed)",
+          "1.85 m",
+          "code body"
+        ],
+        [
+          "legionArcher",
+          "Legion Archer",
+          "2",
+          "humanoid",
+          "2 to 3",
+          "6.2",
+          "draw and loose",
+          "the open country by day; The Kingsroad; The Kingsroad Camp (placed)",
+          "1.85 m",
+          "code body"
+        ],
+        [
+          "oramBlackhand",
+          "Sergeant Oram Blackhand",
+          "6",
+          "boss",
+          "alone",
+          "6",
+          "a shout, a whistle, a charge",
+          "The Old Cellars; The Old Cellars, its lair",
+          "1.85 m",
+          "code body"
+        ],
+        [
+          "scarecrow",
+          "Scarecrow",
+          "2",
+          "undead",
+          "1 to 2",
+          "3.6",
+          "a wake from stillness",
+          "the open country by night; The Mill Run by night; The Mill Run by night (placed)",
+          "1.96 m",
+          "code body"
+        ],
+        [
+          "zombie",
+          "Zombie",
+          "1",
+          "undead",
+          "1 to 2",
+          "3",
+          "a shamble in place of run, clawed hands",
+          "the open country by night; The Mill Run by night; The Sunken Chapel; The Sunken Chapel by night (placed)",
+          "1.10 m",
+          "monster-zombie.glb (stand-in)"
+        ],
+        [
+          "drowned",
+          "Drowned",
+          "2",
+          "undead",
+          "2 to 3",
+          "3.5",
+          "a shamble in place of run",
+          "The Sunken Chapel; The Sunken Chapel by night (placed)",
+          "1.50 m",
+          "code body"
+        ],
+        [
+          "wraith",
+          "Wraith",
+          "4",
+          "undead",
+          "alone",
+          "7",
+          "a hover, a reach",
+          "The Sunken Chapel by night; The Sunken Chapel by night (placed)",
+          "2.40 m",
+          "code body"
+        ]
+      ]
+    },
+    {
+      "section": [
+        "The Greenwold: every monster and animal, by the skeleton it rides",
+        "The skeleton rig 1 body, 1.8 m"
+      ],
+      "rows": [
+        [
+          "id",
+          "name",
+          "tier",
+          "kind",
+          "group",
+          "run m/s",
+          "moves beyond the base clips",
+          "where",
+          "stand-in",
+          "file"
+        ],
+        [
+          "skeleton",
+          "Skeleton",
+          "1",
+          "undead",
+          "2 to 3",
+          "4.5",
+          "the base set",
+          "the open country by night; The Chalk Pits by night; The Sunken Chapel; The Chalk Pits by night (placed); The Sunken Chapel by night (placed)",
+          "1.10 m",
+          "monster-skeleton.glb (stand-in)"
+        ]
+      ]
+    },
+    {
+      "section": [
+        "The Greenwold: every monster and animal, by the skeleton it rides",
+        "The goblin rig 2 bodies, 1.2 to 1.35 m"
+      ],
+      "rows": [
+        [
+          "id",
+          "name",
+          "tier",
+          "kind",
+          "group",
+          "run m/s",
+          "moves beyond the base clips",
+          "where",
+          "stand-in",
+          "file"
+        ],
+        [
+          "goblinScout",
+          "Goblin Scout",
+          "1",
+          "humanoid",
+          "2 to 3",
+          "6",
+          "an overarm throw",
+          "the open country by day; The Old Cellars; Highwayman's Hollow by day; Highwayman's Hollow by night (placed)",
+          "1.10 m",
+          "monster-goblin.glb (stand-in)"
+        ],
+        [
+          "goblinWarrior",
+          "Goblin Warrior",
+          "2",
+          "humanoid",
+          "2 to 3",
+          "6",
+          "the base set",
+          "The Old Cellars; The Beech Hangar by night",
+          "1.50 m",
+          "monster-goblin.glb (stand-in)"
+        ]
+      ]
+    },
+    {
+      "section": [
+        "The Greenwold: every monster and animal, by the skeleton it rides",
+        "The canine rig 4 bodies, 0.4 to 0.8 m at the shoulder"
+      ],
+      "rows": [
+        [
+          "id",
+          "name",
+          "tier",
+          "kind",
+          "group",
+          "run m/s",
+          "moves beyond the base clips",
+          "where",
+          "stand-in",
+          "file"
+        ],
+        [
+          "wolf",
+          "Wolf",
+          "2",
+          "beast",
+          "3 to 4",
+          "8.5",
+          "the base set",
+          "the open country by night; The Mill Run by night; The Beech Hangar by night; The Kingsroad by night; The Standing Hedge by night; Highwayman's Hollow by night; The Beech Hangar by night (placed); The Kingsroad Camp by night (placed); The Long Meadow by night (placed)",
+          "1.50 m",
+          "code body"
+        ],
+        [
+          "wildDog",
+          "Wild Dog",
+          "1",
+          "beast",
+          "3 to 5",
+          "7.5",
+          "a howl",
+          "the open country by day; The Mill Run by day; The Beech Hangar by day; The Chalk Pits by day; The Beech Hangar (placed); The Chalk Pits (placed); The Mill Run (placed)",
+          "0.86 m",
+          "code body"
+        ],
+        [
+          "badger",
+          "Badger",
+          "1",
+          "beast",
+          "1 to 2",
+          "5.2",
+          "a wake from stillness",
+          "the open country by night; The Beech Hangar by night; The Standing Hedge by night; The Beech Hangar (placed)",
+          "0.55 m",
+          "code body"
+        ],
+        [
+          "fox",
+          "Fox",
+          "0",
+          "critter",
+          "1 to 2",
+          "8",
+          "a wandering approach",
+          "the open country by night; The Beech Hangar; The Standing Hedge; Coldwake by night (placed); The Long Meadow (placed)",
+          "0.50 m",
+          "code body"
+        ]
+      ]
+    },
+    {
+      "section": [
+        "The Greenwold: every monster and animal, by the skeleton it rides",
+        "The boar rig 2 bodies, 1.0 m at the shoulder; Old Grist the size of a pony"
+      ],
+      "rows": [
+        [
+          "id",
+          "name",
+          "tier",
+          "kind",
+          "group",
+          "run m/s",
+          "moves beyond the base clips",
+          "where",
+          "stand-in",
+          "file"
+        ],
+        [
+          "boar",
+          "Boar",
+          "2",
+          "beast",
+          "1 to 2",
+          "7",
+          "a charge",
+          "the open country by day; The Beech Hangar; The Beech Hangar (placed); The Long Meadow (placed)",
+          "1.50 m",
+          "code body"
+        ],
+        [
+          "oldGrist",
+          "Old Grist",
+          "3",
+          "unique",
+          "alone",
+          "8.5",
+          "a charge, a charge that throws you",
+          "The Beech Hangar by night; The Beech Hangar by night (placed)",
+          "1.90 m",
+          "code body"
+        ]
+      ]
+    },
+    {
+      "section": [
+        "The Greenwold: every monster and animal, by the skeleton it rides",
+        "The rat rig 2 bodies, 0.5 m long plus tail; the mouse a tenth of it"
+      ],
+      "rows": [
+        [
+          "id",
+          "name",
+          "tier",
+          "kind",
+          "group",
+          "run m/s",
+          "moves beyond the base clips",
+          "where",
+          "stand-in",
+          "file"
+        ],
+        [
+          "giantRat",
+          "Giant Rat",
+          "1",
+          "vermin",
+          "1 to 3",
+          "5.5",
+          "a wet mouth",
+          "the open country by day; The Mill Run by day; The Old Cellars; The Beech Hangar by day; The Chalk Pits; The Chalk Pits (placed); The Mill Run (placed); The Old Cellars (placed)",
+          "1.10 m",
+          "monster-rat.glb (stand-in)"
+        ],
+        [
+          "fieldMouse",
+          "Field Mouse",
+          "0",
+          "critter",
+          "1 to 2",
+          "4",
+          "the base set",
+          "grown by the fauna table in the meadow (generated worlds; a sculpt world only where a space names it)",
+          "0.50 m",
+          "code body"
+        ]
+      ]
+    },
+    {
+      "section": [
+        "The Greenwold: every monster and animal, by the skeleton it rides",
+        "The spider rig 1 body, 0.8 m, a metre and a half across"
+      ],
+      "rows": [
+        [
+          "id",
+          "name",
+          "tier",
+          "kind",
+          "group",
+          "run m/s",
+          "moves beyond the base clips",
+          "where",
+          "stand-in",
+          "file"
+        ],
+        [
+          "giantSpider",
+          "Giant Spider",
+          "2",
+          "vermin",
+          "1 to 3",
+          "7",
+          "a lunge, a web spit",
+          "the open country by night; The Old Cellars; The Beech Hangar by night; The Chalk Pits by night; The Beech Hangar by night (placed); The Chalk Pits by night (placed); The Old Cellars by night (placed)",
+          "1.50 m",
+          "monster-spider.glb (stand-in)"
+        ]
+      ]
+    },
+    {
+      "section": [
+        "The Greenwold: every monster and animal, by the skeleton it rides",
+        "The grub rig 1 body, 1.0 m long"
+      ],
+      "rows": [
+        [
+          "id",
+          "name",
+          "tier",
+          "kind",
+          "group",
+          "run m/s",
+          "moves beyond the base clips",
+          "where",
+          "stand-in",
+          "file"
+        ],
+        [
+          "thornGrub",
+          "Thorn Grub",
+          "1",
+          "vermin",
+          "1 to 3",
+          "2",
+          "a lunge",
+          "The Chalk Pits; The Chalk Pits (placed)",
+          "1.10 m",
+          "code body"
+        ]
+      ]
+    },
+    {
+      "section": [
+        "The Greenwold: every monster and animal, by the skeleton it rides",
+        "The wisp 1 body, 0.4 m, in the air"
+      ],
+      "rows": [
+        [
+          "id",
+          "name",
+          "tier",
+          "kind",
+          "group",
+          "run m/s",
+          "moves beyond the base clips",
+          "where",
+          "stand-in",
+          "file"
+        ],
+        [
+          "wisp",
+          "Will o' Wisp",
+          "2",
+          "elemental",
+          "1 to 2",
+          "7",
+          "take off, fly, land, a wandering approach, a cast, a hover, ranged, cast",
+          "The Mill Run by night; The Sunken Chapel by night; The Mill Run by night (placed); The Sunken Chapel by night (placed); The Water Meadows by night (placed)",
+          "1.50 m",
+          "code body"
+        ]
+      ]
+    },
+    {
+      "section": [
+        "The Greenwold: every monster and animal, by the skeleton it rides",
+        "The bird rig 3 bodies, 0.3 to 0.7 m"
+      ],
+      "rows": [
+        [
+          "id",
+          "name",
+          "tier",
+          "kind",
+          "group",
+          "run m/s",
+          "moves beyond the base clips",
+          "where",
+          "stand-in",
+          "file"
+        ],
+        [
+          "goose",
+          "Goose",
+          "0",
+          "critter",
+          "2 to 6",
+          "6",
+          "the base set",
+          "The Mill Run; Coldwake (placed); The Mill Run (placed); The Water Meadows (placed)",
+          "0.50 m",
+          "code body"
+        ],
+        [
+          "hawk",
+          "Hawk",
+          "0",
+          "critter",
+          "alone",
+          "11",
+          "take off, fly, land, a stoop",
+          "The Standing Hedge by day",
+          "0.50 m",
+          "code body"
+        ],
+        [
+          "crow",
+          "Crow",
+          "0",
+          "critter",
+          "2 to 5",
+          "9",
+          "take off, fly, land",
+          "grown by the fauna table in the meadow (generated worlds; a sculpt world only where a space names it)",
+          "0.50 m",
+          "code body"
+        ]
+      ]
+    },
+    {
+      "section": [
+        "The Greenwold: every monster and animal, by the skeleton it rides",
+        "The deer rig 1 body, 1.4 m at the shoulder"
+      ],
+      "rows": [
+        [
+          "id",
+          "name",
+          "tier",
+          "kind",
+          "group",
+          "run m/s",
+          "moves beyond the base clips",
+          "where",
+          "stand-in",
+          "file"
+        ],
+        [
+          "deer",
+          "Deer",
+          "0",
+          "critter",
+          "1 to 4",
+          "7",
+          "the base set",
+          "grown by the fauna table in the meadow (generated worlds; a sculpt world only where a space names it)",
+          "0.50 m",
+          "code body"
+        ]
+      ]
+    },
+    {
+      "section": [
+        "The Greenwold: every monster and animal, by the skeleton it rides",
+        "The small animals 3 bodies, 0.15 to 0.4 m"
+      ],
+      "rows": [
+        [
+          "id",
+          "name",
+          "tier",
+          "kind",
+          "group",
+          "run m/s",
+          "moves beyond the base clips",
+          "where",
+          "stand-in",
+          "file"
+        ],
+        [
+          "rabbit",
+          "Rabbit",
+          "0",
+          "critter",
+          "1 to 3",
+          "4.2",
+          "the base set",
+          "grown by the fauna table in the meadow (generated worlds; a sculpt world only where a space names it)",
+          "0.50 m",
+          "code body"
+        ],
+        [
+          "squirrel",
+          "Squirrel",
+          "0",
+          "critter",
+          "1 to 2",
+          "4.6",
+          "the base set",
+          "grown by the fauna table in the meadow (generated worlds; a sculpt world only where a space names it)",
+          "0.50 m",
+          "code body"
+        ],
+        [
+          "frog",
+          "Frog",
+          "0",
+          "critter",
+          "1 to 3",
+          "2",
+          "the base set",
+          "The Water Meadows (placed); grown by the fauna table in the meadow (generated worlds; a sculpt world only where a space names it)",
+          "0.50 m",
+          "code body"
+        ]
+      ]
+    }
+  ]
+}

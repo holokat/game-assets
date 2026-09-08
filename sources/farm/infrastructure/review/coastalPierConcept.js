@@ -1,0 +1,1 @@
+import {createCoastalPier} from '../assets/coastalPier.js';import {captureAutonomyConcept} from './autonomyConcept.js';captureAutonomyConcept({id:'coastal-pier',create:createCoastalPier,target:[0,1,0],distance:7});

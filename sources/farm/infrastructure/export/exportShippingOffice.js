@@ -1,0 +1,1 @@
+import{createShippingOffice as C}from'../assets/shippingOffice.js';import{exportInfrastructureAsset as E}from'./infrastructureExport.js';await E({assetId:'shipping-office',label:'Shipping Office',create:C});

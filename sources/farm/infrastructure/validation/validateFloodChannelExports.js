@@ -1,0 +1,1 @@
+import{createFloodChannel as create}from'../assets/floodChannel.js';import{validateInventoryAsset as v}from'./inventory122Validation.js';await v({id:'flood-channel',title:'Flood Channel',create,budget:5000,criticalNodes:['flood-channel-water-bed-mesh'],expectedChannels:[]});

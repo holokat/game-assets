@@ -1,0 +1,5853 @@
+{
+  "schemaVersion": 1,
+  "controller": "src/runtime/assetInteractionController.js",
+  "generatedFrom": "manifests/*.export.json",
+  "policy": {
+    "staticAssets": "Use optimized GLBs and instance repeated meshes.",
+    "interactiveAssets": "Use source GLBs only for objects that need live pivots or gameplay semantics.",
+    "updates": "Register only active controllers in AssetInteractionSystem.",
+    "collisions": "Enable moving-part collision only at a stable endpoint."
+  },
+  "totals": {
+    "assets": 400,
+    "interactive": 123,
+    "static": 277
+  },
+  "assets": [
+    {
+      "assetId": "agricultural-drones",
+      "sourceGlb": "source-glb/agricultural-drones.source.glb",
+      "optimizedGlb": "optimized-glb/Agricultural-Drones.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "agricultural-drones-drone-one-rotor-north",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 6.283185307179586,
+          "frequency": 2.2,
+          "phase": 0
+        },
+        {
+          "node": "agricultural-drones-drone-one-rotor-south",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 6.283185307179586,
+          "frequency": 2.2,
+          "phase": 0
+        },
+        {
+          "node": "agricultural-drones-drone-one-rotor-east",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 6.283185307179586,
+          "frequency": 2.2,
+          "phase": 0
+        },
+        {
+          "node": "agricultural-drones-drone-one-rotor-west",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 6.283185307179586,
+          "frequency": 2.2,
+          "phase": 0
+        },
+        {
+          "node": "agricultural-drones-drone-two-rotor-north",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 6.283185307179586,
+          "frequency": 2.2,
+          "phase": 0
+        },
+        {
+          "node": "agricultural-drones-drone-two-rotor-south",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 6.283185307179586,
+          "frequency": 2.2,
+          "phase": 0
+        },
+        {
+          "node": "agricultural-drones-drone-two-rotor-east",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 6.283185307179586,
+          "frequency": 2.2,
+          "phase": 0
+        },
+        {
+          "node": "agricultural-drones-drone-two-rotor-west",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 6.283185307179586,
+          "frequency": 2.2,
+          "phase": 0
+        },
+        {
+          "node": "agricultural-drones-drone-three-rotor-north",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 6.283185307179586,
+          "frequency": 2.2,
+          "phase": 0
+        },
+        {
+          "node": "agricultural-drones-drone-three-rotor-south",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 6.283185307179586,
+          "frequency": 2.2,
+          "phase": 0
+        },
+        {
+          "node": "agricultural-drones-drone-three-rotor-east",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 6.283185307179586,
+          "frequency": 2.2,
+          "phase": 0
+        },
+        {
+          "node": "agricultural-drones-drone-three-rotor-west",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 6.283185307179586,
+          "frequency": 2.2,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 480,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "agricultural-research-center",
+      "sourceGlb": "source-glb/agricultural-research-center.source.glb",
+      "optimizedGlb": "optimized-glb/agricultural-research-center.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 24,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "agricultural-research-station",
+      "sourceGlb": "source-glb/agricultural-research-station.source.glb",
+      "optimizedGlb": "optimized-glb/Agricultural-Research-Station.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 172,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "agricultural-robotics-workshop",
+      "sourceGlb": "source-glb/agricultural-robotics-workshop.source.glb",
+      "optimizedGlb": "optimized-glb/Agricultural-robotics-workshop.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 36,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "animal-pasture",
+      "sourceGlb": "source-glb/animal-pasture.source.glb",
+      "optimizedGlb": "optimized-glb/Animal-Pasture.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "animal-pasture-broad-entry-gate",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.04,
+          "frequency": 0.62,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 912,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "animal-wash-station",
+      "sourceGlb": "source-glb/animal-wash-station.source.glb",
+      "optimizedGlb": "optimized-glb/Animal-Wash-Station.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "animal-wash-station-broad-wash-entry-gate",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.72,
+          "frequency": 0.65,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 228,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "apiary-field",
+      "sourceGlb": "source-glb/apiary-field.source.glb",
+      "optimizedGlb": "optimized-glb/Apiary-Field.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 6,
+      "triangleCount": 1106,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "aquaculture-pond",
+      "sourceGlb": "source-glb/aquaculture-pond.source.glb",
+      "optimizedGlb": "optimized-glb/AquaculturePond.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 84,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "aqueduct",
+      "sourceGlb": "source-glb/aqueduct.source.glb",
+      "optimizedGlb": "optimized-glb/Aqueduct.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 936,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "auction-barn",
+      "sourceGlb": "source-glb/auction-barn.source.glb",
+      "optimizedGlb": "optimized-glb/AuctionBarn.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 84,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "automated-distribution-center",
+      "sourceGlb": "source-glb/automated-distribution-center.source.glb",
+      "optimizedGlb": "optimized-glb/automated-distribution-center.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 24,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "automated-irrigation-controller",
+      "sourceGlb": "source-glb/automated-irrigation-controller.source.glb",
+      "optimizedGlb": "optimized-glb/Automated-irrigation-controller.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 36,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "automated-milking-parlor",
+      "sourceGlb": "source-glb/automated-milking-parlor.source.glb",
+      "optimizedGlb": "optimized-glb/Automated-Milking-Parlor.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "automated-milking-parlor-entry-gate",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.05,
+          "frequency": 0.66,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 1344,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "automated-power-station",
+      "sourceGlb": "source-glb/automated-power-station.source.glb",
+      "optimizedGlb": "optimized-glb/Automated-Power-Station.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 324,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "automated-warehouse",
+      "sourceGlb": "source-glb/automated-warehouse.source.glb",
+      "optimizedGlb": "optimized-glb/Automated-warehouse.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 60,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "autonomous-tractor",
+      "sourceGlb": "source-glb/autonomous-tractor.source.glb",
+      "optimizedGlb": "optimized-glb/Autonomous-Tractor.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "autonomous-tractor-rear-left-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.38,
+          "phase": 0
+        },
+        {
+          "node": "autonomous-tractor-rear-right-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.38,
+          "phase": 0
+        },
+        {
+          "node": "autonomous-tractor-front-left-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.38,
+          "phase": 0
+        },
+        {
+          "node": "autonomous-tractor-front-right-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.38,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 1088,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "bakery-shop",
+      "sourceGlb": "source-glb/bakery-shop.source.glb",
+      "optimizedGlb": "optimized-glb/Bakery-Shop.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 132,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "bakery",
+      "sourceGlb": "source-glb/bakery.source.glb",
+      "optimizedGlb": "optimized-glb/Bakery.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "bakery-front-service-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.02,
+          "frequency": 0.62,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 396,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "baler",
+      "sourceGlb": "source-glb/baler.source.glb",
+      "optimizedGlb": "optimized-glb/Baler.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "baler-pickup-reel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.6,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 596,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "barn",
+      "sourceGlb": "source-glb/barn.source.glb",
+      "optimizedGlb": "optimized-glb/Barn.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "barn-left-door",
+          "property": "position",
+          "axis": "x",
+          "amplitude": 0.75,
+          "frequency": 0.35,
+          "phase": 0
+        },
+        {
+          "node": "barn-right-door",
+          "property": "position",
+          "axis": "x",
+          "amplitude": -0.75,
+          "frequency": 0.35,
+          "phase": 3.141592653589793
+        }
+      ],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 120,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "basket-workshop",
+      "sourceGlb": "source-glb/basket-workshop.source.glb",
+      "optimizedGlb": "optimized-glb/Basket-Workshop.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 264,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "bat-house",
+      "sourceGlb": "source-glb/bat-house.source.glb",
+      "optimizedGlb": "optimized-glb/Bat-house.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 68,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "bathhouse",
+      "sourceGlb": "source-glb/bathhouse.source.glb",
+      "optimizedGlb": "optimized-glb/Bathhouse.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 212,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "battery-bank",
+      "sourceGlb": "source-glb/battery-bank.source.glb",
+      "optimizedGlb": "optimized-glb/Battery-Bank.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 248,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "bee-hotel",
+      "sourceGlb": "source-glb/bee-hotel.source.glb",
+      "optimizedGlb": "optimized-glb/Bee-hotel.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 228,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "beehive",
+      "sourceGlb": "source-glb/beehive.source.glb",
+      "optimizedGlb": "optimized-glb/Beehive.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 72,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "bell-tower",
+      "sourceGlb": "source-glb/bell-tower.source.glb",
+      "optimizedGlb": "optimized-glb/Bell-tower.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 72,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "benches",
+      "sourceGlb": "source-glb/benches.source.glb",
+      "optimizedGlb": "optimized-glb/Benches.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 588,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "biochar-kiln",
+      "sourceGlb": "source-glb/biochar-kiln.source.glb",
+      "optimizedGlb": "optimized-glb/Biochar-Kiln.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 156,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "biomass-generator",
+      "sourceGlb": "source-glb/biomass-generator.source.glb",
+      "optimizedGlb": "optimized-glb/Biomass-Generator.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 236,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "birdhouse",
+      "sourceGlb": "source-glb/birdhouse.source.glb",
+      "optimizedGlb": "optimized-glb/Birdhouse.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 100,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "blacksmith",
+      "sourceGlb": "source-glb/blacksmith.source.glb",
+      "optimizedGlb": "optimized-glb/Blacksmith.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 128,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "botanical-garden",
+      "sourceGlb": "source-glb/botanical-garden.source.glb",
+      "optimizedGlb": "optimized-glb/botanical-garden.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 48,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "breeding-barn",
+      "sourceGlb": "source-glb/breeding-barn.source.glb",
+      "optimizedGlb": "optimized-glb/Breeding-Barn.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "breeding-barn-internal-transfer-gate",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.02,
+          "frequency": 0.67,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 1196,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "brewery",
+      "sourceGlb": "source-glb/brewery.source.glb",
+      "optimizedGlb": "optimized-glb/Brewery.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "brewery-hinged-mash-tun-lid-pivot",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 0.95,
+          "frequency": 0.65,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 6,
+      "triangleCount": 472,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "bunkhouse",
+      "sourceGlb": "source-glb/bunkhouse.source.glb",
+      "optimizedGlb": "optimized-glb/Bunkhouse.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 168,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "butcher",
+      "sourceGlb": "source-glb/butcher.source.glb",
+      "optimizedGlb": "optimized-glb/Butcher.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "butcher-hinged-cold-room-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1,
+          "frequency": 0.54,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 912,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "butterfly-garden",
+      "sourceGlb": "source-glb/butterfly-garden.source.glb",
+      "optimizedGlb": "optimized-glb/Butterfly-garden.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 780,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "cable-lift",
+      "sourceGlb": "source-glb/cable-lift.source.glb",
+      "optimizedGlb": "optimized-glb/Cable-Lift.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "cable-lift-wheel-rear",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.42,
+          "phase": 0
+        },
+        {
+          "node": "cable-lift-wheel-front",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.42,
+          "phase": 0
+        },
+        {
+          "node": "cable-lift-suspended-freight-carrier",
+          "property": "position",
+          "axis": "z",
+          "amplitude": 0.8,
+          "frequency": 0.18,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 408,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "cafe",
+      "sourceGlb": "source-glb/cafe.source.glb",
+      "optimizedGlb": "optimized-glb/Cafe.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 200,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "campfire-area",
+      "sourceGlb": "source-glb/campfire-area.source.glb",
+      "optimizedGlb": "optimized-glb/Campfire-area.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 36,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "campfire",
+      "sourceGlb": "source-glb/campfire.source.glb",
+      "optimizedGlb": "optimized-glb/Campfire.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 368,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "cannery",
+      "sourceGlb": "source-glb/cannery.source.glb",
+      "optimizedGlb": "optimized-glb/Cannery.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "cannery-visible-retort-wheel-control",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 3.141592653589793,
+          "frequency": 0.55,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 6,
+      "triangleCount": 528,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "caravan-trading-post",
+      "sourceGlb": "source-glb/caravan-trading-post.source.glb",
+      "optimizedGlb": "optimized-glb/Caravan-trading-post.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 60,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "cargo-station",
+      "sourceGlb": "source-glb/cargo-station.source.glb",
+      "optimizedGlb": "optimized-glb/CargoStation.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 312,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "carpenter-workshop",
+      "sourceGlb": "source-glb/carpenter-workshop.source.glb",
+      "optimizedGlb": "optimized-glb/Carpenter-Workshop.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 176,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "cart-station",
+      "sourceGlb": "source-glb/cart-station.source.glb",
+      "optimizedGlb": "optimized-glb/CartStation.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 324,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "charcoal-kiln",
+      "sourceGlb": "source-glb/charcoal-kiln.source.glb",
+      "optimizedGlb": "optimized-glb/Charcoal-Kiln.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 384,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "cheese-house",
+      "sourceGlb": "source-glb/cheese-house.source.glb",
+      "optimizedGlb": "optimized-glb/Cheese-House.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "cheese-house-press-handwheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.45,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 6,
+      "triangleCount": 844,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "chicken-coop",
+      "sourceGlb": "source-glb/chicken-coop.source.glb",
+      "optimizedGlb": "optimized-glb/Chicken-Coop.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "chicken-coop-front-access-hatch",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 0.64,
+          "frequency": 0.7,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 324,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "chocolate-workshop",
+      "sourceGlb": "source-glb/chocolate-workshop.source.glb",
+      "optimizedGlb": "optimized-glb/Chocolate-Workshop.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "chocolate-workshop-visible-melanger-roller-pivot",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 3.141592653589793,
+          "frequency": 0.6,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 6,
+      "triangleCount": 384,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "cistern",
+      "sourceGlb": "source-glb/cistern.source.glb",
+      "optimizedGlb": "optimized-glb/Cistern.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "cistern-hatch-control",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.0367255756846319,
+          "frequency": 0.7,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 2644,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "climate-controlled-greenhouse",
+      "sourceGlb": "source-glb/climate-controlled-greenhouse.source.glb",
+      "optimizedGlb": "optimized-glb/Climate-controlled-greenhouse.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 48,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "clinic",
+      "sourceGlb": "source-glb/clinic.source.glb",
+      "optimizedGlb": "optimized-glb/Clinic.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 128,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "clock-tower",
+      "sourceGlb": "source-glb/clock-tower.source.glb",
+      "optimizedGlb": "optimized-glb/Clock-tower.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 36,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "coastal-pier",
+      "sourceGlb": "source-glb/coastal-pier.source.glb",
+      "optimizedGlb": "optimized-glb/Coastal-Pier.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 460,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "coastal-warehouse",
+      "sourceGlb": "source-glb/coastal-warehouse.source.glb",
+      "optimizedGlb": "optimized-glb/Coastal-warehouse.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 36,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "coconut-grove",
+      "sourceGlb": "source-glb/coconut-grove.source.glb",
+      "optimizedGlb": "optimized-glb/Coconut-grove.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 1388,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "cold-storage",
+      "sourceGlb": "source-glb/cold-storage.source.glb",
+      "optimizedGlb": "optimized-glb/Cold-Storage.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "cold-storage-sliding-loading-door",
+          "property": "position",
+          "axis": "x",
+          "amplitude": 0.7,
+          "frequency": 0.8,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 320,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "combine",
+      "sourceGlb": "source-glb/combine.source.glb",
+      "optimizedGlb": "optimized-glb/Combine.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "combine-header-reel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.6,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 596,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "community-hall",
+      "sourceGlb": "source-glb/community-hall.source.glb",
+      "optimizedGlb": "optimized-glb/CommunityHall.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 84,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "compost-bin",
+      "sourceGlb": "source-glb/compost-bin.source.glb",
+      "optimizedGlb": "optimized-glb/CompostBin.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 276,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "compost-ecosystem",
+      "sourceGlb": "source-glb/compost-ecosystem.source.glb",
+      "optimizedGlb": "optimized-glb/Compost-ecosystem.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 304,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "compost-pile",
+      "sourceGlb": "source-glb/compost-pile.source.glb",
+      "optimizedGlb": "optimized-glb/Compost-Pile.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 252,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "compost-shed",
+      "sourceGlb": "source-glb/compost-shed.source.glb",
+      "optimizedGlb": "optimized-glb/CompostShed.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 132,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "construction-yard",
+      "sourceGlb": "source-glb/construction-yard.source.glb",
+      "optimizedGlb": "optimized-glb/Construction-Yard.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 672,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "cookhouse",
+      "sourceGlb": "source-glb/cookhouse.source.glb",
+      "optimizedGlb": "optimized-glb/Cookhouse.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 176,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "cottage",
+      "sourceGlb": "source-glb/cottage.source.glb",
+      "optimizedGlb": "optimized-glb/Cottage.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 144,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "cotton-picker",
+      "sourceGlb": "source-glb/cotton-picker.source.glb",
+      "optimizedGlb": "optimized-glb/Cotton-Picker.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "cotton-picker-front-picking-heads",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.55,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 520,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "cow-barn",
+      "sourceGlb": "source-glb/cow-barn.source.glb",
+      "optimizedGlb": "optimized-glb/Cow-Barn.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "cow-barn-broad-sliding-service-door",
+          "property": "position",
+          "axis": "z",
+          "amplitude": 0.68,
+          "frequency": 0.38,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 300,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "crab-pots",
+      "sourceGlb": "source-glb/crab-pots.source.glb",
+      "optimizedGlb": "optimized-glb/Crab-Pots.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 648,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "creamery",
+      "sourceGlb": "source-glb/creamery.source.glb",
+      "optimizedGlb": "optimized-glb/Creamery.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "creamery-separator-handwheel-control",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 3.141592653589793,
+          "frequency": 0.55,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 324,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "crop-apple-tree-stage-1-sapling",
+      "sourceGlb": "source-glb/crop-apple-tree-stage-1-sapling.source.glb",
+      "optimizedGlb": "optimized-glb/crop-apple-tree-stage-1-sapling.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 96,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-apple-tree-stage-2-young-tree",
+      "sourceGlb": "source-glb/crop-apple-tree-stage-2-young-tree.source.glb",
+      "optimizedGlb": "optimized-glb/crop-apple-tree-stage-2-young-tree.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 116,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-apple-tree-stage-3-flowering",
+      "sourceGlb": "source-glb/crop-apple-tree-stage-3-flowering.source.glb",
+      "optimizedGlb": "optimized-glb/crop-apple-tree-stage-3-flowering.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 228,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-apple-tree-stage-4-fruiting",
+      "sourceGlb": "source-glb/crop-apple-tree-stage-4-fruiting.source.glb",
+      "optimizedGlb": "optimized-glb/crop-apple-tree-stage-4-fruiting.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 296,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-avocado-tree-stage-1-sapling",
+      "sourceGlb": "source-glb/crop-avocado-tree-stage-1-sapling.source.glb",
+      "optimizedGlb": "optimized-glb/crop-avocado-tree-stage-1-sapling.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 96,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-avocado-tree-stage-2-young-tree",
+      "sourceGlb": "source-glb/crop-avocado-tree-stage-2-young-tree.source.glb",
+      "optimizedGlb": "optimized-glb/crop-avocado-tree-stage-2-young-tree.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 116,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-avocado-tree-stage-3-flowering",
+      "sourceGlb": "source-glb/crop-avocado-tree-stage-3-flowering.source.glb",
+      "optimizedGlb": "optimized-glb/crop-avocado-tree-stage-3-flowering.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 228,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-avocado-tree-stage-4-fruiting",
+      "sourceGlb": "source-glb/crop-avocado-tree-stage-4-fruiting.source.glb",
+      "optimizedGlb": "optimized-glb/crop-avocado-tree-stage-4-fruiting.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 296,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-carrot-stage-1-sprout",
+      "sourceGlb": "source-glb/crop-carrot-stage-1-sprout.source.glb",
+      "optimizedGlb": "optimized-glb/crop-carrot-stage-1-sprout.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 72,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-carrot-stage-2-leafy",
+      "sourceGlb": "source-glb/crop-carrot-stage-2-leafy.source.glb",
+      "optimizedGlb": "optimized-glb/crop-carrot-stage-2-leafy.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 96,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-carrot-stage-3-root-bulking",
+      "sourceGlb": "source-glb/crop-carrot-stage-3-root-bulking.source.glb",
+      "optimizedGlb": "optimized-glb/crop-carrot-stage-3-root-bulking.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 152,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-carrot-stage-4-harvest-ready",
+      "sourceGlb": "source-glb/crop-carrot-stage-4-harvest-ready.source.glb",
+      "optimizedGlb": "optimized-glb/crop-carrot-stage-4-harvest-ready.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 212,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-cherry-blossom-tree-stage-1-sapling",
+      "sourceGlb": "source-glb/crop-cherry-blossom-tree-stage-1-sapling.source.glb",
+      "optimizedGlb": "optimized-glb/crop-cherry-blossom-tree-stage-1-sapling.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 96,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-cherry-blossom-tree-stage-2-young-tree",
+      "sourceGlb": "source-glb/crop-cherry-blossom-tree-stage-2-young-tree.source.glb",
+      "optimizedGlb": "optimized-glb/crop-cherry-blossom-tree-stage-2-young-tree.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 116,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-cherry-blossom-tree-stage-3-budding",
+      "sourceGlb": "source-glb/crop-cherry-blossom-tree-stage-3-budding.source.glb",
+      "optimizedGlb": "optimized-glb/crop-cherry-blossom-tree-stage-3-budding.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 228,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-cherry-blossom-tree-stage-4-full-bloom",
+      "sourceGlb": "source-glb/crop-cherry-blossom-tree-stage-4-full-bloom.source.glb",
+      "optimizedGlb": "optimized-glb/crop-cherry-blossom-tree-stage-4-full-bloom.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 324,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-corn-stage-1-sprout",
+      "sourceGlb": "source-glb/crop-corn-stage-1-sprout.source.glb",
+      "optimizedGlb": "optimized-glb/crop-corn-stage-1-sprout.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 72,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-corn-stage-2-juvenile",
+      "sourceGlb": "source-glb/crop-corn-stage-2-juvenile.source.glb",
+      "optimizedGlb": "optimized-glb/crop-corn-stage-2-juvenile.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 80,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-corn-stage-3-tasseling",
+      "sourceGlb": "source-glb/crop-corn-stage-3-tasseling.source.glb",
+      "optimizedGlb": "optimized-glb/crop-corn-stage-3-tasseling.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 112,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-corn-stage-4-harvest-ready",
+      "sourceGlb": "source-glb/crop-corn-stage-4-harvest-ready.source.glb",
+      "optimizedGlb": "optimized-glb/crop-corn-stage-4-harvest-ready.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 116,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-grape-vine-stage-1-cutting",
+      "sourceGlb": "source-glb/crop-grape-vine-stage-1-cutting.source.glb",
+      "optimizedGlb": "optimized-glb/crop-grape-vine-stage-1-cutting.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 72,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-grape-vine-stage-2-trained-young-vine",
+      "sourceGlb": "source-glb/crop-grape-vine-stage-2-trained-young-vine.source.glb",
+      "optimizedGlb": "optimized-glb/crop-grape-vine-stage-2-trained-young-vine.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 96,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-grape-vine-stage-3-flowering",
+      "sourceGlb": "source-glb/crop-grape-vine-stage-3-flowering.source.glb",
+      "optimizedGlb": "optimized-glb/crop-grape-vine-stage-3-flowering.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 192,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-grape-vine-stage-4-fruiting",
+      "sourceGlb": "source-glb/crop-grape-vine-stage-4-fruiting.source.glb",
+      "optimizedGlb": "optimized-glb/crop-grape-vine-stage-4-fruiting.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 320,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-netting",
+      "sourceGlb": "source-glb/crop-netting.source.glb",
+      "optimizedGlb": "optimized-glb/Crop-Netting.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 1244,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-palm-tree-stage-1-sprout",
+      "sourceGlb": "source-glb/crop-palm-tree-stage-1-sprout.source.glb",
+      "optimizedGlb": "optimized-glb/crop-palm-tree-stage-1-sprout.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 80,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-palm-tree-stage-2-juvenile",
+      "sourceGlb": "source-glb/crop-palm-tree-stage-2-juvenile.source.glb",
+      "optimizedGlb": "optimized-glb/crop-palm-tree-stage-2-juvenile.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 96,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-palm-tree-stage-3-trunk-forming",
+      "sourceGlb": "source-glb/crop-palm-tree-stage-3-trunk-forming.source.glb",
+      "optimizedGlb": "optimized-glb/crop-palm-tree-stage-3-trunk-forming.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 104,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-palm-tree-stage-4-mature",
+      "sourceGlb": "source-glb/crop-palm-tree-stage-4-mature.source.glb",
+      "optimizedGlb": "optimized-glb/crop-palm-tree-stage-4-mature.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 212,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-peach-tree-stage-1-sapling",
+      "sourceGlb": "source-glb/crop-peach-tree-stage-1-sapling.source.glb",
+      "optimizedGlb": "optimized-glb/crop-peach-tree-stage-1-sapling.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 96,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-peach-tree-stage-2-young-tree",
+      "sourceGlb": "source-glb/crop-peach-tree-stage-2-young-tree.source.glb",
+      "optimizedGlb": "optimized-glb/crop-peach-tree-stage-2-young-tree.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 116,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-peach-tree-stage-3-flowering",
+      "sourceGlb": "source-glb/crop-peach-tree-stage-3-flowering.source.glb",
+      "optimizedGlb": "optimized-glb/crop-peach-tree-stage-3-flowering.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 228,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-peach-tree-stage-4-fruiting",
+      "sourceGlb": "source-glb/crop-peach-tree-stage-4-fruiting.source.glb",
+      "optimizedGlb": "optimized-glb/crop-peach-tree-stage-4-fruiting.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 296,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-pumpkin-stage-1-sprout",
+      "sourceGlb": "source-glb/crop-pumpkin-stage-1-sprout.source.glb",
+      "optimizedGlb": "optimized-glb/crop-pumpkin-stage-1-sprout.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 176,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-pumpkin-stage-2-vining",
+      "sourceGlb": "source-glb/crop-pumpkin-stage-2-vining.source.glb",
+      "optimizedGlb": "optimized-glb/crop-pumpkin-stage-2-vining.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 200,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-pumpkin-stage-3-flowering",
+      "sourceGlb": "source-glb/crop-pumpkin-stage-3-flowering.source.glb",
+      "optimizedGlb": "optimized-glb/crop-pumpkin-stage-3-flowering.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 248,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-pumpkin-stage-4-fruiting",
+      "sourceGlb": "source-glb/crop-pumpkin-stage-4-fruiting.source.glb",
+      "optimizedGlb": "optimized-glb/crop-pumpkin-stage-4-fruiting.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 308,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-rice-stage-1-seedling",
+      "sourceGlb": "source-glb/crop-rice-stage-1-seedling.source.glb",
+      "optimizedGlb": "optimized-glb/crop-rice-stage-1-seedling.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 152,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-rice-stage-2-tillering",
+      "sourceGlb": "source-glb/crop-rice-stage-2-tillering.source.glb",
+      "optimizedGlb": "optimized-glb/crop-rice-stage-2-tillering.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 224,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-rice-stage-3-heading",
+      "sourceGlb": "source-glb/crop-rice-stage-3-heading.source.glb",
+      "optimizedGlb": "optimized-glb/crop-rice-stage-3-heading.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 712,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-rice-stage-4-ripe",
+      "sourceGlb": "source-glb/crop-rice-stage-4-ripe.source.glb",
+      "optimizedGlb": "optimized-glb/crop-rice-stage-4-ripe.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 1016,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-strawberry-stage-1-sprout",
+      "sourceGlb": "source-glb/crop-strawberry-stage-1-sprout.source.glb",
+      "optimizedGlb": "optimized-glb/crop-strawberry-stage-1-sprout.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 72,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-strawberry-stage-2-leafing",
+      "sourceGlb": "source-glb/crop-strawberry-stage-2-leafing.source.glb",
+      "optimizedGlb": "optimized-glb/crop-strawberry-stage-2-leafing.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 96,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-strawberry-stage-3-flowering",
+      "sourceGlb": "source-glb/crop-strawberry-stage-3-flowering.source.glb",
+      "optimizedGlb": "optimized-glb/crop-strawberry-stage-3-flowering.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 184,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-strawberry-stage-4-harvest-ready",
+      "sourceGlb": "source-glb/crop-strawberry-stage-4-harvest-ready.source.glb",
+      "optimizedGlb": "optimized-glb/crop-strawberry-stage-4-harvest-ready.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 212,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-sunflower-stage-1-sprout",
+      "sourceGlb": "source-glb/crop-sunflower-stage-1-sprout.source.glb",
+      "optimizedGlb": "optimized-glb/crop-sunflower-stage-1-sprout.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 72,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-sunflower-stage-2-vegetative",
+      "sourceGlb": "source-glb/crop-sunflower-stage-2-vegetative.source.glb",
+      "optimizedGlb": "optimized-glb/crop-sunflower-stage-2-vegetative.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 80,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-sunflower-stage-3-budding",
+      "sourceGlb": "source-glb/crop-sunflower-stage-3-budding.source.glb",
+      "optimizedGlb": "optimized-glb/crop-sunflower-stage-3-budding.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 112,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-sunflower-stage-4-full-bloom",
+      "sourceGlb": "source-glb/crop-sunflower-stage-4-full-bloom.source.glb",
+      "optimizedGlb": "optimized-glb/crop-sunflower-stage-4-full-bloom.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 140,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-tomato-stage-1-seedling",
+      "sourceGlb": "source-glb/crop-tomato-stage-1-seedling.source.glb",
+      "optimizedGlb": "optimized-glb/crop-tomato-stage-1-seedling.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 72,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-tomato-stage-2-staked-young",
+      "sourceGlb": "source-glb/crop-tomato-stage-2-staked-young.source.glb",
+      "optimizedGlb": "optimized-glb/crop-tomato-stage-2-staked-young.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 96,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-tomato-stage-3-flowering",
+      "sourceGlb": "source-glb/crop-tomato-stage-3-flowering.source.glb",
+      "optimizedGlb": "optimized-glb/crop-tomato-stage-3-flowering.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 184,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-tomato-stage-4-fruiting",
+      "sourceGlb": "source-glb/crop-tomato-stage-4-fruiting.source.glb",
+      "optimizedGlb": "optimized-glb/crop-tomato-stage-4-fruiting.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 212,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-watermelon-stage-1-sprout",
+      "sourceGlb": "source-glb/crop-watermelon-stage-1-sprout.source.glb",
+      "optimizedGlb": "optimized-glb/crop-watermelon-stage-1-sprout.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 176,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-watermelon-stage-2-vining",
+      "sourceGlb": "source-glb/crop-watermelon-stage-2-vining.source.glb",
+      "optimizedGlb": "optimized-glb/crop-watermelon-stage-2-vining.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 200,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-watermelon-stage-3-flowering",
+      "sourceGlb": "source-glb/crop-watermelon-stage-3-flowering.source.glb",
+      "optimizedGlb": "optimized-glb/crop-watermelon-stage-3-flowering.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 248,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "crop-watermelon-stage-4-fruiting",
+      "sourceGlb": "source-glb/crop-watermelon-stage-4-fruiting.source.glb",
+      "optimizedGlb": "optimized-glb/crop-watermelon-stage-4-fruiting.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 308,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "cultivator",
+      "sourceGlb": "source-glb/cultivator.source.glb",
+      "optimizedGlb": "optimized-glb/Cultivator.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "cultivator-manual-depth-control-lever",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": -0.58,
+          "frequency": 0.75,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 1032,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "dairy-room",
+      "sourceGlb": "source-glb/dairy-room.source.glb",
+      "optimizedGlb": "optimized-glb/Dairy-Room.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "dairy-room-hinged-service-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1,
+          "frequency": 0.56,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 644,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "date-palm-grove",
+      "sourceGlb": "source-glb/date-palm-grove.source.glb",
+      "optimizedGlb": "optimized-glb/Date-palm-grove.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 72,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "deep-well",
+      "sourceGlb": "source-glb/deep-well.source.glb",
+      "optimizedGlb": "optimized-glb/Deep-Well.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "deep-well-handwheel-drive",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 3.6128315516282616,
+          "frequency": 0.56,
+          "phase": 0
+        },
+        {
+          "node": "deep-well-crank-grip",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.5973445725385655,
+          "frequency": 0.93,
+          "phase": 0.42
+        }
+      ],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 2168,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "dehydrator",
+      "sourceGlb": "source-glb/dehydrator.source.glb",
+      "optimizedGlb": "optimized-glb/Dehydrator.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "dehydrator-hinged-front-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.15,
+          "frequency": 0.56,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 956,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "desalination-plant",
+      "sourceGlb": "source-glb/desalination-plant.source.glb",
+      "optimizedGlb": "optimized-glb/Desalination-Plant.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 508,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "dining-hall",
+      "sourceGlb": "source-glb/dining-hall.source.glb",
+      "optimizedGlb": "optimized-glb/Dining-Hall.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 228,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "dirt-path",
+      "sourceGlb": "source-glb/dirt-path.source.glb",
+      "optimizedGlb": "optimized-glb/Dirt-Path.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 228,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "distillery",
+      "sourceGlb": "source-glb/distillery.source.glb",
+      "optimizedGlb": "optimized-glb/Distillery.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "distillery-hand-valve-wheel",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 1.25,
+          "frequency": 0.7,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 1800,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "distribution-warehouse",
+      "sourceGlb": "source-glb/distribution-warehouse.source.glb",
+      "optimizedGlb": "optimized-glb/Distribution-Warehouse.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 256,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "drainage-ditch",
+      "sourceGlb": "source-glb/drainage-ditch.source.glb",
+      "optimizedGlb": "optimized-glb/Drainage-ditch.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 120,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "drip-irrigation",
+      "sourceGlb": "source-glb/drip-irrigation.source.glb",
+      "optimizedGlb": "optimized-glb/Drip-Irrigation.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "drip-irrigation-central-valve-handle",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.5707963267948966,
+          "frequency": 0.75,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 3884,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "drone-delivery-pad",
+      "sourceGlb": "source-glb/drone-delivery-pad.source.glb",
+      "optimizedGlb": "optimized-glb/Drone-Delivery-Pad.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 108,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "drone-station",
+      "sourceGlb": "source-glb/drone-station.source.glb",
+      "optimizedGlb": "optimized-glb/Drone-station.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 36,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "drying-rack",
+      "sourceGlb": "source-glb/drying-rack.source.glb",
+      "optimizedGlb": "optimized-glb/Drying-Rack.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 1380,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "duck-house",
+      "sourceGlb": "source-glb/duck-house.source.glb",
+      "optimizedGlb": "optimized-glb/Duck-House.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "duck-house-sealed-access-hatch",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 0.55,
+          "frequency": 0.7,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 204,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "egg-sorting-station",
+      "sourceGlb": "source-glb/egg-sorting-station.source.glb",
+      "optimizedGlb": "optimized-glb/Egg-Sorting-Station.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "egg-sorting-station-powered-inspection-roller",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.46,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 760,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "electrical-shed",
+      "sourceGlb": "source-glb/electrical-shed.source.glb",
+      "optimizedGlb": "optimized-glb/Electrical-Shed.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 88,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "evaporative-cooler",
+      "sourceGlb": "source-glb/evaporative-cooler.source.glb",
+      "optimizedGlb": "optimized-glb/Evaporative-cooler.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 68,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "export-warehouse",
+      "sourceGlb": "source-glb/export-warehouse.source.glb",
+      "optimizedGlb": "optimized-glb/Export-Warehouse.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 264,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "farm-gate",
+      "sourceGlb": "source-glb/farm-gate.source.glb",
+      "optimizedGlb": "optimized-glb/Farm-Gate.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 508,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "farm-plot",
+      "sourceGlb": "source-glb/farm-plot.source.glb",
+      "optimizedGlb": "optimized-glb/Farm-Plot.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 192,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "farm-road",
+      "sourceGlb": "source-glb/farm-road.source.glb",
+      "optimizedGlb": "optimized-glb/Farm-Road.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 120,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "farm-shop",
+      "sourceGlb": "source-glb/farm-shop.source.glb",
+      "optimizedGlb": "optimized-glb/Farm-Shop.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 132,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "farm-sign",
+      "sourceGlb": "source-glb/farm-sign.source.glb",
+      "optimizedGlb": "optimized-glb/Farm-sign.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 72,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "farm-to-table-restaurant",
+      "sourceGlb": "source-glb/farm-to-table-restaurant.source.glb",
+      "optimizedGlb": "optimized-glb/Farm-to-table-Restaurant.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 176,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "farm-truck",
+      "sourceGlb": "source-glb/farm-truck.source.glb",
+      "optimizedGlb": "optimized-glb/Farm-Truck.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "farm-truck-front-left",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.38,
+          "phase": 0
+        },
+        {
+          "node": "farm-truck-front-right",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.38,
+          "phase": 0
+        },
+        {
+          "node": "farm-truck-rear-left",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.38,
+          "phase": 0
+        },
+        {
+          "node": "farm-truck-rear-right",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.38,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 444,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "farmers-market",
+      "sourceGlb": "source-glb/farmers-market.source.glb",
+      "optimizedGlb": "optimized-glb/Farmers-Market.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 276,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "farmhouse",
+      "sourceGlb": "source-glb/farmhouse.source.glb",
+      "optimizedGlb": "optimized-glb/Farmhouse.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 216,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "feed-bin",
+      "sourceGlb": "source-glb/feed-bin.source.glb",
+      "optimizedGlb": "optimized-glb/Feed-Bin.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "feed-bin-dispensing-gate",
+          "property": "position",
+          "axis": "y",
+          "amplitude": 0.38,
+          "frequency": 0.55,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 560,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "feeding-trough",
+      "sourceGlb": "source-glb/feeding-trough.source.glb",
+      "optimizedGlb": "optimized-glb/Feeding-Trough.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 232,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "fence",
+      "sourceGlb": "source-glb/fence.source.glb",
+      "optimizedGlb": "optimized-glb/Fence.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 60,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "fenced-grazing-field",
+      "sourceGlb": "source-glb/fenced-grazing-field.source.glb",
+      "optimizedGlb": "optimized-glb/Fenced-Grazing-Field.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "fenced-grazing-field-broad-front-gate",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.06,
+          "frequency": 0.64,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 1068,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "fermentation-house",
+      "sourceGlb": "source-glb/fermentation-house.source.glb",
+      "optimizedGlb": "optimized-glb/Fermentation-House.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "fermentation-house-hinged-access-door-pivot",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.9,
+          "frequency": 0.65,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 6,
+      "triangleCount": 720,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "ferry-landing",
+      "sourceGlb": "source-glb/ferry-landing.source.glb",
+      "optimizedGlb": "optimized-glb/Ferry-Landing.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 136,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "fertilizer-shed",
+      "sourceGlb": "source-glb/fertilizer-shed.source.glb",
+      "optimizedGlb": "optimized-glb/Fertilizer-Shed.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 76,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "field",
+      "sourceGlb": "source-glb/field.source.glb",
+      "optimizedGlb": "optimized-glb/Field.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 252,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "fire-lookout",
+      "sourceGlb": "source-glb/fire-lookout.source.glb",
+      "optimizedGlb": "optimized-glb/Fire-lookout.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 72,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "fire-water-tank",
+      "sourceGlb": "source-glb/fire-water-tank.source.glb",
+      "optimizedGlb": "optimized-glb/Fire-water-tank.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 36,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "fish-pond",
+      "sourceGlb": "source-glb/fish-pond.source.glb",
+      "optimizedGlb": "optimized-glb/FishPond.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 60,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "fish-processing-shed",
+      "sourceGlb": "source-glb/fish-processing-shed.source.glb",
+      "optimizedGlb": "optimized-glb/Fish-Processing-Shed.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 224,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "fish-smokehouse",
+      "sourceGlb": "source-glb/fish-smokehouse.source.glb",
+      "optimizedGlb": "optimized-glb/Fish-smokehouse.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 332,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "fish-trap",
+      "sourceGlb": "source-glb/fish-trap.source.glb",
+      "optimizedGlb": "optimized-glb/Fish-Trap.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 468,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "fishing-dock",
+      "sourceGlb": "source-glb/fishing-dock.source.glb",
+      "optimizedGlb": "optimized-glb/FishingDock.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 600,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "fishing-hut",
+      "sourceGlb": "source-glb/fishing-hut.source.glb",
+      "optimizedGlb": "optimized-glb/Fishing-Hut.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 348,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "fishing-pier",
+      "sourceGlb": "source-glb/fishing-pier.source.glb",
+      "optimizedGlb": "optimized-glb/Fishing-Pier.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 460,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "flags",
+      "sourceGlb": "source-glb/flags.source.glb",
+      "optimizedGlb": "optimized-glb/Flags.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 24,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "flood-channel",
+      "sourceGlb": "source-glb/flood-channel.source.glb",
+      "optimizedGlb": "optimized-glb/Flood-channel.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 120,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "flour-mill",
+      "sourceGlb": "source-glb/flour-mill.source.glb",
+      "optimizedGlb": "optimized-glb/Flour-Mill.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "flour-mill-visible-intake-auger-shaft",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 3.141592653589793,
+          "frequency": 0.55,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 216,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "flower-beds",
+      "sourceGlb": "source-glb/flower-beds.source.glb",
+      "optimizedGlb": "optimized-glb/Flower-beds.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 788,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "food-factory",
+      "sourceGlb": "source-glb/food-factory.source.glb",
+      "optimizedGlb": "optimized-glb/Food-Factory.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "food-factory-visible-drive-roller",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 1.3,
+          "frequency": 0.78,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 908,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "footbridge",
+      "sourceGlb": "source-glb/footbridge.source.glb",
+      "optimizedGlb": "optimized-glb/Footbridge.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 188,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "forest-reserve",
+      "sourceGlb": "source-glb/forest-reserve.source.glb",
+      "optimizedGlb": "optimized-glb/Forest-reserve.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 396,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "forester-hut",
+      "sourceGlb": "source-glb/forester-hut.source.glb",
+      "optimizedGlb": "optimized-glb/Forester-Hut.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 356,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "forge",
+      "sourceGlb": "source-glb/forge.source.glb",
+      "optimizedGlb": "optimized-glb/Forge.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 60,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "forklift",
+      "sourceGlb": "source-glb/forklift.source.glb",
+      "optimizedGlb": "optimized-glb/Forklift.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "forklift-fork-carriage",
+          "property": "position",
+          "axis": "y",
+          "amplitude": 0.68,
+          "frequency": 0.16,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 480,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "fountain",
+      "sourceGlb": "source-glb/fountain.source.glb",
+      "optimizedGlb": "optimized-glb/Fountain.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "fountain-rear-service-valve",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 1.25,
+          "frequency": 0.55,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 572,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "frog-pond",
+      "sourceGlb": "source-glb/frog-pond.source.glb",
+      "optimizedGlb": "optimized-glb/Frog-pond.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 280,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "frost-heater",
+      "sourceGlb": "source-glb/frost-heater.source.glb",
+      "optimizedGlb": "optimized-glb/Frost-heater.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 248,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "fuel-storage",
+      "sourceGlb": "source-glb/fuel-storage.source.glb",
+      "optimizedGlb": "optimized-glb/Fuel-Storage.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 124,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "fuel-tank",
+      "sourceGlb": "source-glb/fuel-tank.source.glb",
+      "optimizedGlb": "optimized-glb/Fuel-Tank.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "fuel-tank-valve-handwheel",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 1.1,
+          "frequency": 0.72,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 1000,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "garden-paths",
+      "sourceGlb": "source-glb/garden-paths.source.glb",
+      "optimizedGlb": "optimized-glb/Garden-paths.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 1,
+      "triangleCount": 24,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "gates",
+      "sourceGlb": "source-glb/gates.source.glb",
+      "optimizedGlb": "optimized-glb/Gates.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "gates-left-hinged-leaf",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.88,
+          "frequency": 0.42,
+          "phase": 0
+        },
+        {
+          "node": "gates-right-hinged-leaf",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": -0.88,
+          "frequency": 0.42,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 352,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "gazebo",
+      "sourceGlb": "source-glb/gazebo.source.glb",
+      "optimizedGlb": "optimized-glb/Gazebo.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 152,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "general-store",
+      "sourceGlb": "source-glb/general-store.source.glb",
+      "optimizedGlb": "optimized-glb/General-Store.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 132,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "generator",
+      "sourceGlb": "source-glb/generator.source.glb",
+      "optimizedGlb": "optimized-glb/Generator.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "generator-generator-flywheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.55,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 360,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "genetics-laboratory",
+      "sourceGlb": "source-glb/genetics-laboratory.source.glb",
+      "optimizedGlb": "optimized-glb/Genetics-laboratory.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 228,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "geothermal-plant",
+      "sourceGlb": "source-glb/geothermal-plant.source.glb",
+      "optimizedGlb": "optimized-glb/Geothermal-Plant.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 464,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "giant-windmill",
+      "sourceGlb": "source-glb/giant-windmill.source.glb",
+      "optimizedGlb": "optimized-glb/giant-windmill.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "giant-windmill-rotor",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 1,
+          "frequency": 1,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 136,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "glasshouse",
+      "sourceGlb": "source-glb/glasshouse.source.glb",
+      "optimizedGlb": "optimized-glb/Glasshouse.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "glasshouse-left-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.52,
+          "frequency": 0.45,
+          "phase": 0
+        },
+        {
+          "node": "glasshouse-right-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": -0.52,
+          "frequency": 0.45,
+          "phase": 3.141592653589793
+        }
+      ],
+      "optimizedDrawCalls": 6,
+      "triangleCount": 540,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "goat-shed",
+      "sourceGlb": "source-glb/goat-shed.source.glb",
+      "optimizedGlb": "optimized-glb/Goat-Shed.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "goat-shed-service-access-gate",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.08,
+          "frequency": 0.68,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 824,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "goose-pen",
+      "sourceGlb": "source-glb/goose-pen.source.glb",
+      "optimizedGlb": "optimized-glb/Goose-Pen.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "goose-pen-broad-front-gate",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.08,
+          "frequency": 0.65,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 920,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "grain-elevator",
+      "sourceGlb": "source-glb/grain-elevator.source.glb",
+      "optimizedGlb": "optimized-glb/grain-elevator.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 1,
+      "triangleCount": 24,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "granary",
+      "sourceGlb": "source-glb/granary.source.glb",
+      "optimizedGlb": "optimized-glb/Granary.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "granary-chute-lever",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 0.58,
+          "frequency": 0.8,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 628,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "grand-barn",
+      "sourceGlb": "source-glb/grand-barn.source.glb",
+      "optimizedGlb": "optimized-glb/grand-barn.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "grand-barn-sliding-doors",
+          "property": "position",
+          "axis": "x",
+          "amplitude": 1.8,
+          "frequency": 0.22,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 216,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "gravel-road",
+      "sourceGlb": "source-glb/gravel-road.source.glb",
+      "optimizedGlb": "optimized-glb/Gravel-Road.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 252,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "greenhouse",
+      "sourceGlb": "source-glb/greenhouse.source.glb",
+      "optimizedGlb": "optimized-glb/Greenhouse.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "greenhouse-front-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.55,
+          "frequency": 0.8,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 204,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "hand-cart",
+      "sourceGlb": "source-glb/hand-cart.source.glb",
+      "optimizedGlb": "optimized-glb/Hand-Cart.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "hand-cart-visible-cart-wheels-pivot",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 3.141592653589793,
+          "frequency": 0.7,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 272,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "hand-pump",
+      "sourceGlb": "source-glb/hand-pump.source.glb",
+      "optimizedGlb": "optimized-glb/Hand-Pump.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "hand-pump-handle-hinge",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 0.22,
+          "frequency": 1.3,
+          "phase": 0
+        },
+        {
+          "node": "hand-pump-piston-rod",
+          "property": "position",
+          "axis": "y",
+          "amplitude": 0.025,
+          "frequency": 1.3,
+          "phase": 3.141592653589793
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 1036,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "harvester",
+      "sourceGlb": "source-glb/harvester.source.glb",
+      "optimizedGlb": "optimized-glb/Harvester.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "harvester-cutter-reel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.6,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 596,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "hatchery",
+      "sourceGlb": "source-glb/hatchery.source.glb",
+      "optimizedGlb": "optimized-glb/Hatchery.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "hatchery-wide-washable-service-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.56,
+          "frequency": 0.55,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 204,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "hay-rack",
+      "sourceGlb": "source-glb/hay-rack.source.glb",
+      "optimizedGlb": "optimized-glb/Hay-Rack.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 560,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "hayloft",
+      "sourceGlb": "source-glb/hayloft.source.glb",
+      "optimizedGlb": "optimized-glb/Hayloft.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "hayloft-hand-winch-control",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.15,
+          "frequency": 0.8,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 620,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "heated-greenhouse",
+      "sourceGlb": "source-glb/heated-greenhouse.source.glb",
+      "optimizedGlb": "optimized-glb/Heated-greenhouse.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 36,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "hedge",
+      "sourceGlb": "source-glb/hedge.source.glb",
+      "optimizedGlb": "optimized-glb/Hedge.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 24,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "hedgerow",
+      "sourceGlb": "source-glb/hedgerow.source.glb",
+      "optimizedGlb": "optimized-glb/Hedgerow.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 268,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "herb-garden",
+      "sourceGlb": "source-glb/herb-garden.source.glb",
+      "optimizedGlb": "optimized-glb/Herb-Garden.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 476,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "horse-paddock",
+      "sourceGlb": "source-glb/horse-paddock.source.glb",
+      "optimizedGlb": "optimized-glb/Horse-Paddock.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "horse-paddock-broad-paddock-swing-gate",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.74,
+          "frequency": 0.65,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 288,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "hydro-turbine",
+      "sourceGlb": "source-glb/hydro-turbine.source.glb",
+      "optimizedGlb": "optimized-glb/HydroTurbine.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "hydro-turbine-rotor",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.45,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 232,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "hydroelectric-dam",
+      "sourceGlb": "source-glb/hydroelectric-dam.source.glb",
+      "optimizedGlb": "optimized-glb/hydroelectric-dam.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 24,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "hydroponic-house",
+      "sourceGlb": "source-glb/hydroponic-house.source.glb",
+      "optimizedGlb": "optimized-glb/Hydroponic-House.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "hydroponic-house-service-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.5,
+          "frequency": 0.5,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 6,
+      "triangleCount": 480,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "ice-house",
+      "sourceGlb": "source-glb/ice-house.source.glb",
+      "optimizedGlb": "optimized-glb/Ice-House.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "ice-house-heavy-front-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.05,
+          "frequency": 0.7,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 460,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "incubator-house",
+      "sourceGlb": "source-glb/incubator-house.source.glb",
+      "optimizedGlb": "optimized-glb/Incubator-House.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "incubator-house-side-service-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1,
+          "frequency": 0.56,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 720,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "industrial-dairy",
+      "sourceGlb": "source-glb/industrial-dairy.source.glb",
+      "optimizedGlb": "optimized-glb/Industrial-Dairy.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "industrial-dairy-visible-dairy-pump-rotor",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 3.141592653589793,
+          "frequency": 0.55,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 420,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "insulated-barn",
+      "sourceGlb": "source-glb/insulated-barn.source.glb",
+      "optimizedGlb": "optimized-glb/Insulated-barn.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 36,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "irrigation-canal",
+      "sourceGlb": "source-glb/irrigation-canal.source.glb",
+      "optimizedGlb": "optimized-glb/Irrigation-Canal.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "irrigation-canal-sluice-wheel",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 4.084070449666731,
+          "frequency": 0.55,
+          "phase": 0
+        },
+        {
+          "node": "irrigation-canal-sluice-gate",
+          "property": "position",
+          "axis": "y",
+          "amplitude": 0.19,
+          "frequency": 0.55,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 1028,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "irrigation-channels",
+      "sourceGlb": "source-glb/irrigation-channels.source.glb",
+      "optimizedGlb": "optimized-glb/Irrigation-channels.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 24,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "irrigation-ditch",
+      "sourceGlb": "source-glb/irrigation-ditch.source.glb",
+      "optimizedGlb": "optimized-glb/Irrigation-Ditch.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 3156,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "irrigation-fertilizer-injector",
+      "sourceGlb": "source-glb/irrigation-fertilizer-injector.source.glb",
+      "optimizedGlb": "optimized-glb/IrrigationFertilizerInjector.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 304,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "juicery",
+      "sourceGlb": "source-glb/juicery.source.glb",
+      "optimizedGlb": "optimized-glb/Juicery.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "juicery-hinged-service-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1,
+          "frequency": 0.56,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 916,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "lanterns",
+      "sourceGlb": "source-glb/lanterns.source.glb",
+      "optimizedGlb": "optimized-glb/Lanterns.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 460,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "levee",
+      "sourceGlb": "source-glb/levee.source.glb",
+      "optimizedGlb": "optimized-glb/Levee.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 204,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "lighthouse",
+      "sourceGlb": "source-glb/lighthouse.source.glb",
+      "optimizedGlb": "optimized-glb/Lighthouse.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 100,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "lightning-rod",
+      "sourceGlb": "source-glb/lightning-rod.source.glb",
+      "optimizedGlb": "optimized-glb/Lightning-rod.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 36,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "lime-storage",
+      "sourceGlb": "source-glb/lime-storage.source.glb",
+      "optimizedGlb": "optimized-glb/Lime-Storage.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 148,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "livestock-market",
+      "sourceGlb": "source-glb/livestock-market.source.glb",
+      "optimizedGlb": "optimized-glb/LivestockMarket.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 84,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "livestock-shelter",
+      "sourceGlb": "source-glb/livestock-shelter.source.glb",
+      "optimizedGlb": "optimized-glb/Livestock-Shelter.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 444,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "loading-dock",
+      "sourceGlb": "source-glb/loading-dock.source.glb",
+      "optimizedGlb": "optimized-glb/Loading-Dock.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 132,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "logging-camp",
+      "sourceGlb": "source-glb/logging-camp.source.glb",
+      "optimizedGlb": "optimized-glb/Logging-Camp.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 584,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "lumber-mill",
+      "sourceGlb": "source-glb/lumber-mill.source.glb",
+      "optimizedGlb": "optimized-glb/Lumber-Mill.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 388,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "lumber-yard",
+      "sourceGlb": "source-glb/lumber-yard.source.glb",
+      "optimizedGlb": "optimized-glb/Lumber-Yard.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "lumber-yard-hand-crank-winch",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 1.3,
+          "frequency": 0.75,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 512,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "machine-shop",
+      "sourceGlb": "source-glb/machine-shop.source.glb",
+      "optimizedGlb": "optimized-glb/Machine-Shop.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 256,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "manor-farmhouse",
+      "sourceGlb": "source-glb/manor-farmhouse.source.glb",
+      "optimizedGlb": "optimized-glb/manor-farmhouse.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "manor-farmhouse-front-entry",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.62,
+          "frequency": 0.18,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 336,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "manure-lagoon",
+      "sourceGlb": "source-glb/manure-lagoon.source.glb",
+      "optimizedGlb": "optimized-glb/Manure-Lagoon.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "manure-lagoon-pump-isolation-valve-lever",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.42,
+          "frequency": 0.75,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 288,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "manure-pit",
+      "sourceGlb": "source-glb/manure-pit.source.glb",
+      "optimizedGlb": "optimized-glb/Manure-Pit.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "manure-pit-service-isolation-valve-lever",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.42,
+          "frequency": 0.75,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 216,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "manure-storage",
+      "sourceGlb": "source-glb/manure-storage.source.glb",
+      "optimizedGlb": "optimized-glb/ManureStorage.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 84,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "maple-syrup-house",
+      "sourceGlb": "source-glb/maple-syrup-house.source.glb",
+      "optimizedGlb": "optimized-glb/Maple-Syrup-House.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 220,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "massive-greenhouse",
+      "sourceGlb": "source-glb/massive-greenhouse.source.glb",
+      "optimizedGlb": "optimized-glb/massive-greenhouse.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "massive-greenhouse-sliding-entry",
+          "property": "position",
+          "axis": "x",
+          "amplitude": 1.65,
+          "frequency": 0.2,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 552,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "mechanic-garage",
+      "sourceGlb": "source-glb/mechanic-garage.source.glb",
+      "optimizedGlb": "optimized-glb/Mechanic-Garage.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 140,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "meltwater-collector",
+      "sourceGlb": "source-glb/meltwater-collector.source.glb",
+      "optimizedGlb": "optimized-glb/Meltwater-Collector.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 888,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "microgrid",
+      "sourceGlb": "source-glb/microgrid.source.glb",
+      "optimizedGlb": "optimized-glb/Microgrid.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 264,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "milking-shed",
+      "sourceGlb": "source-glb/milking-shed.source.glb",
+      "optimizedGlb": "optimized-glb/Milking-Shed.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "milking-shed-left-stall-gate",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.02,
+          "frequency": 0.62,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 680,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "millstone",
+      "sourceGlb": "source-glb/millstone.source.glb",
+      "optimizedGlb": "optimized-glb/Millstone.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "millstone-rotating-upper-millstone",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.34,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 788,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "mountain-funicular",
+      "sourceGlb": "source-glb/mountain-funicular.source.glb",
+      "optimizedGlb": "optimized-glb/Mountain-Funicular.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 244,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "mulch-station",
+      "sourceGlb": "source-glb/mulch-station.source.glb",
+      "optimizedGlb": "optimized-glb/Mulch-Station.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 96,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "mushroom-house",
+      "sourceGlb": "source-glb/mushroom-house.source.glb",
+      "optimizedGlb": "optimized-glb/Mushroom-House.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "mushroom-house-front-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.52,
+          "frequency": 0.8,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 6,
+      "triangleCount": 448,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "net-station",
+      "sourceGlb": "source-glb/net-station.source.glb",
+      "optimizedGlb": "optimized-glb/Net-Station.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 324,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "noodle-workshop",
+      "sourceGlb": "source-glb/noodle-workshop.source.glb",
+      "optimizedGlb": "optimized-glb/Noodle-Workshop.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "noodle-workshop-hand-crank-drive",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.48,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 6,
+      "triangleCount": 1060,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "nursery",
+      "sourceGlb": "source-glb/nursery.source.glb",
+      "optimizedGlb": "optimized-glb/Nursery.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 500,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "oasis-pump",
+      "sourceGlb": "source-glb/oasis-pump.source.glb",
+      "optimizedGlb": "optimized-glb/Oasis-Pump.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "oasis-pump-crank-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 1,
+          "frequency": 1.45,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 460,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "oasis-well",
+      "sourceGlb": "source-glb/oasis-well.source.glb",
+      "optimizedGlb": "optimized-glb/Oasis-well.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 24,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "observation-deck",
+      "sourceGlb": "source-glb/observation-deck.source.glb",
+      "optimizedGlb": "optimized-glb/Observation-deck.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 1,
+      "triangleCount": 60,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "observatory",
+      "sourceGlb": "source-glb/observatory.source.glb",
+      "optimizedGlb": "optimized-glb/observatory.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 24,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "oil-press",
+      "sourceGlb": "source-glb/oil-press.source.glb",
+      "optimizedGlb": "optimized-glb/Oil-Press.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "oil-press-handwheel-screw-ram",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.38,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 632,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "orchard-picker",
+      "sourceGlb": "source-glb/orchard-picker.source.glb",
+      "optimizedGlb": "optimized-glb/Orchard-Picker.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "orchard-picker-articulated-orchard-boom",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 0.22,
+          "frequency": 0.16,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 468,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "orchard",
+      "sourceGlb": "source-glb/orchard.source.glb",
+      "optimizedGlb": "optimized-glb/Orchard.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 480,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "outhouse",
+      "sourceGlb": "source-glb/outhouse.source.glb",
+      "optimizedGlb": "optimized-glb/Outhouse.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 104,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "oyster-beds",
+      "sourceGlb": "source-glb/oyster-beds.source.glb",
+      "optimizedGlb": "optimized-glb/OysterBeds.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 96,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "packaging-house",
+      "sourceGlb": "source-glb/packaging-house.source.glb",
+      "optimizedGlb": "optimized-glb/Packaging-House.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "packaging-house-visible-conveyor-rollers-pivot",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 3.141592653589793,
+          "frequency": 0.7,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 6,
+      "triangleCount": 420,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "pergola",
+      "sourceGlb": "source-glb/pergola.source.glb",
+      "optimizedGlb": "optimized-glb/Pergola.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 200,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "picnic-area",
+      "sourceGlb": "source-glb/picnic-area.source.glb",
+      "optimizedGlb": "optimized-glb/Picnic-area.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 48,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "pigsty",
+      "sourceGlb": "source-glb/pigsty.source.glb",
+      "optimizedGlb": "optimized-glb/Pigsty.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "pigsty-broad-swing-yard-gate",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.74,
+          "frequency": 0.65,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 6,
+      "triangleCount": 216,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "plow",
+      "sourceGlb": "source-glb/plow.source.glb",
+      "optimizedGlb": "optimized-glb/Plow.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 424,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "pollinator-garden",
+      "sourceGlb": "source-glb/pollinator-garden.source.glb",
+      "optimizedGlb": "optimized-glb/Pollinator-garden.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 524,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "pond",
+      "sourceGlb": "source-glb/pond.source.glb",
+      "optimizedGlb": "optimized-glb/Pond.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 48,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "potato-harvester",
+      "sourceGlb": "source-glb/potato-harvester.source.glb",
+      "optimizedGlb": "optimized-glb/Potato-Harvester.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "potato-harvester-web-conveyor",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.42,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 500,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "pottery-workshop",
+      "sourceGlb": "source-glb/pottery-workshop.source.glb",
+      "optimizedGlb": "optimized-glb/Pottery-Workshop.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 228,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "power-lines",
+      "sourceGlb": "source-glb/power-lines.source.glb",
+      "optimizedGlb": "optimized-glb/Power-Lines.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 288,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "precision-farming-station",
+      "sourceGlb": "source-glb/precision-farming-station.source.glb",
+      "optimizedGlb": "optimized-glb/Precision-farming-station.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 36,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "preserve-kitchen",
+      "sourceGlb": "source-glb/preserve-kitchen.source.glb",
+      "optimizedGlb": "optimized-glb/Preserve-Kitchen.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "preserve-kitchen-kettle-stir-shaft",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.42,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 6,
+      "triangleCount": 712,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "press",
+      "sourceGlb": "source-glb/press.source.glb",
+      "optimizedGlb": "optimized-glb/Press.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "press-visible-press-screw-ram",
+          "property": "position",
+          "axis": "y",
+          "amplitude": 0.16,
+          "frequency": 0.65,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 344,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "produce-collection-point",
+      "sourceGlb": "source-glb/produce-collection-point.source.glb",
+      "optimizedGlb": "optimized-glb/Produce-Collection-Point.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 196,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "produce-stall",
+      "sourceGlb": "source-glb/produce-stall.source.glb",
+      "optimizedGlb": "optimized-glb/Produce-Stall.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 132,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "produce-storehouse",
+      "sourceGlb": "source-glb/produce-storehouse.source.glb",
+      "optimizedGlb": "optimized-glb/Produce-Storehouse.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "produce-storehouse-sliding-loading-door",
+          "property": "position",
+          "axis": "x",
+          "amplitude": 1.12,
+          "frequency": 0.32,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 640,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "pump-station",
+      "sourceGlb": "source-glb/pump-station.source.glb",
+      "optimizedGlb": "optimized-glb/Pump-Station.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "pump-station-flywheel-drive",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 3.6128315516282616,
+          "frequency": 0.48,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 1300,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "quarantine-pen",
+      "sourceGlb": "source-glb/quarantine-pen.source.glb",
+      "optimizedGlb": "optimized-glb/Quarantine-Pen.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "quarantine-pen-entry-gate",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.04,
+          "frequency": 0.72,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 684,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "rabbit-hutch",
+      "sourceGlb": "source-glb/rabbit-hutch.source.glb",
+      "optimizedGlb": "optimized-glb/Rabbit-Hutch.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "rabbit-hutch-fold-down-service-hatch",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 1.02,
+          "frequency": 0.65,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 912,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "railway-siding",
+      "sourceGlb": "source-glb/railway-siding.source.glb",
+      "optimizedGlb": "optimized-glb/Railway-Siding.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 324,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "railway-terminal",
+      "sourceGlb": "source-glb/railway-terminal.source.glb",
+      "optimizedGlb": "optimized-glb/railway-terminal.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 24,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "rain-barrel",
+      "sourceGlb": "source-glb/rain-barrel.source.glb",
+      "optimizedGlb": "optimized-glb/Rain-Barrel.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "rain-barrel-tap-handle",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 0.48,
+          "frequency": 1.3,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 1784,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "raised-bed",
+      "sourceGlb": "source-glb/raised-bed.source.glb",
+      "optimizedGlb": "optimized-glb/Raised-Bed.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 532,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "reforestation-station",
+      "sourceGlb": "source-glb/reforestation-station.source.glb",
+      "optimizedGlb": "optimized-glb/Reforestation-Station.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 676,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "refrigerated-warehouse",
+      "sourceGlb": "source-glb/refrigerated-warehouse.source.glb",
+      "optimizedGlb": "optimized-glb/Refrigerated-Warehouse.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "refrigerated-warehouse-condenser-fan",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.85,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 924,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "regional-market-hall",
+      "sourceGlb": "source-glb/regional-market-hall.source.glb",
+      "optimizedGlb": "optimized-glb/regional-market-hall.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 24,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "repair-shed",
+      "sourceGlb": "source-glb/repair-shed.source.glb",
+      "optimizedGlb": "optimized-glb/Repair-Shed.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 116,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "research-greenhouse",
+      "sourceGlb": "source-glb/research-greenhouse.source.glb",
+      "optimizedGlb": "optimized-glb/Research-greenhouse.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 444,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "reservoir",
+      "sourceGlb": "source-glb/reservoir.source.glb",
+      "optimizedGlb": "optimized-glb/Reservoir.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "reservoir-outlet-handle",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.5707963267948966,
+          "frequency": 0.7,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 3104,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "resin-collector",
+      "sourceGlb": "source-glb/resin-collector.source.glb",
+      "optimizedGlb": "optimized-glb/Resin-Collector.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 384,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "restaurant",
+      "sourceGlb": "source-glb/restaurant.source.glb",
+      "optimizedGlb": "optimized-glb/Restaurant.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 248,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "restored-lighthouse",
+      "sourceGlb": "source-glb/restored-lighthouse.source.glb",
+      "optimizedGlb": "optimized-glb/restored-lighthouse.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 24,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "rewilded-field",
+      "sourceGlb": "source-glb/rewilded-field.source.glb",
+      "optimizedGlb": "optimized-glb/Rewilded-field.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 588,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "rice-paddy",
+      "sourceGlb": "source-glb/rice-paddy.source.glb",
+      "optimizedGlb": "optimized-glb/Rice-Paddy.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 372,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "riparian-buffer",
+      "sourceGlb": "source-glb/riparian-buffer.source.glb",
+      "optimizedGlb": "optimized-glb/Riparian-buffer.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 472,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "river-dock",
+      "sourceGlb": "source-glb/river-dock.source.glb",
+      "optimizedGlb": "optimized-glb/RiverDock.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 416,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "roadside-stand",
+      "sourceGlb": "source-glb/roadside-stand.source.glb",
+      "optimizedGlb": "optimized-glb/Roadside-Stand.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 96,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "roastery",
+      "sourceGlb": "source-glb/roastery.source.glb",
+      "optimizedGlb": "optimized-glb/Roastery.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "roastery-rotating-roasting-drum",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.28,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 6,
+      "triangleCount": 704,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "robotic-harvester",
+      "sourceGlb": "source-glb/robotic-harvester.source.glb",
+      "optimizedGlb": "optimized-glb/Robotic-Harvester.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "robotic-harvester-harvesting-reel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.23,
+          "phase": 0
+        },
+        {
+          "node": "robotic-harvester-rear-left-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.3,
+          "phase": 0
+        },
+        {
+          "node": "robotic-harvester-rear-right-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.3,
+          "phase": 0
+        },
+        {
+          "node": "robotic-harvester-front-left-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.3,
+          "phase": 0
+        },
+        {
+          "node": "robotic-harvester-front-right-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.3,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 948,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "robotic-packing-facility",
+      "sourceGlb": "source-glb/robotic-packing-facility.source.glb",
+      "optimizedGlb": "optimized-glb/Robotic-packing-facility.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 72,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "root-cellar",
+      "sourceGlb": "source-glb/root-cellar.source.glb",
+      "optimizedGlb": "optimized-glb/Root-Cellar.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "root-cellar-front-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.58,
+          "frequency": 0.8,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 272,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "rotary-sprinkler",
+      "sourceGlb": "source-glb/rotary-sprinkler.source.glb",
+      "optimizedGlb": "optimized-glb/Rotary-Sprinkler.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "rotary-sprinkler-rotary-head",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1,
+          "frequency": 1.45,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 1016,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "sand-barrier",
+      "sourceGlb": "source-glb/sand-barrier.source.glb",
+      "optimizedGlb": "optimized-glb/Sand-barrier.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 168,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "sap-collector",
+      "sourceGlb": "source-glb/sap-collector.source.glb",
+      "optimizedGlb": "optimized-glb/SapCollector.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 72,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "satellite-receiver",
+      "sourceGlb": "source-glb/satellite-receiver.source.glb",
+      "optimizedGlb": "optimized-glb/Satellite-receiver.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 36,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "sawbench",
+      "sourceGlb": "source-glb/sawbench.source.glb",
+      "optimizedGlb": "optimized-glb/Sawbench.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 292,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "sawmill",
+      "sourceGlb": "source-glb/sawmill.source.glb",
+      "optimizedGlb": "optimized-glb/Sawmill.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 568,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "scarecrow",
+      "sourceGlb": "source-glb/scarecrow.source.glb",
+      "optimizedGlb": "optimized-glb/Scarecrow.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 284,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "sculpture",
+      "sourceGlb": "source-glb/sculpture.source.glb",
+      "optimizedGlb": "optimized-glb/Sculpture.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 1,
+      "triangleCount": 24,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "seasonal-decorations",
+      "sourceGlb": "source-glb/seasonal-decorations.source.glb",
+      "optimizedGlb": "optimized-glb/Seasonal-decorations.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 72,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "seawall",
+      "sourceGlb": "source-glb/seawall.source.glb",
+      "optimizedGlb": "optimized-glb/Seawall.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 120,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "seaweed-farm",
+      "sourceGlb": "source-glb/seaweed-farm.source.glb",
+      "optimizedGlb": "optimized-glb/Seaweed-Farm.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 676,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "seed-breeding-center",
+      "sourceGlb": "source-glb/seed-breeding-center.source.glb",
+      "optimizedGlb": "optimized-glb/Seed-breeding-center.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 324,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "seed-drill",
+      "sourceGlb": "source-glb/seed-drill.source.glb",
+      "optimizedGlb": "optimized-glb/Seed-Drill.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "seed-drill-left-drive-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.52,
+          "phase": 0
+        },
+        {
+          "node": "seed-drill-right-drive-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.52,
+          "phase": 0
+        },
+        {
+          "node": "seed-drill-seed-meter-shaft",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.52,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 6,
+      "triangleCount": 776,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "seed-house",
+      "sourceGlb": "source-glb/seed-house.source.glb",
+      "optimizedGlb": "optimized-glb/Seed-House.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "seed-house-cleaner-drum",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.4,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 704,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "seed-laboratory",
+      "sourceGlb": "source-glb/seed-laboratory.source.glb",
+      "optimizedGlb": "optimized-glb/SeedLaboratory.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 96,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "seed-vault",
+      "sourceGlb": "source-glb/seed-vault.source.glb",
+      "optimizedGlb": "optimized-glb/Seed-Vault.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "seed-vault-sealed-hatch-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.52,
+          "frequency": 0.72,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 440,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "shade-canopy",
+      "sourceGlb": "source-glb/shade-canopy.source.glb",
+      "optimizedGlb": "optimized-glb/Shade-canopy.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 156,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "shade-house",
+      "sourceGlb": "source-glb/shade-house.source.glb",
+      "optimizedGlb": "optimized-glb/Shade-House.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 144,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "shearing-shed",
+      "sourceGlb": "source-glb/shearing-shed.source.glb",
+      "optimizedGlb": "optimized-glb/Shearing-Shed.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "shearing-shed-broad-holding-entry-gate",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.72,
+          "frequency": 0.65,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 336,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "sheepfold",
+      "sourceGlb": "source-glb/sheepfold.source.glb",
+      "optimizedGlb": "optimized-glb/Sheepfold.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "sheepfold-broad-entry-gate",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.04,
+          "frequency": 0.62,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 1180,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "shipping-office",
+      "sourceGlb": "source-glb/shipping-office.source.glb",
+      "optimizedGlb": "optimized-glb/ShippingOffice.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 60,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "shrimp-pond",
+      "sourceGlb": "source-glb/shrimp-pond.source.glb",
+      "optimizedGlb": "optimized-glb/Shrimp-Pond.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 216,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "silo",
+      "sourceGlb": "source-glb/silo.source.glb",
+      "optimizedGlb": "optimized-glb/Silo.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "silo-grain-gate-handle",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.75,
+          "frequency": 0.8,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 770,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "smokehouse",
+      "sourceGlb": "source-glb/smokehouse.source.glb",
+      "optimizedGlb": "optimized-glb/Smokehouse.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "smokehouse-chimney-damper-lever",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 0.72,
+          "frequency": 0.55,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 576,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "snow-fence",
+      "sourceGlb": "source-glb/snow-fence.source.glb",
+      "optimizedGlb": "optimized-glb/Snow-fence.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 444,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "soil-laboratory",
+      "sourceGlb": "source-glb/soil-laboratory.source.glb",
+      "optimizedGlb": "optimized-glb/SoilLaboratory.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 92,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "soil-mixing-station",
+      "sourceGlb": "source-glb/soil-mixing-station.source.glb",
+      "optimizedGlb": "optimized-glb/Soil-Mixing-Station.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "soil-mixing-station-mixer-drum",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.24,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 152,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "soil-sensor-station",
+      "sourceGlb": "source-glb/soil-sensor-station.source.glb",
+      "optimizedGlb": "optimized-glb/Soil-sensor-station.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 36,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "solar-array",
+      "sourceGlb": "source-glb/solar-array.source.glb",
+      "optimizedGlb": "optimized-glb/Solar-array.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 72,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "solar-panels",
+      "sourceGlb": "source-glb/solar-panels.source.glb",
+      "optimizedGlb": "optimized-glb/SolarPanels.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 132,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "solar-pump",
+      "sourceGlb": "source-glb/solar-pump.source.glb",
+      "optimizedGlb": "optimized-glb/Solar-pump.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "solar-pump-visible-pump-flywheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.52,
+          "phase": 0
+        },
+        {
+          "node": "solar-pump-pump-drive-linkage",
+          "property": "position",
+          "axis": "y",
+          "amplitude": 0.16,
+          "frequency": 0.52,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 536,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "spice-mill",
+      "sourceGlb": "source-glb/spice-mill.source.glb",
+      "optimizedGlb": "optimized-glb/Spice-Mill.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "spice-mill-visible-grinding-handwheel-pivot",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 3.141592653589793,
+          "frequency": 0.65,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 6,
+      "triangleCount": 568,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "sprinkler",
+      "sourceGlb": "source-glb/sprinkler.source.glb",
+      "optimizedGlb": "optimized-glb/Sprinkler.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "sprinkler-head-yaw",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.9477874452256718,
+          "frequency": 0.42,
+          "phase": 0
+        },
+        {
+          "node": "sprinkler-head-pitch",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 0.14,
+          "frequency": 0.42,
+          "phase": 1.5707963267948966
+        }
+      ],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 784,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "stable",
+      "sourceGlb": "source-glb/stable.source.glb",
+      "optimizedGlb": "optimized-glb/Stable.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "stable-broad-main-stable-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.7,
+          "frequency": 0.55,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 300,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "stone-bridge",
+      "sourceGlb": "source-glb/stone-bridge.source.glb",
+      "optimizedGlb": "optimized-glb/StoneBridge.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 1212,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "stone-wall",
+      "sourceGlb": "source-glb/stone-wall.source.glb",
+      "optimizedGlb": "optimized-glb/Stone-wall.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 1,
+      "triangleCount": 180,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "stone-yard",
+      "sourceGlb": "source-glb/stone-yard.source.glb",
+      "optimizedGlb": "optimized-glb/Stone-Yard.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 1412,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "storage-shed",
+      "sourceGlb": "source-glb/storage-shed.source.glb",
+      "optimizedGlb": "optimized-glb/Storage-Shed.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "storage-shed-left-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": -0.62,
+          "frequency": 0.8,
+          "phase": 0
+        },
+        {
+          "node": "storage-shed-right-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.62,
+          "frequency": 0.8,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 252,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "storm-shelter",
+      "sourceGlb": "source-glb/storm-shelter.source.glb",
+      "optimizedGlb": "optimized-glb/Storm-shelter.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 220,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "sugar-mill",
+      "sourceGlb": "source-glb/sugar-mill.source.glb",
+      "optimizedGlb": "optimized-glb/Sugar-Mill.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "sugar-mill-handwheel-drive",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.42,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 2420,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "tailor",
+      "sourceGlb": "source-glb/tailor.source.glb",
+      "optimizedGlb": "optimized-glb/Tailor.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 60,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "tannery",
+      "sourceGlb": "source-glb/tannery.source.glb",
+      "optimizedGlb": "optimized-glb/Tannery.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "tannery-visible-vat-drain-handwheel-control",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 3.141592653589793,
+          "frequency": 0.55,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 6,
+      "triangleCount": 764,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "terrace",
+      "sourceGlb": "source-glb/terrace.source.glb",
+      "optimizedGlb": "optimized-glb/Terrace.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 804,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "textile-workshop",
+      "sourceGlb": "source-glb/textile-workshop.source.glb",
+      "optimizedGlb": "optimized-glb/TextileWorkshop.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 84,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "threshing-floor",
+      "sourceGlb": "source-glb/threshing-floor.source.glb",
+      "optimizedGlb": "optimized-glb/Threshing-Floor.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 1076,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "tool-rack",
+      "sourceGlb": "source-glb/tool-rack.source.glb",
+      "optimizedGlb": "optimized-glb/Tool-Rack.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 144,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "tool-shed",
+      "sourceGlb": "source-glb/tool-shed.source.glb",
+      "optimizedGlb": "optimized-glb/Tool-Shed.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 152,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "tractor-shed",
+      "sourceGlb": "source-glb/tractor-shed.source.glb",
+      "optimizedGlb": "optimized-glb/Tractor-Shed.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "tractor-shed-left-hinged-gate",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": -1.35,
+          "frequency": 0.72,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 412,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "tractor",
+      "sourceGlb": "source-glb/tractor.source.glb",
+      "optimizedGlb": "optimized-glb/Tractor.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "tractor-rear-left-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.44,
+          "phase": 0
+        },
+        {
+          "node": "tractor-rear-right-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.44,
+          "phase": 0
+        },
+        {
+          "node": "tractor-front-left-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.44,
+          "phase": 0
+        },
+        {
+          "node": "tractor-front-right-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.44,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 1492,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "trading-post",
+      "sourceGlb": "source-glb/trading-post.source.glb",
+      "optimizedGlb": "optimized-glb/Trading-Post.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 168,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "trailer",
+      "sourceGlb": "source-glb/trailer.source.glb",
+      "optimizedGlb": "optimized-glb/Trailer.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "trailer-left-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.42,
+          "phase": 0
+        },
+        {
+          "node": "trailer-right-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.42,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 376,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "tree-nursery",
+      "sourceGlb": "source-glb/tree-nursery.source.glb",
+      "optimizedGlb": "optimized-glb/Tree-Nursery.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 372,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "tree-rows",
+      "sourceGlb": "source-glb/tree-rows.source.glb",
+      "optimizedGlb": "optimized-glb/Tree-rows.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 240,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "truck-depot",
+      "sourceGlb": "source-glb/truck-depot.source.glb",
+      "optimizedGlb": "optimized-glb/Truck-Depot.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 180,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "underground-cistern",
+      "sourceGlb": "source-glb/underground-cistern.source.glb",
+      "optimizedGlb": "optimized-glb/Underground-cistern.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 584,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "vertical-farm",
+      "sourceGlb": "source-glb/vertical-farm.source.glb",
+      "optimizedGlb": "optimized-glb/Vertical-Farm.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 184,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "veterinary-shed",
+      "sourceGlb": "source-glb/veterinary-shed.source.glb",
+      "optimizedGlb": "optimized-glb/Veterinary-Shed.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "veterinary-shed-washable-service-entry-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.56,
+          "frequency": 0.55,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 216,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "village-housing",
+      "sourceGlb": "source-glb/village-housing.source.glb",
+      "optimizedGlb": "optimized-glb/VillageHousing.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 120,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "vineyard",
+      "sourceGlb": "source-glb/vineyard.source.glb",
+      "optimizedGlb": "optimized-glb/Vineyard.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 1004,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "wagon-depot",
+      "sourceGlb": "source-glb/wagon-depot.source.glb",
+      "optimizedGlb": "optimized-glb/Wagon-Depot.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 312,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "wagon",
+      "sourceGlb": "source-glb/wagon.source.glb",
+      "optimizedGlb": "optimized-glb/Wagon.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "wagon-left-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.45,
+          "phase": 0
+        },
+        {
+          "node": "wagon-right-wheel",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.45,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 632,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "warehouse",
+      "sourceGlb": "source-glb/warehouse.source.glb",
+      "optimizedGlb": "optimized-glb/Warehouse.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "warehouse-left-sliding-loading-door",
+          "property": "position",
+          "axis": "x",
+          "amplitude": 0.78,
+          "frequency": 0.8,
+          "phase": 0
+        },
+        {
+          "node": "warehouse-right-sliding-loading-door",
+          "property": "position",
+          "axis": "x",
+          "amplitude": -0.78,
+          "frequency": 0.8,
+          "phase": 3.141592653589793
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 460,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "washhouse",
+      "sourceGlb": "source-glb/washhouse.source.glb",
+      "optimizedGlb": "optimized-glb/Washhouse.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 216,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "washing-station",
+      "sourceGlb": "source-glb/washing-station.source.glb",
+      "optimizedGlb": "optimized-glb/Washing-Station.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "washing-station-drive-roller",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.5,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 592,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "water-barrel",
+      "sourceGlb": "source-glb/water-barrel.source.glb",
+      "optimizedGlb": "optimized-glb/Water-Barrel.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "water-barrel-bung-control",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.32,
+          "frequency": 0.72,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 1544,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "water-tank",
+      "sourceGlb": "source-glb/water-tank.source.glb",
+      "optimizedGlb": "optimized-glb/Water-Tank.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "water-tank-valve-handle",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.319468914507713,
+          "frequency": 0.72,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 6,
+      "triangleCount": 1592,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "water-tower",
+      "sourceGlb": "source-glb/water-tower.source.glb",
+      "optimizedGlb": "optimized-glb/Water-Tower.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "water-tower-outlet-handle",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 1.5707963267948966,
+          "frequency": 0.7,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 4728,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "water-trough",
+      "sourceGlb": "source-glb/water-trough.source.glb",
+      "optimizedGlb": "optimized-glb/Water-Trough.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "water-trough-visible-float-valve-handle",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.42,
+          "frequency": 0.75,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 228,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "water-wheel",
+      "sourceGlb": "source-glb/water-wheel.source.glb",
+      "optimizedGlb": "optimized-glb/Water-Wheel.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "water-wheel-water-wheel-rotor",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.22,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 432,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "weather-station",
+      "sourceGlb": "source-glb/weather-station.source.glb",
+      "optimizedGlb": "optimized-glb/Weather-station.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 2,
+      "triangleCount": 36,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "well",
+      "sourceGlb": "source-glb/well.source.glb",
+      "optimizedGlb": "optimized-glb/Well.glb",
+      "interactive": true,
+      "recipe": "lower-bucket",
+      "actionChannels": [
+        {
+          "node": "well-windlass-axle",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 3.455751918948773,
+          "frequency": 0.62,
+          "phase": 0
+        },
+        {
+          "node": "well-bucket-bail",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 0.1,
+          "frequency": 0.62,
+          "phase": 1.5707963267948966
+        }
+      ],
+      "optimizedDrawCalls": 6,
+      "triangleCount": 5168,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "wetland",
+      "sourceGlb": "source-glb/wetland.source.glb",
+      "optimizedGlb": "optimized-glb/Wetland.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 408,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "wheelbarrow",
+      "sourceGlb": "source-glb/wheelbarrow.source.glb",
+      "optimizedGlb": "optimized-glb/Wheelbarrow.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "wheelbarrow-visible-wheel-pivot",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 3.141592653589793,
+          "frequency": 0.7,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 184,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "wholesale-depot",
+      "sourceGlb": "source-glb/wholesale-depot.source.glb",
+      "optimizedGlb": "optimized-glb/Wholesale-Depot.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 288,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "wildflower-meadow",
+      "sourceGlb": "source-glb/wildflower-meadow.source.glb",
+      "optimizedGlb": "optimized-glb/Wildflower-meadow.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 1292,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "wildlife-corridor",
+      "sourceGlb": "source-glb/wildlife-corridor.source.glb",
+      "optimizedGlb": "optimized-glb/Wildlife-corridor.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 408,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "wind-chimes",
+      "sourceGlb": "source-glb/wind-chimes.source.glb",
+      "optimizedGlb": "optimized-glb/Wind-chimes.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 216,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "wind-pump",
+      "sourceGlb": "source-glb/wind-pump.source.glb",
+      "optimizedGlb": "optimized-glb/Wind-Pump.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "wind-pump-rotor",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 1,
+          "frequency": 1.65,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 832,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "wind-sand-barrier",
+      "sourceGlb": "source-glb/wind-sand-barrier.source.glb",
+      "optimizedGlb": "optimized-glb/Wind-sand-barrier.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 1,
+      "triangleCount": 72,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "wind-turbine",
+      "sourceGlb": "source-glb/wind-turbine.source.glb",
+      "optimizedGlb": "optimized-glb/WindTurbine.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "wind-turbine-rotor",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.22,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 136,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "windbreak",
+      "sourceGlb": "source-glb/windbreak.source.glb",
+      "optimizedGlb": "optimized-glb/Windbreak.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 3,
+      "triangleCount": 756,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "windmill",
+      "sourceGlb": "source-glb/windmill.source.glb",
+      "optimizedGlb": "optimized-glb/Windmill.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "windmill-rotating-sail-hub",
+          "property": "rotation",
+          "axis": "z",
+          "amplitude": 6.283185307179586,
+          "frequency": 0.18,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 1080,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "wood-drying-shed",
+      "sourceGlb": "source-glb/wood-drying-shed.source.glb",
+      "optimizedGlb": "optimized-glb/Wood-Drying-Shed.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 408,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "wood-fired-sauna",
+      "sourceGlb": "source-glb/wood-fired-sauna.source.glb",
+      "optimizedGlb": "optimized-glb/Wood-fired-sauna.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "wood-fired-sauna-visible-hinged-entry-door",
+          "property": "rotation",
+          "axis": "y",
+          "amplitude": 0.82,
+          "frequency": 0.46,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 272,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "wood-furnace",
+      "sourceGlb": "source-glb/wood-furnace.source.glb",
+      "optimizedGlb": "optimized-glb/Wood-Furnace.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 144,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "wood-pile",
+      "sourceGlb": "source-glb/wood-pile.source.glb",
+      "optimizedGlb": "optimized-glb/Wood-Pile.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 1132,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "wooden-bridge",
+      "sourceGlb": "source-glb/wooden-bridge.source.glb",
+      "optimizedGlb": "optimized-glb/WoodenBridge.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 600,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "wooden-fence",
+      "sourceGlb": "source-glb/wooden-fence.source.glb",
+      "optimizedGlb": "optimized-glb/Wooden-fences.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 120,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "wool-workshop",
+      "sourceGlb": "source-glb/wool-workshop.source.glb",
+      "optimizedGlb": "optimized-glb/Wool-Workshop.glb",
+      "interactive": true,
+      "recipe": "channel-action",
+      "actionChannels": [
+        {
+          "node": "wool-workshop-visible-carding-drum-control",
+          "property": "rotation",
+          "axis": "x",
+          "amplitude": 3.141592653589793,
+          "frequency": 0.55,
+          "phase": 0
+        }
+      ],
+      "optimizedDrawCalls": 6,
+      "triangleCount": 440,
+      "recommendedVariant": "source"
+    },
+    {
+      "assetId": "worker-cabin",
+      "sourceGlb": "source-glb/worker-cabin.source.glb",
+      "optimizedGlb": "optimized-glb/Worker-Cabin.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 192,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "worker-lodge",
+      "sourceGlb": "source-glb/worker-lodge.source.glb",
+      "optimizedGlb": "optimized-glb/WorkerLodge.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 4,
+      "triangleCount": 84,
+      "recommendedVariant": "optimized"
+    },
+    {
+      "assetId": "worm-farm",
+      "sourceGlb": "source-glb/worm-farm.source.glb",
+      "optimizedGlb": "optimized-glb/Worm-Farm.glb",
+      "interactive": false,
+      "recipe": null,
+      "actionChannels": [],
+      "optimizedDrawCalls": 5,
+      "triangleCount": 132,
+      "recommendedVariant": "optimized"
+    }
+  ]
+}

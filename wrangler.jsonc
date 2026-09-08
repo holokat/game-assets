@@ -1,0 +1,8 @@
+{
+  "name": "game-assets",
+  "account_id": "0b55a6c39a979a58efbf40875ac376d6",
+  "compatibility_date": "2026-09-08",
+  "workers_dev": true,
+  "preview_urls": false,
+  "assets": {"directory": "./site"}
+}

@@ -1,0 +1,1 @@
+import { createWoodenBridge } from '../assets/woodenBridge.js';import { mountInfrastructureReview } from './infrastructureReview.js';mountInfrastructureReview({create:createWoodenBridge,label:'Wooden Bridge',id:'wooden-bridge',span:'5.2'});

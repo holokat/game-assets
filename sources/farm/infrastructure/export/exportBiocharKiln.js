@@ -1,0 +1,1 @@
+import {createBiocharKiln}from'../assets/biocharKiln.js';import{exportInventoryAsset}from'./inventory122Export.js';window.__BIOCHAR_KILN_EXPORT_MANIFEST__=await exportInventoryAsset({id:'biochar-kiln',title:'Biochar Kiln',create:createBiocharKiln});window.__BIOCHAR_KILN_EXPORT_READY__=true;

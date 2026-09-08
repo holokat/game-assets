@@ -1,0 +1,1 @@
+import{createMicrogrid}from '../assets/microgrid.js';import{startInventoryReview}from './inventory122Review.js';startInventoryReview({id:'microgrid',create:createMicrogrid,camera:[-7.5,5.4,7.8],target:[0,1.3,0]});

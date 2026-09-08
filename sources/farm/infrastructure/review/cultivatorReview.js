@@ -1,0 +1,1 @@
+import {animateCultivator,createCultivator} from '../assets/cultivator.js';import {startInventoryReview} from './inventory122Review.js';startInventoryReview({id:'cultivator',create:createCultivator,animate:animateCultivator,camera:[-4.6,2.75,4.8],target:[0,.7,.05]});

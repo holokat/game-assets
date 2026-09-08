@@ -1,0 +1,1 @@
+import {createCottonPicker} from '../assets/cottonPicker.js';import {captureConcept} from './specializedHarvestersConcept.js';await captureConcept({id:'cotton-picker',title:'COTTON PICKER',create:createCottonPicker});

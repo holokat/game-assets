@@ -1,0 +1,1 @@
+import{createGeneralStore as create}from'../assets/generalStore.js';import{validateInventoryAsset as v}from'./inventory122Validation.js';window.__x=await v({id:'general-store',title:'General Store',create,budget:5000,criticalNodes:['general-store-teal-double-door-mesh','general-store-blank-signboard-mesh'],expectedChannels:[]});

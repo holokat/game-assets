@@ -1,0 +1,354 @@
+{
+  "source": "studio",
+  "entry": "integration/source-entry.js",
+  "sources": [
+    {
+      "path": "fantasy-studio/integration/source-entry.js",
+      "sha256": "9094f0423f2a4a0acbc6409ad69cabfaa9602e3957838c062c1a7258b4245285"
+    },
+    {
+      "path": "studio/src/abilities/abilityBrief.json",
+      "sha256": "f941c2af328714abcb28b90757a994909d877ef6e1b7b1f869743bbf77dce3a4"
+    },
+    {
+      "path": "studio/src/abilities/abilityCatalog.ts",
+      "sha256": "3ba2c1d6a8d0edd852bd830bf74f4c8ded86a16bf0131a88f0bbb3e5647b1dcd"
+    },
+    {
+      "path": "studio/src/abilities/abilityTiming.ts",
+      "sha256": "b847ca2d76397068f06a421820d53af3250ac7af121a4c65f4ca2d3b9f4bdda6"
+    },
+    {
+      "path": "studio/src/abilities/abilityVisuals.ts",
+      "sha256": "3800fe66e8662b627283e5fb9c3d7290fa9361b5f37ce5f154a71003bf36189b"
+    },
+    {
+      "path": "studio/src/abilities/actionChoreography.ts",
+      "sha256": "0592d5b99f82d8594ed8fddd9d10c2764eb96eacbb5009219441cde5a34848eb"
+    },
+    {
+      "path": "studio/src/abilities/createAbilityRigCapture.ts",
+      "sha256": "fb96b64f6b6a070e1f0e4492990b4681599134db79677f2025c5ef5a0307bceb"
+    },
+    {
+      "path": "studio/src/abilities/summonDefinitions.ts",
+      "sha256": "e9e62a8939491c9d9f3a5c7f01278f3ece2e1be42952fe62eedb3b492341ccb8"
+    },
+    {
+      "path": "studio/src/animation/calibrateWeaponGripContact.ts",
+      "sha256": "19256b4cdc2731eeb3f563a938b73f2b8f65da4d1dd6192aa4a740888ce040b9"
+    },
+    {
+      "path": "studio/src/animation/correctRelaxedIdlePosture.ts",
+      "sha256": "dbb75a94c09b720a30993f630c23dad2f5257e3700356569c1d0f76815275f11"
+    },
+    {
+      "path": "studio/src/animation/createAbilityPose.ts",
+      "sha256": "2bca9138526e706899abb49677a1673b85b1dc8edf950c034b9684ef350403bb"
+    },
+    {
+      "path": "studio/src/animation/createCompactGuardPosture.ts",
+      "sha256": "5cdb999e1f13e3c93854d4eb8a5e885271889e28ed91f3a9a6526847796de53e"
+    },
+    {
+      "path": "studio/src/animation/createElementalSpellPose.ts",
+      "sha256": "9ac4397c8e24f6f3cfeb4c96b9268898ab3b96d9a271b8db806d10cb84f582d9"
+    },
+    {
+      "path": "studio/src/animation/createGreatswordCarryPose.ts",
+      "sha256": "c94ae7a48ecda0ca2b44b358da751073e38025675c299e95ed3a703a338b5fa4"
+    },
+    {
+      "path": "studio/src/animation/createHandGripPose.ts",
+      "sha256": "c5b0ce477e40240290af4f46fc7bbb75e08205c39561fc083aae8811be990de2"
+    },
+    {
+      "path": "studio/src/animation/createLimbTargetSolver.ts",
+      "sha256": "27e962bfa52fbb0d74b309d1b0f77cf2ce9956e06afb17a2f0da256ba5f71e44"
+    },
+    {
+      "path": "studio/src/animation/createOneHandedSwordPose.ts",
+      "sha256": "282d40284bacb19ec1b9393de276ceb7fbe8d0bce807c548cf08cc6d0ed676e7"
+    },
+    {
+      "path": "studio/src/animation/createProceduralClips.ts",
+      "sha256": "c067538f2e51ad1b386fe5549092fb0128755436c6f6944ea339071d5976a221"
+    },
+    {
+      "path": "studio/src/animation/createSpellcastingPose.ts",
+      "sha256": "3a31a5e1f9b96dfbe876ded795803f836104a7fd7e7e6efcac6b509c90471e25"
+    },
+    {
+      "path": "studio/src/animation/createSwordShieldCarryPose.ts",
+      "sha256": "45daef1c89be1197a32a7890d080df1c7ec480628bca3428af9ed1c7bf2482e6"
+    },
+    {
+      "path": "studio/src/animation/createTwoHandedGripConstraint.ts",
+      "sha256": "f91dc66a1cda515d868a54322fa38b7b07cb66a2846ca57703de106576675ee3"
+    },
+    {
+      "path": "studio/src/animation/createTwoHandedWeaponController.ts",
+      "sha256": "609aa707661d0ff357142ddb9c9ab17c2bab1df98cd948775fcfcd79a3d202a0"
+    },
+    {
+      "path": "studio/src/animation/createWhirlwindSwordPose.ts",
+      "sha256": "b8ccf3fddd63dea2a2c639fd5c0acc2419bbc3c8c52ae285891cddbd3153e3ae"
+    },
+    {
+      "path": "studio/src/animation/loadAuthoredAnimationLibrary.ts",
+      "sha256": "89005c1442bb95d5075c498a865bf66851a1729231f9b0196421798d980cc8b6"
+    },
+    {
+      "path": "studio/src/animation/moveCatalog.ts",
+      "sha256": "55b02d22c69336e141d99c749965785746072ca208c4794f33de00063297674e"
+    },
+    {
+      "path": "studio/src/animation/recipes/airborneRecipes.ts",
+      "sha256": "6329d061f269ae6e91987dd33bbfc6208702a0d300ed460f3ded6c9629f8fdd9"
+    },
+    {
+      "path": "studio/src/animation/recipes/basePoses.ts",
+      "sha256": "5ac5c588cc707e7f2050ab4f4c5cb774598e59c2dd129768c86ea245d94f6e24"
+    },
+    {
+      "path": "studio/src/animation/recipes/combatRecipes.ts",
+      "sha256": "9ef66dd61a8e86d67145e565eeef51cfa5c53e2d5a945918831bdd207d92d3ab"
+    },
+    {
+      "path": "studio/src/animation/recipes/deathRecipe.ts",
+      "sha256": "ed9af2fa72e2e670de9d644bba976cb67b45ce287900bcd10fbe62e8a1c25e05"
+    },
+    {
+      "path": "studio/src/animation/recipes/gaitMechanics.ts",
+      "sha256": "3ef8a1f273b523c94f066312240ff0891faa56fb71c0016c4806e365ddff1fff"
+    },
+    {
+      "path": "studio/src/animation/recipes/gaitPosture.ts",
+      "sha256": "6e3ddfe438d621e054b545cf3fb5b18e3b47ff3e2a41df66b088da0a305ab656"
+    },
+    {
+      "path": "studio/src/animation/recipes/jumpArcRecipe.ts",
+      "sha256": "a4a06f0dfa6586617e57d9af5d301eefd17f38b2c0c63d9d844d27a8dac0fa3c"
+    },
+    {
+      "path": "studio/src/animation/recipes/locomotionRecipes.ts",
+      "sha256": "5984220328aeb1a6188ffbf314efef906dbd81ba5db5ec9ef7d8d1f2c6cfc4e0"
+    },
+    {
+      "path": "studio/src/animation/recipes/spellVariants.ts",
+      "sha256": "f8ab104b87af41edb43a0bfea0a7030b67c58904dbd80cfb7e18f77283fc2a12"
+    },
+    {
+      "path": "studio/src/animation/recipes/spellcastingRecipe.ts",
+      "sha256": "6d8b1a5da21bdf890af63c6e9a911d2036774a24f03575ee0bb78f993505751f"
+    },
+    {
+      "path": "studio/src/animation/recipes/stanceRecipes.ts",
+      "sha256": "4e384f215b985ae16334759c2bcb0be89e22a09567c7f1ab2ca32dca523132ca"
+    },
+    {
+      "path": "studio/src/animation/recipes/standingJumpRecipes.ts",
+      "sha256": "26e216ae52f734e5dea650ce842f986887359c3a042923ae092ccb2387525868"
+    },
+    {
+      "path": "studio/src/animation/recipes/swimmingRecipes.ts",
+      "sha256": "b4877912ddbb183aaf4e5589615df7825f93d71eea8fc8e1d347f4e6521fe3ea"
+    },
+    {
+      "path": "studio/src/animation/recipes/twoHandedWeaponRecipes.ts",
+      "sha256": "b256690dcd56f30a195c1ddb92fdcb762d5c527b2c672503d47304e02963ff5b"
+    },
+    {
+      "path": "studio/src/animation/recipes/types.ts",
+      "sha256": "1e51d33416043c48240e0aac7f3685ff6efe6a03a2dec9206b068b300015200e"
+    },
+    {
+      "path": "studio/src/animation/recipes/whirlwindRecipe.ts",
+      "sha256": "a6018fc6a34e1cece8ad5638025448821b5b177bff2c9ca0d24c80a5a2b0c8b2"
+    },
+    {
+      "path": "studio/src/animation/relaxedStance.ts",
+      "sha256": "e7e527603c1e3e2e68a21cb38877fd12ebe69edbf0d68f3b224e0e74b2018a9c"
+    },
+    {
+      "path": "studio/src/animation/sampleMotionCurve.ts",
+      "sha256": "b8ee7ca5aca674f1602c8e349b48b2b6d93f21f040cfc02b41fd5d25511ee357"
+    },
+    {
+      "path": "studio/src/animation/setBladeCutOrientation.ts",
+      "sha256": "c69f1e1ef94e58265342d7b2bc6f2bfee56d69705cc2ada2b09a8e0e2e85cae4"
+    },
+    {
+      "path": "studio/src/animation/spellMotion.ts",
+      "sha256": "831bac8e7a14f428e04214e7536073cb8481c618aa5897b1a30a80d5611eb69d"
+    },
+    {
+      "path": "studio/src/animation/spellcastingMotion.ts",
+      "sha256": "2466b79356298bda872c25cb856d6167b18c3e7ee0ee7a9b9fbb7eacc8798548"
+    },
+    {
+      "path": "studio/src/animation/whirlwindMotion.ts",
+      "sha256": "c37232d50102d04ec95194f5f3f262dbcea18ea87b882be4bf1bbac3dd3e7a74"
+    },
+    {
+      "path": "studio/src/character/createArrowGeometry.ts",
+      "sha256": "2a233fa64ef03f0fb44b0c6a58f1a6f282dfd1494e223a16244e230debb02459"
+    },
+    {
+      "path": "studio/src/character/createTrainingShield.ts",
+      "sha256": "4bf1669280f70f7ae303d179715eeddf4ac19a27118220e2e5078843f5049a93"
+    },
+    {
+      "path": "studio/src/character/createTrainingSword.ts",
+      "sha256": "30fd706ce007dd19abd437c2ee55289a9daa88600d4a9c8e66cdedf2e3cc4eaf"
+    },
+    {
+      "path": "studio/src/scene/SelectiveSpellBloomPass.ts",
+      "sha256": "fe9d5cadab4a2921038f9213af857dc3c738fc18ac11ea4269d75af60ea8d60e"
+    },
+    {
+      "path": "studio/src/scene/createSpellBloomSelection.ts",
+      "sha256": "a0adcc6b50ebe7ef2b7dadd1bef2ab75d55f88e8e6089e3e98a48700e23e2a24"
+    },
+    {
+      "path": "studio/src/scene/createSpellPostprocessing.ts",
+      "sha256": "9d53a5d0170e5e0fed67e49aaa5e0dc0bcc38e23f5f894b65d49bce9e9d41d32"
+    },
+    {
+      "path": "studio/src/vfx/abilities/createAbilityAtmosphere.ts",
+      "sha256": "39dd186a4874519d302221cbe3260b39eaf468365f2abe7b286781a1b2773833"
+    },
+    {
+      "path": "studio/src/vfx/abilities/createAbilityParticles.ts",
+      "sha256": "19bfb6cd9fdb1f8595581e4305753cb5c6c06775a6373f5bec5db47e9f05f680"
+    },
+    {
+      "path": "studio/src/vfx/abilities/createAbilityShapes.ts",
+      "sha256": "cf4769f72f56693f5f829a3041a8bf9f005f2c52027cbdd82269395fba20a94e"
+    },
+    {
+      "path": "studio/src/vfx/abilities/createAbilityVfx.ts",
+      "sha256": "e04902a77168b789f90d6850c78aea9c5c261d5327b5d3d3d72c64d31c2476f8"
+    },
+    {
+      "path": "studio/src/vfx/abilities/createActionAccents.ts",
+      "sha256": "608ff2886a35d64c1f4931314212531163a38b9bf0200278461fd26c7da78c4d"
+    },
+    {
+      "path": "studio/src/vfx/abilities/createChainLightning.ts",
+      "sha256": "d4ad99187533eee24b137ad4380d20e83684632fba43271d83427437a31226fe"
+    },
+    {
+      "path": "studio/src/vfx/abilities/createMeasuredAttackTrail.ts",
+      "sha256": "33c21621f1fd3c66b7057501422d4574e17b7ecf8ab8be59476331db2766e7b1"
+    },
+    {
+      "path": "studio/src/vfx/abilities/createMeteorEffect.ts",
+      "sha256": "89f2e6c0d60813b54e433d2bfa1b97a264c4d0b3a9d0e9f8aa5b7e190f2db79b"
+    },
+    {
+      "path": "studio/src/vfx/abilities/createRangerEffects.ts",
+      "sha256": "fe15c839b5bca0bae1f90e6101e6508e386b3fcbfdd5f123d7c422e7b6ea9f13"
+    },
+    {
+      "path": "studio/src/vfx/abilities/createSignatureSpells.ts",
+      "sha256": "1832708d121e81ed9e9c0362a5f0318151df16de0fb6c6e19edb023e99888854"
+    },
+    {
+      "path": "studio/src/vfx/abilities/createTrainingTargets.ts",
+      "sha256": "c40c3885fe1fa70ae7ad364d343dec3124b29bc935831408ed60e96343d9bd79"
+    },
+    {
+      "path": "studio/src/vfx/abilities/summoning/createGroundSummon.ts",
+      "sha256": "ca161e6f23314706f1fad35a972b5da22429b1c861383dc58e8defd2d37f11b2"
+    },
+    {
+      "path": "studio/src/vfx/abilities/summoning/createSummonFigure.ts",
+      "sha256": "0f88fc0658e33827c1ccfb257e7fe4b73ac79afaa046e22576a4b5ab432135d8"
+    },
+    {
+      "path": "studio/src/vfx/abilities/summoning/summonChoreography.ts",
+      "sha256": "fa46e3d7a57dfc0a526e342cba3a89ded9d61796a1b9061cf5e5e7b1e5d306e9"
+    },
+    {
+      "path": "studio/src/vfx/abilities/targetLayout.ts",
+      "sha256": "505c8771e251d49c846e463528d9344643df1d2cea125a9a90d1e10cddcd2497"
+    },
+    {
+      "path": "studio/src/vfx/createCombatVfx.ts",
+      "sha256": "965757c0eed6d2800ed8896aacc49deebe1a5b5104ca564d3f5df960895b7eaf"
+    },
+    {
+      "path": "studio/src/vfx/createElementalSpellVfx.ts",
+      "sha256": "32d06229b4279f69c9e7244181bfd56d45c1c09d1b81809329f6f7f8657a822a"
+    },
+    {
+      "path": "studio/src/vfx/createSpellOrb.ts",
+      "sha256": "679f8f809520d7379908ae7e6de6009130fba9c22b3f97b39127744c795a4008"
+    },
+    {
+      "path": "studio/src/vfx/createSwordSweepTrail.ts",
+      "sha256": "53ddd7fc30dd2508b80e924320149192848212629daffa3c71685f521448c9ca"
+    },
+    {
+      "path": "studio/src/vfx/spells/createEnergyMissileShatter.ts",
+      "sha256": "f75ac781aa55c30a18b39a98ef97878b1da4bc1ba72de0471aed41a19fae6a10"
+    },
+    {
+      "path": "studio/src/vfx/spells/createEnergyMissilesVfx.ts",
+      "sha256": "c7a15eae1c772b5f2181a5adf11bb1a49670419c2db43756b832cd9f48e2d6ec"
+    },
+    {
+      "path": "studio/src/vfx/spells/createFireVolume.ts",
+      "sha256": "b15d23ed1ffd75b4a339da78e307a46554d82b06d845d27ef12e1748106f7ec3"
+    },
+    {
+      "path": "studio/src/vfx/spells/createFireballDirector.ts",
+      "sha256": "08a88f9e21458e7b21d674b862df7014f1e3add341a7513ea58ef498cb4d9141"
+    },
+    {
+      "path": "studio/src/vfx/spells/createFireballImpact.ts",
+      "sha256": "cf29e48a0e8b8fe732195409efd147b167a2d0ee64c04bdac7959c5bce9ca9c8"
+    },
+    {
+      "path": "studio/src/vfx/spells/createFireballVfx.ts",
+      "sha256": "734a09eb1be599b870bca3ce9a6dce14594674af0130f57ab2087b39578149f1"
+    },
+    {
+      "path": "studio/src/vfx/spells/createHealingVfx.ts",
+      "sha256": "9888e21d5b6b650085f79db11dc3c8beecd433e31cf2f3256f7c23fd9a254c1a"
+    },
+    {
+      "path": "studio/src/vfx/spells/createLightningVfx.ts",
+      "sha256": "ad311d71b498548f21ef4c9deff44dc5a77f4fecd6626d7ee1eadadb8adc1669"
+    },
+    {
+      "path": "studio/src/vfx/spells/createSpellGlow.ts",
+      "sha256": "ed0f1848e45e84c594d082e7139a604776fe56bffd56da63bea434cff1e78e46"
+    },
+    {
+      "path": "studio/src/vfx/spells/createSpellParticleLayer.ts",
+      "sha256": "b9d9fe5107cc9deffd2fff6f5ef6df39ef35f0b7e1ece05fed0f956e2b8f27a3"
+    },
+    {
+      "path": "studio/src/vfx/spells/createSpellSequenceDirector.ts",
+      "sha256": "ec7bfe1730ac53f1b49c04ab5be23f34f8193787cb695b1dac1c555775abe7ee"
+    },
+    {
+      "path": "studio/src/vfx/spells/lightningGeometry.ts",
+      "sha256": "cda188d24bcd12318e130ef0beba806c7822dbf9a80e1c82c5436752430fd736"
+    },
+    {
+      "path": "studio/src/vfx/spells/loadSpellTextures.ts",
+      "sha256": "35a44183b6b06501254b770c800a07c22445fe1917f189f387dbec77051450df"
+    },
+    {
+      "path": "studio/src/vfx/spells/spellBloom.ts",
+      "sha256": "57a967d248992b6b89ba54ec8f7187ce769f695439c533f35e3d3f56e37bda9d"
+    },
+    {
+      "path": "studio/src/vfx/spells/spellVfxUtils.ts",
+      "sha256": "2c9b792731eeec1a0c9371037472c9b526e6b50c6a9149ce552dfad3519fed48"
+    }
+  ]
+}

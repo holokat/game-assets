@@ -1,0 +1,1 @@
+import{createFishingDock}from'../assets/fishingDock.js';import{mountInfrastructureReview}from'./infrastructureReview.js';mountInfrastructureReview({create:createFishingDock,label:'Fishing Dock',id:'fishing-dock',span:'4.8'});

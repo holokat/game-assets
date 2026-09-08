@@ -1,0 +1,1 @@
+import{createRiverDock}from'../assets/riverDock.js';import{mountInfrastructureReview}from'./infrastructureReview.js';mountInfrastructureReview({create:createRiverDock,label:'River Dock',id:'river-dock',span:'5.2'});

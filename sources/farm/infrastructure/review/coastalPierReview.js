@@ -1,0 +1,1 @@
+import {createCoastalPier} from '../assets/coastalPier.js';import {startInventoryReview} from './inventory122Review.js';startInventoryReview({id:'coastal-pier',create:createCoastalPier,camera:[-6,3.4,7.5],target:[0,1,0]});

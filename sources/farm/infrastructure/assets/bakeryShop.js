@@ -1,0 +1,1 @@
+import{createGeneralStore}from'./generalStore.js';export function createBakeryShop(){const r=createGeneralStore();const root=r.getObjectByName('general-store-root');if(root)root.name='bakery-shop-root';return r;}

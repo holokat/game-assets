@@ -1,0 +1,1 @@
+import {createDroneDeliveryPad} from '../assets/droneDeliveryPad.js';import {startInventoryReview} from './inventory122Review.js';startInventoryReview({id:'drone-delivery-pad',create:createDroneDeliveryPad,camera:[-7,5.3,7.5],target:[0,.5,0]});

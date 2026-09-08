@@ -1,0 +1,1 @@
+import{createWindTurbine}from'../assets/windTurbine.js';import{exportInfrastructureAsset}from'./infrastructureExport.js';const o=document.querySelector('#output');try{o.textContent='Export complete';window.__WIND_TURBINE_EXPORT_MANIFEST__=await exportInfrastructureAsset({assetId:'wind-turbine',label:'Wind Turbine',create:createWindTurbine})}catch(e){o.textContent=String(e)}

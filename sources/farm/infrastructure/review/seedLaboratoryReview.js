@@ -1,0 +1,1 @@
+import{createSeedLaboratory as C}from'../assets/seedLaboratory.js';import{mountInfrastructureReview as R}from'./infrastructureReview.js';R({create:C,label:'Seed Laboratory',id:'seed-laboratory',span:'3.8'});

@@ -1,0 +1,1 @@
+import {animateAgriculturalDrones,createAgriculturalDrones} from '../assets/agriculturalDrones.js';import {startInventoryReview} from './inventory122Review.js';startInventoryReview({id:'agricultural-drones',create:createAgriculturalDrones,animate:animateAgriculturalDrones,camera:[-3.4,2.7,4.3],target:[0,.32,0]});

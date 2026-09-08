@@ -1,0 +1,1 @@
+import {createCampfire} from '../assets/campfire.js';import {startInventoryReview} from './inventory122Review.js';startInventoryReview({id:'campfire',create:createCampfire,camera:[-4.2,3,4.6],target:[0,.35,0]});

@@ -1,0 +1,1 @@
+import{createSoilLaboratory as C}from'../assets/soilLaboratory.js';import{mountInfrastructureReview as R}from'./infrastructureReview.js';R({create:C,label:'Soil Laboratory',id:'soil-laboratory',span:'3.4'});

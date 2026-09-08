@@ -1,0 +1,1 @@
+import{createVillageHousing as C}from'../assets/villageHousing.js';import{exportInfrastructureAsset as E}from'./infrastructureExport.js';await E({assetId:'village-housing',label:'Village Housing',create:C});

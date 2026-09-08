@@ -1,0 +1,1 @@
+import {createFertilizerShed} from '../assets/fertilizerShed.js';import {exportInventoryAsset} from './inventory122Export.js';window.__FERTILIZER_SHED_EXPORT_MANIFEST__=await exportInventoryAsset({id:'fertilizer-shed',title:'Fertilizer Shed',create:createFertilizerShed});window.__FERTILIZER_SHED_EXPORT_READY__=true;

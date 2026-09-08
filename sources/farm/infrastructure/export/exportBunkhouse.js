@@ -1,0 +1,1 @@
+import{createBunkhouse}from'../assets/bunkhouse.js';import{exportInventoryAsset}from'./inventory122Export.js';window.__BUNKHOUSE_EXPORT_MANIFEST__=await exportInventoryAsset({id:'bunkhouse',title:'Bunkhouse',create:createBunkhouse});window.__BUNKHOUSE_EXPORT_READY__=true;

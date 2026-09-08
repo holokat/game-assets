@@ -1,0 +1,1 @@
+import {createBasketWorkshop}from'../assets/basketWorkshop.js';import{exportInventoryAsset}from'./inventory122Export.js';window.__BASKET_WORKSHOP_EXPORT_MANIFEST__=await exportInventoryAsset({id:'basket-workshop',title:'Basket Workshop',create:createBasketWorkshop});window.__BASKET_WORKSHOP_EXPORT_READY__=true;

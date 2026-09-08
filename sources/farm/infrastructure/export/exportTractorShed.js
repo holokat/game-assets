@@ -1,0 +1,3 @@
+import {createTractorShed} from '../assets/tractorShed.js';import {exportInventoryAsset} from './inventory122Export.js';
+export const exportTractorShed=()=>exportInventoryAsset({id:'tractor-shed',title:'Tractor Shed',create:createTractorShed});
+const o=document.querySelector('#output');window.__TRACTOR_SHED_EXPORT_READY__=false;try{window.__TRACTOR_SHED_EXPORT_MANIFEST__=await exportTractorShed();o.textContent=JSON.stringify(window.__TRACTOR_SHED_EXPORT_MANIFEST__,null,2);window.__TRACTOR_SHED_EXPORT_READY__=true;}catch(e){o.textContent=String(e.stack||e);window.__TRACTOR_SHED_EXPORT_ERROR__=String(e.stack||e);}

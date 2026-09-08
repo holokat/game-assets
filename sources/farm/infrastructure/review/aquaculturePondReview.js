@@ -1,0 +1,1 @@
+import{createAquaculturePond as C}from'../assets/aquaculturePond.js';import{startInventoryReview as R}from'./inventory122Review.js';R({id:'aquaculture-pond',create:C,camera:[-9,6,10],target:[0,.3,0]});

@@ -1,0 +1,1 @@
+import {createWaterWheel} from '../assets/waterWheel.js';import {captureAutonomyConcept} from './autonomyConcept.js';captureAutonomyConcept({id:'water-wheel',create:createWaterWheel,target:[0,1.3,0],distance:5});

@@ -1,0 +1,1 @@
+import{createRoadsideStand as create}from'../assets/roadsideStand.js';import{validateInventoryAsset as v}from'./inventory122Validation.js';await v({id:'roadside-stand',title:'Roadside Stand',create,budget:5000,criticalNodes:['roadside-stand-counter-mesh'],expectedChannels:[]});

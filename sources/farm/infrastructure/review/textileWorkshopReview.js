@@ -1,0 +1,1 @@
+import{createTextileWorkshop as C}from'../assets/textileWorkshop.js';import{startInventoryReview as R}from'./inventory122Review.js';R({id:'textile-workshop',create:C,camera:[-8,5.2,9],target:[0,1,0]});

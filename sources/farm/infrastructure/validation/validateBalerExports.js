@@ -1,0 +1,1 @@
+import {validateAgri} from './agriMachineryValidation.js';const o=document.querySelector('#output');window.__BALER_VALIDATION_READY__=false;try{window.__BALER_VALIDATION_RESULT__=await validateAgri({id:'baler',title:'Baler',channels:1,features:['working-roller']});o.textContent='Validation complete';window.__BALER_VALIDATION_READY__=true}catch(e){o.textContent=String(e.stack||e)}

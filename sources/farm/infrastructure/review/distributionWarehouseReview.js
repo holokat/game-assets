@@ -1,0 +1,1 @@
+import {createDistributionWarehouse} from '../assets/distributionWarehouse.js';import {startInventoryReview} from './inventory122Review.js';startInventoryReview({id:'distribution-warehouse',create:createDistributionWarehouse,camera:[-7.5,4.9,8],target:[0,1.7,0]});

@@ -1,0 +1,1 @@
+import {createPotatoHarvester} from '../assets/potatoHarvester.js';import {captureConcept} from './specializedHarvestersConcept.js';await captureConcept({id:'potato-harvester',title:'POTATO HARVESTER',create:createPotatoHarvester});
