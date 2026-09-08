@@ -2,26 +2,26 @@
 const frame=document.getElementById('preview'),result=document.getElementById('result'),checks=[];
 const sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms));
 try{
- for(const [width,height] of [[390,844],[844,390]]){
+ for(const [width,height] of [[320,568],[390,844],[667,375],[844,390]]){
   frame.width=width;frame.height=height;
-  for(const mode of ['armor','farm','effects']){
+  for(const mode of ['armor','farm','effects','character','items','abilities','structures','world']){
    frame.src='/fantasy-studio/?workspace='+mode;
    await new Promise(resolve=>frame.onload=resolve);
    let ready=false;
-   for(let i=0;i<100;i++){const w=frame.contentWindow;if(w.studio?.workspace.mode===mode&&(mode==='effects'?w.studio.world.actor:w.studio.collections.model)){ready=true;break;}await sleep(100);}
+   for(let i=0;i<100;i++){const w=frame.contentWindow;if(w.studio?.workspace.mode===mode&&(['armor','farm'].includes(mode)?w.studio.collections.model:true)){ready=true;break;}await sleep(100);}
    if(!ready)throw new Error('Preview timed out: '+mode);
-   const d=frame.contentDocument,w=frame.contentWindow;
-   if(d.documentElement.scrollWidth>width+1)throw new Error('Horizontal overflow: '+width+' '+mode);
+   await sleep(250);const d=frame.contentDocument,w=frame.contentWindow;
+   if(d.documentElement.scrollWidth>width+1)throw new Error('Horizontal overflow: '+width+' '+mode+' '+JSON.stringify([...d.querySelectorAll('body *')].filter(e=>{const r=e.getBoundingClientRect();return r.width&&r.right>width+1}).map(e=>[e.tagName,e.id,e.className,e.getBoundingClientRect().right]).slice(0,15)));
    const canvas=d.getElementById('scene').getBoundingClientRect();
    if(canvas.width<150||canvas.height<180)throw new Error('Preview too small: '+width+' '+mode);
-   const inspector=d.getElementById(mode==='effects'?'living-inspector':'collection-inspector').getBoundingClientRect();
-   if(inspector.width<150||inspector.height<100)throw new Error('Inspector inaccessible: '+width+' '+mode);
+   const inspector=d.getElementById(({effects:'living-inspector',world:'living-inspector',character:'material-inspector',items:'item-inspector',abilities:'ability-inspector',structures:'structure-inspector'}[mode]||'collection-inspector')).getBoundingClientRect();
+   if(width<=900&&(inspector.width<150||inspector.height<100))throw new Error('Inspector inaccessible: '+width+' '+mode);
    if(w.studio.errors.length)throw new Error(w.studio.errors.join('\n'));
    checks.push(`${width} × ${height}: ${mode}`);w.studio.dispose();
   }
  }
- result.textContent='Responsive checks passed. '+checks.join('; ');
+ result.textContent='Responsive checks passed. '+checks.join('; ');document.title=result.textContent;
  await fetch('/__report',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({responsive:{passed:true,checks}})});
  frame.width=390;frame.height=844;frame.src='/fantasy-studio/?workspace=farm';
-}catch(error){result.textContent=String(error.stack||error);await fetch('/__report',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({responsive:{passed:false,error:String(error)}})});}
+}catch(error){result.textContent=String(error.stack||error);document.title=String(error);await fetch('/__report',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({responsive:{passed:false,error:String(error)}})});}
 </script></html>
