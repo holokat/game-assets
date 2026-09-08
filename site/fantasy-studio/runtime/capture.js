@@ -27,13 +27,12 @@ export async function captureSheet(stage,actors,iteration='current',only=null,bo
    const target=new THREE.Vector3(center.x,center.y,bounds.max.z*.5);
    c.position.set(target.x+Math.sin(angle)*25,target.y-Math.cos(angle)*25,target.z+3.7);c.lookAt(target);
    renderer.render(scene,c);ctx.drawImage(renderer.domElement,(index%4)*600,Math.floor(index/4)*1200+12);
-   const label=only?`${kind}-${view}`:kind;
-   await upload(renderer.domElement,`${iteration}-${label}`);
+
    ctx.textAlign='center';ctx.fillStyle='#514a3f';ctx.font='30px Georgia';
    ctx.fillText(only?view==='three'?'Three-quarter':view[0].toUpperCase()+view.slice(1):kind[0].toUpperCase()+kind.slice(1),(index%4)*600+300,Math.floor(index/4)*1200+1125);
    measurements.push({kind,view,triangles:renderer.info.render.triangles});disposeCharacter(a);
   }
-  const url=await upload(output,`${iteration}-sheet`);return {url,measurements};
+  const url=await canvasImageURL(output);return {url,measurements};
  }finally{
   stage.capturing=false;stage.grid.visible=oldGrid;stage.target.visible=oldTarget;
   renderer.setPixelRatio(oldRatio);renderer.setSize(oldSize.x,oldSize.y,false);
@@ -41,5 +40,5 @@ export async function captureSheet(stage,actors,iteration='current',only=null,bo
  }
 }
 function visibleBounds(group){const box=new THREE.Box3();group.updateMatrixWorld(true);group.traverse(o=>{if(!o.isMesh||!o.visible)return;o.geometry.computeBoundingBox();box.union(o.geometry.boundingBox.clone().applyMatrix4(o.matrixWorld));});return box;}
-async function upload(canvas,name){const blob=await new Promise(r=>canvas.toBlob(r,'image/png'));const response=await fetch(`/__capture/${name}.png`,{method:'POST',body:blob});if(!response.ok)throw new Error('Capture could not be saved');return `/outputs/fantasy-studio/review/${name}.png`;}
-export async function saveCanvas(stage,name){if(stage.renderFrame)stage.renderFrame();else stage.renderer.render(stage.scene,stage.camera);return upload(stage.renderer.domElement,name);}
+async function canvasImageURL(canvas){const blob=await new Promise(resolve=>canvas.toBlob(resolve,'image/png'));if(!blob)throw new Error('Image could not be encoded');return URL.createObjectURL(blob);}
+export async function saveCanvas(stage,name){if(stage.renderFrame)stage.renderFrame();else stage.renderer.render(stage.scene,stage.camera);return canvasImageURL(stage.renderer.domElement);}

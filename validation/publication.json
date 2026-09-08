@@ -1,0 +1,43 @@
+{
+  "checks": [
+    "Armor variants, search, empty state and download link",
+    "All three farm collections and hierarchy variant rendered",
+    "Pending model load safely cancelled by tab switch",
+    "22 ambient effects sampled and rendered",
+    "77 abilities sampled with effects",
+    "36 motions sampled",
+    "Repeated workspace transitions restore panels and stage",
+    "Character GLB, PNG screenshot and collection gallery exported without a server"
+  ],
+  "errors": [],
+  "passed": true,
+  "responsive": {
+    "passed": true,
+    "viewportSizes": [
+      [
+        390,
+        844
+      ],
+      [
+        844,
+        390
+      ]
+    ],
+    "workspaces": [
+      "armor",
+      "farm",
+      "effects"
+    ],
+    "verifiedIn": "Brave Browser iframe viewports"
+  },
+  "models": {
+    "glbs": 1753,
+    "checks": [
+      "SHA-256 matches catalog",
+      "GLTFLoader reload",
+      "finite nonempty bounds",
+      "no external textures or buffers",
+      "no mesh or texture decoder required"
+    ]
+  }
+}

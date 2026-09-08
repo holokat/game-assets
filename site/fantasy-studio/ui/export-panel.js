@@ -20,7 +20,7 @@ export function createExportPanel({stage, getActor, dirty, report, root = docume
   }
   const bind = (id, action) => dom.on(id, 'click', () => {
     Promise.resolve().then(() => { if (!closed) return action(); }).catch(error => {
-      if (!closed) { report(error); toast('File operation failed. See the local report.'); }
+      if (!closed) { report(error); toast('File operation failed. Please try again.'); }
     });
   });
   bind('save-image', async () => {
@@ -28,10 +28,11 @@ export function createExportPanel({stage, getActor, dirty, report, root = docume
     if (!actor) return;
     const imageName = getImageName?.() || fileName(actor);
     const url = await saveImage(stage, imageName);
-    if (closed) return;
-    const blob = await (await fetch(url)).blob();
-    if (closed) return;
-    download(blob, 'image/png', `${imageName}.png`);
+    try {
+      if (closed) return;
+      const blob = await (await fetch(url)).blob();
+      if (!closed) download(blob, 'image/png', `${imageName}.png`);
+    } finally { if (url.startsWith('blob:')) URL.revokeObjectURL(url); }
     toast('Image saved');
   });
   bind('export-model', async () => {
@@ -56,9 +57,10 @@ export function createExportPanel({stage, getActor, dirty, report, root = docume
     dom.get('download-gallery').disabled = true;
     try {
       const result = await capture(stage, [actor], 'collection', null, actor.bodyType);
-      if (closed || token !== captureVersion) return;
+      if (closed || token !== captureVersion) { if (result.url.startsWith('blob:')) URL.revokeObjectURL(result.url); return; }
+      if (galleryURL?.startsWith('blob:')) URL.revokeObjectURL(galleryURL);
       galleryURL = result.url;
-      dom.get('gallery-image').src = galleryURL + '?t=' + Date.now();
+      dom.get('gallery-image').src = galleryURL;
       dom.get('gallery-image').hidden = false;
       dom.get('gallery-status').hidden = true;
       dom.get('download-gallery').disabled = false;
@@ -73,5 +75,5 @@ export function createExportPanel({stage, getActor, dirty, report, root = docume
     const blob = await (await fetch(galleryURL)).blob();
     if (!closed) download(blob, 'image/png', 'character-collection.png');
   });
-  return {dispose() { closed = true; captureVersion++; clearTimeout(toastTimer); dom.dispose(); }};
+  return {dispose() { if (galleryURL?.startsWith('blob:')) URL.revokeObjectURL(galleryURL); closed = true; captureVersion++; clearTimeout(toastTimer); dom.dispose(); }};
 }

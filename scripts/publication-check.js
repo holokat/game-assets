@@ -1,3 +1,6 @@
+import {studioClasses} from '/fantasy-studio/data/studio-classes.js';
+import {captureSheet,saveCanvas} from '/fantasy-studio/runtime/capture.js';
+import {exportCharacter} from '/fantasy-studio/runtime/export.js';
 import {effectCatalog} from '/fantasy-studio/data/effect-catalog.js';
 const studio = window.studio;
 const result = {checks:[],errors:[]};
@@ -36,6 +39,11 @@ try {
   assert(!document.querySelector('#collection-library').hidden&&document.querySelector('#living-library').hidden,'Shared panel tab state mismatch');
   assert(!studio.actor.group.visible,'Character overlaps collection');
   mark('Repeated workspace transitions restore panels and stage');
+  await studio.workspace.setMode('character');
+  const modelBuffer = await exportCharacter(studio.actor);assert(modelBuffer.byteLength > 10000,'Character export is empty');
+  const imageURL=await saveCanvas(studio.stage,'publication');assert((await (await fetch(imageURL)).blob()).size>1000,'Canvas image export is empty');URL.revokeObjectURL(imageURL);
+  const gallery=await captureSheet(studio.stage,[studio.actor]);assert(gallery.measurements.length===studioClasses.length,'Collection gallery is incomplete');assert((await (await fetch(gallery.url)).blob()).size>1000,'Gallery export is empty');URL.revokeObjectURL(gallery.url);
+  mark('Character GLB, PNG screenshot and collection gallery exported without a server');
   assert(studio.errors.length===0,'Runtime errors: '+studio.errors.join('\n'));
   result.passed=true;
 } catch(error) {result.errors.push(String(error.stack||error));result.passed=false;}
