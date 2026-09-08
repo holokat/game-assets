@@ -4,5 +4,13 @@
   "compatibility_date": "2026-09-08",
   "workers_dev": true,
   "preview_urls": false,
-  "assets": {"directory": "./site"}
+  "assets": {
+    "directory": "./site"
+  },
+  "routes": [
+    {
+      "pattern": "assets.brackenwake.com",
+      "custom_domain": true
+    }
+  ]
 }

@@ -2,20 +2,20 @@
 
 An open source game asset library with a browser playground, downloadable GLBs, procedural Three.js models, animations, and visual effects.
 
-[Open the playground](https://game-assets.cogentgene.workers.dev/) · [Download the repository](https://github.com/holokat/game-assets/archive/refs/heads/main.zip) · [MIT license](LICENSE)
+[Open the playground](https://assets.brackenwake.com/) · [Download the repository](https://github.com/holokat/game-assets/archive/refs/heads/main.zip) · [MIT license](LICENSE)
 
 ## Collections
 
 | Collection | Contents | Playground |
 | --- | --- | --- |
-| Armor archive | All 50 earlier designs, 168 GLBs covering both body fits and every archived hide variant | [Armor](https://game-assets.cogentgene.workers.dev/fantasy-studio/?workspace=armor) |
-| Canonical farm | 97 farm buildings, fields, workshops, and props | [Farm](https://game-assets.cogentgene.workers.dev/fantasy-studio/?workspace=farm) |
-| Infrastructure | 344 assets, each with optimized and hierarchy-preserving GLBs | [Farm](https://game-assets.cogentgene.workers.dev/fantasy-studio/?workspace=farm) |
-| Beach farm | 400 assets, including 56 crop and tree growth stages across 14 families | [Farm](https://game-assets.cogentgene.workers.dev/fantasy-studio/?workspace=farm) |
-| Characters and equipment | Procedural character outfits, appearance controls, weapons, shields, and GLB exports | [Characters](https://game-assets.cogentgene.workers.dev/fantasy-studio/?workspace=character) |
-| Structures and living world | Procedural structures, creatures, forage, dressing, and available animation exports | [Living world](https://game-assets.cogentgene.workers.dev/fantasy-studio/?workspace=world) |
-| Visual effects | 22 ambient effects, spell effects, weapon enchantments, and fire/smoke atlases | [Visual effects](https://game-assets.cogentgene.workers.dev/fantasy-studio/?workspace=effects) |
-| Abilities and motions | 77 ability previews and 36 motions | [Abilities](https://game-assets.cogentgene.workers.dev/fantasy-studio/?workspace=abilities) |
+| Armor archive | All 50 earlier designs, 168 GLBs covering both body fits and every archived hide variant | [Armor](https://assets.brackenwake.com/fantasy-studio/?workspace=armor) |
+| Canonical farm | 97 farm buildings, fields, workshops, and props | [Farm](https://assets.brackenwake.com/fantasy-studio/?workspace=farm) |
+| Infrastructure | 344 assets, each with optimized and hierarchy-preserving GLBs | [Farm](https://assets.brackenwake.com/fantasy-studio/?workspace=farm) |
+| Beach farm | 400 assets, including 56 crop and tree growth stages across 14 families | [Farm](https://assets.brackenwake.com/fantasy-studio/?workspace=farm) |
+| Characters and equipment | Procedural character outfits, appearance controls, weapons, shields, and GLB exports | [Characters](https://assets.brackenwake.com/fantasy-studio/?workspace=character) |
+| Structures and living world | Procedural structures, creatures, forage, dressing, and available animation exports | [Living world](https://assets.brackenwake.com/fantasy-studio/?workspace=world) |
+| Visual effects | 22 ambient effects, spell effects, weapon enchantments, and fire/smoke atlases | [Visual effects](https://assets.brackenwake.com/fantasy-studio/?workspace=effects) |
+| Abilities and motions | 77 ability previews and 36 motions | [Abilities](https://assets.brackenwake.com/fantasy-studio/?workspace=abilities) |
 
 The armor and farm catalog contains **891 assets and 1,753 downloadable GLB variants**. Characters, equipment, structures, and living-world models are generated and exported from the playground, so they are additional to that file count.
 
@@ -35,7 +35,7 @@ Open [localhost:4192](http://127.0.0.1:4192/). Use `PORT=4200 npm run dev` to ch
 
 Choose an asset in the Armor or Farm tab, choose a variant, then download the GLB. The preview recenters the model for inspection; downloads retain the original bytes and offsets.
 
-The machine-readable [catalog](site/collections/catalog.json) contains every armor and farm asset, its variants, file sizes, and SHA-256 checksums. Paths are relative to the playground origin. The catalog is also [available from the live site](https://game-assets.cogentgene.workers.dev/collections/catalog.json).
+The machine-readable [catalog](site/collections/catalog.json) contains every armor and farm asset, its variants, file sizes, and SHA-256 checksums. Paths are relative to the playground origin. The catalog is also [available from the live site](https://assets.brackenwake.com/collections/catalog.json).
 
 Copy selected files into your game's own asset directory. For example, in a Three.js application that already uses `GLTFLoader`:
 
