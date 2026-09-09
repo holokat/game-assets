@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "node scripts/serve.mjs",
-    "check": "node scripts/validate.mjs",
+    "check": "node scripts/validate.mjs && node --test scripts/meadow.test.mjs",
     "check:models": "node scripts/validate-models.mjs"
   }
 }

@@ -20,6 +20,24 @@ try {
     await studio.collections.select(id,variant);assert(studio.collections.model,'Farm preview missing: '+id);studio.stage.renderFrame();
   }
   mark('All three farm collections and hierarchy variant rendered');
+  const meadow = (await (await fetch('/collections/catalog.json')).json()).entries.filter(e => e.category === 'Haven meadow');
+  const filter = document.querySelector('#collection-filter'); filter.value = 'Haven meadow'; filter.dispatchEvent(new Event('change'));
+  assert(document.querySelectorAll('#collection-list [data-asset-id]').length === 12, 'Meadow filter missing assets');
+  for (const entry of meadow) {
+    await studio.collections.select(entry.id);
+    assert(studio.collections.model, 'Meadow preview missing: ' + entry.id);
+    assert(new URL(document.querySelector('#collection-download').href).pathname === entry.variants[0].path, 'Meadow download mismatch');
+    studio.collections.update(.5); studio.stage.renderFrame();
+  }
+  await studio.collections.select('haven-meadow:windmill');
+  const rotor = studio.collections.model.getObjectByName('meadow_windmill_sails');
+  const before = rotor.rotation.z; studio.collections.update(1);
+  assert(matchMedia('(prefers-reduced-motion: reduce)').matches ? rotor.rotation.z === before : rotor.rotation.z > before, 'Windmill preview motion mismatch');
+  for (const view of ['front', 'side', 'perspective']) { studio.collections.frame(view); studio.stage.renderFrame(); }
+  search.value = 'lavender'; search.dispatchEvent(new Event('input'));
+  assert(document.querySelectorAll('#collection-list [data-asset-id]').length === 1, 'Meadow search mismatch');
+  search.value = ''; filter.value = ''; filter.dispatchEvent(new Event('change'));
+  mark('All 12 meadow assets rendered; filter, search, framing, download paths and motion passed');
   // Leaving while a GLB is loading must not reattach it or hide the next workspace.
   const pending = studio.collections.select('canonical:botanical-garden');
   await studio.workspace.setMode('character');await pending;

@@ -12,12 +12,13 @@ An open source game asset library with a browser playground, downloadable GLBs, 
 | Canonical farm | 97 farm buildings, fields, workshops, and props | [Farm](https://assets.brackenwake.com/fantasy-studio/?workspace=farm) |
 | Infrastructure | 344 assets, each with optimized and hierarchy-preserving GLBs | [Farm](https://assets.brackenwake.com/fantasy-studio/?workspace=farm) |
 | Beach farm | 400 assets, including 56 crop and tree growth stages across 14 families | [Farm](https://assets.brackenwake.com/fantasy-studio/?workspace=farm) |
+| Haven meadow | 12 coastal meadow props, Blender source, motion helper and placement metadata | [Haven meadow](https://assets.brackenwake.com/fantasy-studio/?workspace=farm&asset=haven-meadow:windmill) |
 | Characters and equipment | Procedural character outfits, appearance controls, weapons, shields, and GLB exports | [Characters](https://assets.brackenwake.com/fantasy-studio/?workspace=character) |
 | Structures and living world | Procedural structures, creatures, forage, dressing, and available animation exports | [Living world](https://assets.brackenwake.com/fantasy-studio/?workspace=world) |
 | Visual effects | 22 ambient effects, spell effects, weapon enchantments, and fire/smoke atlases | [Visual effects](https://assets.brackenwake.com/fantasy-studio/?workspace=effects) |
 | Abilities and motions | 77 ability previews and 36 motions | [Abilities](https://assets.brackenwake.com/fantasy-studio/?workspace=abilities) |
 
-The armor and farm catalog contains **891 assets and 1,753 downloadable GLB variants**. Characters, equipment, structures, and living-world models are generated and exported from the playground, so they are additional to that file count.
+The armor and farm catalog contains **903 assets and 1,765 downloadable GLB variants**. Characters, equipment, structures, and living-world models are generated and exported from the playground, so they are additional to that file count.
 
 ## Run locally
 
@@ -48,6 +49,7 @@ scene.add(shed);
 - Canonical farm GLBs are static, textureless, decoder-free, base-centered, and Y up. Some are significantly more detailed than the newer infrastructure models. Inspect their geometry cost before using them repeatedly.
 - Infrastructure and beach assets have optimized GLBs for scenery and source GLBs for authored hierarchy. Use source GLBs with the included interaction controller when an asset needs live pivots. Each pack's `runtime/interaction-catalog.json` describes its available interactions and recommended model.
 - Crop growth uses stage swaps. `site/collections/farm/beach/runtime/crop-progression.json` records stage order and replacement IDs.
+- [Haven meadow](site/collections/farm/haven-meadow/README.md) includes twelve textureless props with authored ground origins, collision guidance and a dependency-free motion helper for the windmill and kite. Clone cached models for reuse and bind motion on each placement separately.
 - Keep the MIT license notice with copies or substantial portions of the assets and project code.
 
 Useful entry points:
@@ -59,6 +61,8 @@ Useful entry points:
 | `site/collections/farm/canonical/models/` | The 97 canonical production models |
 | `site/collections/farm/infrastructure/` | Original infrastructure models and interaction runtime |
 | `site/collections/farm/beach/` | Beach models, interaction runtime, vegetation sway, crop stages |
+| `site/collections/farm/haven-meadow/` | Twelve meadow GLBs, placement and collision metadata, motion helper |
+| `sources/farm/haven-meadow/` | Editable Blender source, prop factories and standalone GLB exporter |
 | `sources/farm/infrastructure/` | Procedural infrastructure factories and authoring modules |
 | `site/fantasy-studio/models/` | Character, equipment, creature, dressing, forage, and structure factories |
 | `site/fantasy-studio/runtime/` | Motion, preview, and effect integration |

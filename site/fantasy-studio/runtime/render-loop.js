@@ -1,5 +1,5 @@
 /** One cancellable frame owner. Inspection controls and actor/workspace objects are injected. */
-export function createRenderLoop({stage, getActor, getAnimator, workspace, items, structures, world, enchantments, preview, blocked,
+export function createRenderLoop({stage, getActor, getAnimator, workspace, items, structures, world, collections, enchantments, preview, blocked,
   requestFrame = callback => requestAnimationFrame(callback), cancelFrame = id => cancelAnimationFrame(id)}) {
   let dirty = true;
   let running = false;
@@ -20,12 +20,13 @@ export function createRenderLoop({stage, getActor, getAnimator, workspace, items
     else animator.update(dt);
     const structureMoving = structures?.active ? structures.update(dt) : false;
     const worldMoving = world?.active ? world.update(dt) : false;
+    const collectionMoving = collections?.active ? collections.update(dt) : false;
     if (preview.turn && !structures?.active && !world?.active) {
       const target = items.active && items.viewMode === 'item' ? items.preview.root : actor.group;
       target.rotation.z += dt * 0.4 * preview.speed;
     }
     const enchantmentMoving = enchantments?.update(dt);
-    if (dirty || moved || playing || preview.turn || structureMoving || worldMoving || enchantmentMoving) {
+    if (dirty || moved || playing || preview.turn || structureMoving || worldMoving || collectionMoving || enchantmentMoving) {
       stage.renderFrame(dt);
       dirty = false;
     }

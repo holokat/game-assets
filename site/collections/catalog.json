@@ -19379,6 +19379,210 @@
           "sha256": "11d4c595b981c59e0dfed86f2ba6e84c1da24e4caac1214acec36c9b295f3f72"
         }
       ]
+    },
+    {
+      "id": "haven-meadow:windmill",
+      "name": "Meadow windmill",
+      "collection": "farm",
+      "category": "Haven meadow",
+      "group": "Landmarks",
+      "description": "Timber-framed plaster windmill with canvas sails. Includes a preserved rotor pivot and optional motion helper.",
+      "interactive": false,
+      "variants": [
+        {
+          "label": "GLB with authored pivots",
+          "path": "/collections/farm/haven-meadow/models/meadow_windmill.glb",
+          "bytes": 270256,
+          "sha256": "4ae20bf8aa5f055a4253be9ba1145d49f1c31b2c42e4fa99b1d395b06d3c56d3"
+        }
+      ]
+    },
+    {
+      "id": "haven-meadow:arbor",
+      "name": "Picnic arbor",
+      "collection": "farm",
+      "category": "Haven meadow",
+      "group": "Shelters",
+      "description": "Vine-covered picnic shelter with a table and benches. Separate collision boxes keep the space beneath the canopy open.",
+      "interactive": false,
+      "variants": [
+        {
+          "label": "GLB with authored pivots",
+          "path": "/collections/farm/haven-meadow/models/meadow_arbor.glb",
+          "bytes": 137408,
+          "sha256": "28aa78f36a60bea77b547617c670c2e54b31d5ed603482c75a9940c197a77a2e"
+        }
+      ]
+    },
+    {
+      "id": "haven-meadow:fishing-awning",
+      "name": "Fishing awning",
+      "collection": "farm",
+      "category": "Haven meadow",
+      "group": "Shelters",
+      "description": "Striped fishing shelter with a worktable, benches, nets and fish.",
+      "interactive": false,
+      "variants": [
+        {
+          "label": "GLB with authored pivots",
+          "path": "/collections/farm/haven-meadow/models/meadow_fishing_awning.glb",
+          "bytes": 109380,
+          "sha256": "fb102b8d0a32f3a4876f5869b87c580ad9b763e4804cff621dfd8f3f94007249"
+        }
+      ]
+    },
+    {
+      "id": "haven-meadow:cart",
+      "name": "Orchard cart",
+      "collection": "farm",
+      "category": "Haven meadow",
+      "group": "Props",
+      "description": "Wooden orchard cart loaded with red and gold fruit.",
+      "interactive": false,
+      "variants": [
+        {
+          "label": "GLB with authored pivots",
+          "path": "/collections/farm/haven-meadow/models/meadow_cart.glb",
+          "bytes": 87804,
+          "sha256": "efbf8081f03eab868a6a8f7cd79387f1217b9d73bc0705a0b493aa205f2e753e"
+        }
+      ]
+    },
+    {
+      "id": "haven-meadow:skiff",
+      "name": "Wooden skiff",
+      "collection": "farm",
+      "category": "Haven meadow",
+      "group": "Coastal props",
+      "description": "Open wooden skiff with three benches and an oar.",
+      "interactive": false,
+      "variants": [
+        {
+          "label": "GLB with authored pivots",
+          "path": "/collections/farm/haven-meadow/models/meadow_skiff.glb",
+          "bytes": 20240,
+          "sha256": "e107135894ff01f255b415cd5a78229612e13d4fc354cf9d6149013ecf2eedf6"
+        }
+      ]
+    },
+    {
+      "id": "haven-meadow:wall",
+      "name": "Chalk wall",
+      "collection": "farm",
+      "category": "Haven meadow",
+      "group": "Boundaries",
+      "description": "Short chalk masonry segment for field edges and garden boundaries.",
+      "interactive": false,
+      "variants": [
+        {
+          "label": "GLB with authored pivots",
+          "path": "/collections/farm/haven-meadow/models/meadow_wall.glb",
+          "bytes": 60784,
+          "sha256": "244008028052722524bf1e4500d1fd0fa2a3684311602c0ff64fe7c7fcf1c211"
+        }
+      ]
+    },
+    {
+      "id": "haven-meadow:kite",
+      "name": "Meadow kite",
+      "collection": "farm",
+      "category": "Haven meadow",
+      "group": "Landmarks",
+      "description": "Cream and gold kite with a ribbon tail and wooden pole. Includes a preserved cloth pivot and optional sway helper.",
+      "interactive": false,
+      "variants": [
+        {
+          "label": "GLB with authored pivots",
+          "path": "/collections/farm/haven-meadow/models/meadow_kite.glb",
+          "bytes": 20640,
+          "sha256": "77eb051fc727531c242b9beadf303b4b396bdabdf1b74c32409208a653a5b7ec"
+        }
+      ]
+    },
+    {
+      "id": "haven-meadow:lavender",
+      "name": "Lavender patch",
+      "collection": "farm",
+      "category": "Haven meadow",
+      "group": "Vegetation",
+      "description": "Low-poly lavender spikes in a broad planting patch.",
+      "interactive": false,
+      "variants": [
+        {
+          "label": "GLB with authored pivots",
+          "path": "/collections/farm/haven-meadow/models/meadow_lavender.glb",
+          "bytes": 373972,
+          "sha256": "762022549f7e1b273beeaa4278ec6df1e7e92d43a705f2f8f9f783b03de93266"
+        }
+      ]
+    },
+    {
+      "id": "haven-meadow:daisies",
+      "name": "Daisy patch",
+      "collection": "farm",
+      "category": "Haven meadow",
+      "group": "Vegetation",
+      "description": "White daisies with gold centers in a broad planting patch.",
+      "interactive": false,
+      "variants": [
+        {
+          "label": "GLB with authored pivots",
+          "path": "/collections/farm/haven-meadow/models/meadow_daisies.glb",
+          "bytes": 134924,
+          "sha256": "e4ca52d8aa8eeaf0a732f7a6039ed4e8bf2edc093cadae54ddfe9225192e687f"
+        }
+      ]
+    },
+    {
+      "id": "haven-meadow:buttercups",
+      "name": "Buttercup patch",
+      "collection": "farm",
+      "category": "Haven meadow",
+      "group": "Vegetation",
+      "description": "Yellow buttercups in a broad planting patch.",
+      "interactive": false,
+      "variants": [
+        {
+          "label": "GLB with authored pivots",
+          "path": "/collections/farm/haven-meadow/models/meadow_buttercups.glb",
+          "bytes": 134932,
+          "sha256": "2e893a825c524fabdfe7a173398c053b9e4ebad0ba3996259af778f4c99427e8"
+        }
+      ]
+    },
+    {
+      "id": "haven-meadow:grasses",
+      "name": "Meadow grasses",
+      "collection": "farm",
+      "category": "Haven meadow",
+      "group": "Vegetation",
+      "description": "Faceted grass clumps for path edges and coastal planting.",
+      "interactive": false,
+      "variants": [
+        {
+          "label": "GLB with authored pivots",
+          "path": "/collections/farm/haven-meadow/models/meadow_grasses.glb",
+          "bytes": 14960,
+          "sha256": "74416b4b0f7e8286332c0279d5d7faa5e7d5a334fa3297d0ceeabc58c22586be"
+        }
+      ]
+    },
+    {
+      "id": "haven-meadow:chalk",
+      "name": "Chalk boulders",
+      "collection": "farm",
+      "category": "Haven meadow",
+      "group": "Rocks",
+      "description": "Three pale, faceted rocks for meadow and shoreline dressing.",
+      "interactive": false,
+      "variants": [
+        {
+          "label": "GLB with authored pivots",
+          "path": "/collections/farm/haven-meadow/models/meadow_chalk.glb",
+          "bytes": 8108,
+          "sha256": "401c335a0789c7e60b12d073682011671c639c5880ef7d08bd1d9e8b5190368e"
+        }
+      ]
     }
   ]
 }

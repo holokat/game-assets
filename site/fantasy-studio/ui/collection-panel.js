@@ -33,7 +33,7 @@ export function createCollectionPanel({root = document, onSelect, onVariant, onW
   return {
     setCollection(kind, rows) {
       entries = rows; el('collection-heading').textContent = kind === 'armor' ? 'Armor archive' : 'Farm collections';
-      el('collection-intro').textContent = kind === 'armor' ? '50 designs, with both body fits and every archived hide variant.' : 'Canonical farm, infrastructure, beach scenery and crop growth stages.';
+      el('collection-intro').textContent = kind === 'armor' ? '50 designs, with both body fits and every archived hide variant.' : 'Farm buildings, meadow props, beach scenery and crop growth stages.';
       el('collection-search').value = ''; el('collection-list').scrollTop = 0;
       el('collection-filter').replaceChildren(new Option('All collections', ''), ...[...new Set(rows.map(e => e.category))].map(c => new Option(c, c)));
       render();

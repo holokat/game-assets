@@ -2,6 +2,7 @@ import * as THREE from 'three';
 import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
 import {createStructurePresentation} from '../runtime/structure-presentation.js';
 import {createCollectionPanel} from './collection-panel.js';
+import {bindPropMotion} from '../../collections/farm/haven-meadow/runtime/motion.js';
 
 function disposeModel(model) {
   if (!model) return;
@@ -21,6 +22,8 @@ export function createCollectionWorkspace({stage, root = document, getActor, dir
   const presentation = createStructurePresentation(stage, {dirty});
   let catalog, catalogPromise, kind = 'armor', entry, variant = 0, model, active = false, disposed = false, revision = 0, wire = false;
   const remembered = new Map();
+  const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+  let animateModel = null;
   const panel = createCollectionPanel({root, onSelect: select, onVariant: index => select(entry.id, index),
     onWireframe(value) { wire = value; applyWireframe(); }, onFrame: () => presentation.frame(), onRetry: () => enter(kind)});
   async function loadCatalog() {
@@ -40,7 +43,7 @@ export function createCollectionWorkspace({stage, root = document, getActor, dir
     if (!nextEntry || !nextEntry.variants[index] || disposed) return;
     const token = ++revision; entry = nextEntry; variant = index; remembered.set(kind, {id, index});
     panel.inspect(entry, variant); panel.status('Loading model…');
-    presentation.setModel(null); disposeModel(model); model = null;
+    animateModel = null; presentation.setModel(null); disposeModel(model); model = null;
     el('class-title').textContent = entry.name; el('class-subtitle').textContent = entry.category;
     el('geometry-count').textContent = ''; el('action-status').textContent = 'Loading asset';
     try {
@@ -49,7 +52,7 @@ export function createCollectionWorkspace({stage, root = document, getActor, dir
       const wrapper = new THREE.Group(); wrapper.add(gltf.scene);
       const bounds = new THREE.Box3().setFromObject(gltf.scene), center = bounds.getCenter(new THREE.Vector3());
       gltf.scene.position.sub(new THREE.Vector3(center.x, bounds.min.y, center.z));
-      model = wrapper; presentation.setModel(model); applyWireframe();
+      model = wrapper; animateModel = bindPropMotion(model); presentation.setModel(model); applyWireframe();
       let triangles = 0, draws = 0;
       model.traverse(node => { if (node.isMesh) { triangles += (node.geometry.index?.count || node.geometry.attributes.position.count) / 3; draws++; node.castShadow = true; node.receiveShadow = true; } });
       el('geometry-count').textContent = `${Math.round(triangles).toLocaleString()} triangles · ${draws} meshes`;
@@ -66,13 +69,24 @@ export function createCollectionWorkspace({stage, root = document, getActor, dir
     try {
       await loadCatalog(); if (disposed || token !== revision || !active) return;
       const rows = catalog.filter(e => e.collection === kind); panel.setCollection(kind, rows);
-      const saved = remembered.get(kind); await select(saved?.id || rows[0].id, saved?.index || 0);
+      const saved = remembered.get(kind);
+      const requested = new URLSearchParams(location.search).get('asset');
+      const linked = !saved && rows.find(row => row.id === requested);
+      if (linked) {
+        el('collection-filter').value = linked.category;
+        el('collection-filter').dispatchEvent(new Event('change'));
+      }
+      await select(saved?.id || linked?.id || rows[0].id, saved?.index || 0);
     } catch (error) { if (token === revision && !disposed) { report(error); panel.status('The catalog could not load. Retry to reload it.', true); } }
   }
   return {enter, select, panel, presentation, get active() { return active; }, get id() { return entry?.id; }, get model() { return model; },
     frame: view => presentation.frame(view),
+    update(delta) {
+      if (!active || !animateModel || reducedMotion.matches) return false;
+      animateModel(delta); return true;
+    },
     exit() { revision++; active = false; visibility(); }, afterRebuild() { if (active) visibility(); },
     state: () => ({kind, id: entry?.id, variant, active}),
-    dispose() { disposed = true; revision++; active = false; visibility(); presentation.dispose(); disposeModel(model); panel.dispose(); },
+    dispose() { disposed = true; revision++; active = false; animateModel = null; visibility(); presentation.dispose(); disposeModel(model); panel.dispose(); },
   };
 }

@@ -5,10 +5,11 @@ import path from 'node:path';
 const root = path.resolve(import.meta.dirname,'..'), site = path.join(root,'site');
 const catalog = JSON.parse(await readFile(path.join(site,'collections/catalog.json')));
 const armor = catalog.entries.filter(e=>e.collection==='armor'), farm = catalog.entries.filter(e=>e.collection==='farm');
-assert.equal(armor.length,50);assert.equal(armor.flatMap(e=>e.variants).length,168);assert.equal(farm.length,841);
+assert.equal(armor.length,50);assert.equal(armor.flatMap(e=>e.variants).length,168);assert.equal(farm.length,853);
 assert.equal(farm.filter(e=>e.category==='Canonical farm').length,97);
 assert.equal(farm.filter(e=>e.category==='Infrastructure').length,344);
 assert.equal(farm.filter(e=>e.category==='Beach farm').length,400);
+assert.equal(farm.filter(e=>e.category==='Haven meadow').length,12);
 assert.equal(new Set(catalog.entries.map(e=>e.id)).size,catalog.entries.length);
 let glbs=0,bytes=0;
 for(const entry of catalog.entries) for(const variant of entry.variants){

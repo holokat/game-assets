@@ -146,7 +146,7 @@ export function createEditor({root = document, params = new URLSearchParams(loca
       stage.dispose();
     },
   };
-  loop = createRenderLoop({stage, getActor, getAnimator, workspace, items, structures, world, enchantments,
+  loop = createRenderLoop({stage, getActor, getAnimator, workspace, items, structures, world, collections, enchantments,
     preview: state.preview, blocked: () => session.loading || api.testing,
   });
   stage.setInvalidate?.(dirty);
